@@ -9,18 +9,21 @@
 <style>
 
 
-  div{
-      margin: 50px 10px 50px 10px;
-  }
+.brand-name {
+    
+    width: 100%;
+    height: 100px;
+    background-image: url(/images/Δημήτρης\ Πουλημένος\ handmade\ bolder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+}
 
- .logo-brand {
-     object-fit: contain;
-   
- }
+ 
 
 .logo-fanari {
-    width: 80px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     background-image: url(/images/logo-not-lighted.png);
     /*display: inline-block;*/ /* de activated so i can see the 3 names in a block*/
   background-repeat: no-repeat;
@@ -28,8 +31,21 @@ background-size: contain;
 
 }
 
-.logo-fanari:hover {
+ .logo-fanari:hover {
     background-image: url(/images/logo-lighted2.png);
+    
+}
+
+@media (max-width: 600px ) {
+    .logo-brand {
+        width: 100%;
+        height: 60px;
+    }
+
+    .logo-fanari {
+        width: 100%;
+        height: 60px;   
+    }
 }
 
 
@@ -70,9 +86,23 @@ background-size: contain;
 </head>
 <body>
     
-    <div class="logo-fanari"><img src="images/Δημήτρης Πουλημένος handmade bolder.png   ">  </div>
+    
+    <div class="logo-fanari"><div class="brand-name"></div></div>
+    
+
+
+
+
+<br>
+<br>
+
+<br>
 
     <div class="logo-fanari2"> <img src="images/Δημήτρης Πουλημένος handmade full.png" >  </div>
+<br>
+<br>
+<br>
+
     <div class="logo-fanari3"> <img src="images/Δημήτρης Πουλημένος handmade full.png" >  </div>
 
 </body>
