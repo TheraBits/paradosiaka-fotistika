@@ -43,7 +43,7 @@ header {
     background-image: url(/images/logo-lighted3.png);
     background-repeat: no-repeat;
     background-size: contain;
-    position: fixed;
+   position: fixed;
     
    
 }
@@ -53,3 +53,36 @@ header {
     box-shadow: 20px -1px 80px whitesmoke ;
     border-radius: 30%;
 }
+
+
+@media (max-width: 992px ) {
+    
+  .logo-fanari3 {
+      position: relative;
+  } 
+}
+
+@media (max-width: 768px ) {
+    
+header{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+    .logo-fanari3 {
+        position: relative;
+    } 
+  }
+
+  @media (max-width: 600px ) {
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo-fanari3 {
+        position: relative;
+    } 
+  }
