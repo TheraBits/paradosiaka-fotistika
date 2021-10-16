@@ -1,5 +1,11 @@
-/*  gradient colors / color palette
-,  rgb(234,171,174), rgb(131,75,61), rgb(235,43,227), rgb(175,156,116,0.3)*/
+/* -----> Notes on Color Palette -----
+ gradient colors:
+ rgb(234,171,174), rgb(131,75,61), rgb(235,43,227), rgb(175,156,116,0.3)
+font color of Dimitris poulimenos : rgb(124, 69, 106, 1), but looks more similar  color:  rgb(112, 22, 84);
+font color of handmade: rgb(29, 55, 46, 1)
+*/
+
+
 
 @font-face {
   font-family: Sansation_Regular;
@@ -53,8 +59,8 @@ header {
 .brand-alist ul li a {
   text-decoration: none;
   font-size: 18px;
+  color: rgb(29,20,23);
 }
-
 
 .brand-name {
   border: none;
