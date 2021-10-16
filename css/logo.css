@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(rgb(175,156,116,0.3), rgb(234,171,174),rgb(131,75,61,0.5),rgb(235,43,227,0.5))
+}
+/*rgb(175,156,116,0.3),  rgb(234,171,174), rgb(131,75,61), rgb(235,43,227)*/
+
+.brand-name {
+    
+    width: 100%;
+    height: 100px;
+    background-image: url(/images/Δημήτρης\ Πουλημένος\ handmade\ bolder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+}
+
+ 
+
+.logo-fanari {
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/logo-not-lighted.png);
+    /*display: inline-block;*/ /* de activated so i can see the 3 names in a block*/
+  background-repeat: no-repeat;
+background-size: contain;
+
+
+}
+
+ .logo-fanari:hover {
+    background-image: url(/images/logo-lighted2.png);
+ 
+  
+    
+}
+
+@media (max-width: 600px ) {
+    .logo-brand {
+        width: 100%;
+        height: 60px;
+    }
+
+    .logo-fanari {
+        width: 100%;
+        height: 60px;   
+    }
+}
+
+
+.logo-fanari2 {
+    width:80px;
+    height: 100px;
+    background-image: url(/images/logo-not-lighted2.png);
+    display: inline-block;
+  background-repeat: no-repeat;
+background-size: contain;
+}
+
+.logo-fanari2:hover {
+    background-image: url(/images/logo-lighted3.png);
+}
+
+
+
+.logo-fanari3 {
+    width:80px;
+    height: 100px;
+    background-image: url(/images/logo-lighted3.png);
+    /*display: inline-block;*/
+  background-repeat: no-repeat;
+background-size: contain;
+}
+
+.logo-fanari3:hover {
+    background-image: url(/images/logo-lighted.png);
+}
