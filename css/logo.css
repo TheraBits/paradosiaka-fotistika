@@ -73,3 +73,8 @@ background-size: contain;
 .logo-fanari3:hover {
     background-image: url(/resources/images/logo-lighted.png);
 }
+
+
+.logo-mobile {
+    width: 40px;
+}
