@@ -3,7 +3,9 @@
 
 body {
   background-image: linear-gradient(
-    rgb(175, 156, 116, 0.2),
+  white 15%,
+    rgb(194,179,159, 0.8) ,
+    rgb(175, 156, 116, 0.5),
     rgb(234, 171, 174),
     rgb(131, 75, 61, 0.5),
     rgb(235, 43, 227, 0.5)

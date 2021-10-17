@@ -26,7 +26,7 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 0 0 0;
-  background-image: url("https://i.pinimg.com/564x/c1/06/36/c1063630203b40780f55aebac2c8c823.jpg");
+  background-image: url("https://i.pinimg.com/564x/c1/06/36/c1063630203b40780f55aebac2c8c823.jpg") ;
 }
 
 .brand-alist ul {
@@ -48,6 +48,7 @@ header {
   background-color: transparent;
   margin: 20px;
   border-radius: 2px;
+  
 }
 
 .brand-name:hover {
@@ -66,7 +67,7 @@ header {
   align-items: flex-start;
   overflow: visible;
   max-height: 20px;
-  padding: 5px;
+  padding: 0;
   margin: 0 0 0 0;
 }
 
@@ -76,10 +77,15 @@ header {
 
 .nav-bar li a {
   text-decoration: none;
+  padding: 0 0.2rem;
 }
 
 .nav-bar li a:hover {
   text-decoration: underline;
+
+text-underline-offset: 0.2rem;
+
+  
 }
 
 /* ----- Navigation Bar: Logo Image - Fanari ----*/
@@ -96,7 +102,7 @@ header {
 .logo-fanari3:hover {
   background-image: url(/resources/images/logo-lighted.png);
   box-shadow: 20px -1px 80px whitesmoke;
-  border-radius: 30%;
+  border-radius: 40%;
 }
 
 @media (max-width: 992px) {
