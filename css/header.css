@@ -26,7 +26,7 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 0 0 0;
-  background-image: url("https://i.pinimg.com/564x/c1/06/36/c1063630203b40780f55aebac2c8c823.jpg") ;
+  background-image: url("https://i.pinimg.com/564x/c1/06/36/c1063630203b40780f55aebac2c8c823.jpg");
 }
 
 .brand-alist ul {
@@ -48,11 +48,10 @@ header {
   background-color: transparent;
   margin: 20px;
   border-radius: 2px;
-  
 }
 
 .brand-name:hover {
-  box-shadow: 20px -1px 80px rgb(235, 43, 227, 0.5); /* add shadow 25px -3px 90px rgb(235,43,227) */
+  box-shadow: 20px -1px 80px rgb(235, 43, 227, 0.5); 
 }
 
 /*<----- Navigation Bar ------>*/
@@ -73,37 +72,42 @@ header {
 
 .nav-bar li {
   display: inline-block;
+  color: #551A8B;
 }
 
 .nav-bar li a {
   text-decoration: none;
-  padding: 0 0.2rem;
+  padding: 0 2px;
+  
 }
 
 .nav-bar li a:hover {
   text-decoration: underline;
-
-text-underline-offset: 0.2rem;
-
-  
+  text-underline-offset: 0.2rem;
 }
+
+
 
 /* ----- Navigation Bar: Logo Image - Fanari ----*/
 
 .logo-fanari3 {
   width: 90px;
   height: 90px;
-  background-image: url(/resources/images/logo-lighted3.png);
+  background-image: url(/resources/images/logo-not-lighted.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 0px 0 3.4rem;
+
+  border-radius: 40px;
 }
 
 .logo-fanari3:hover {
-  background-image: url(/resources/images/logo-lighted.png);
-  box-shadow: 20px -1px 80px whitesmoke;
-  border-radius: 40%;
+  background-image: url(/resources/images/logo-lighted2.png);
+  border-radius: 40px;
+  /*box-shadow:  5px 1px 30px 10px rgb(255,249,255) ,  25px -3px 90px  10px rgb(235,43,227) ; */
 }
+  
+
 
 @media (max-width: 992px) {
   .logo-fanari3 {
