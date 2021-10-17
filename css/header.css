@@ -31,7 +31,7 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 0 0 0;
-  background-image: url("https://i.pinimg.com/564x/c1/06/36/c1063630203b40780f55aebac2c8c823.jpg");
+  background-image: url("/resources/images/rough-plaster-wall-half.jpg");
 }
 
 .brand-alist ul {
@@ -51,8 +51,8 @@ header {
 
 .brand-name {
   border: none;
-  background-color: transparent;
-  margin: 10px 0 20px 0;
+ background-color: rgba(253, 252, 252, 0.747);
+  margin: 10px 0 25px 0;
   border-radius: 2px;
 }
 
@@ -63,7 +63,7 @@ header {
 /*<----- Navigation Bar ------>*/
 
 .nav-bar {
-  background-color: rgba(255, 250, 205, 0.8);  
+  background-color:  rgb(214,204,184, 0.9);  
   /* try background color :a brighter yellow like rgba(243, 243, 52, 0.63)*/
   display: flex;
   justify-content: space-between;
