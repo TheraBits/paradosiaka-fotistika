@@ -12,6 +12,8 @@ body {
   );
   background-repeat: no-repeat;
   font-family: Sansation_Regular_gr;
+  color: rgb(29, 20, 23);
+  font-weight: 500;
 }
 
 /*<----- Main: Store Section ------>*/
@@ -26,6 +28,7 @@ body {
   width: 80%;
   margin: 1rem auto;
   text-align: center;
+  font-stretch: ultra-expanded;
   background-color: rgba(216, 191, 216, 0.9);
   
 }
@@ -34,6 +37,7 @@ body {
   width: 80%;
   margin: 1rem auto;
   text-align: center;
+  font-family: Sansation_Italic;
   padding: 2rem;
   background-color: rgba(238, 130, 238, 0.479);
 }

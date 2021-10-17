@@ -15,6 +15,11 @@ font color of handmade: rgb(29, 55, 46, 1)
   src: url(/resources/fonts/Sansation-Regular-gr.ttf);
 }
 
+@font-face {
+  font-family: Sansation_Italic;
+  src: url(/resources/fonts/Sansation_Italic.ttf);
+}
+
 * {
   scroll-behavior: smooth;
   margin: 0;
@@ -41,17 +46,18 @@ header {
   text-decoration: none;
   font-size: 18px;
   color: rgb(29, 20, 23);
+  font-weight: 500;
 }
 
 .brand-name {
   border: none;
   background-color: transparent;
-  margin: 20px;
+  margin: 10px 0 20px 0;
   border-radius: 2px;
 }
 
 .brand-name:hover {
-  box-shadow: 20px -1px 80px rgb(235, 43, 227, 0.5); 
+  box-shadow: 20px -1px 70px rgb(235, 43, 227, 0.5); 
 }
 
 /*<----- Navigation Bar ------>*/
