@@ -17,16 +17,53 @@ body {
 /*<----- Main: Store Section ------>*/
 
 .aboutUs {
-  width: 65%;
-  margin: auto;
-  /*background-color: rgba(32, 178, 171, 0.377);*/
+  width: 100%;
+  margin: 5rem auto;
+  background-color: rgba(32, 178, 171, 0.4);
 }
 
 .aboutUs > h1 {
+  width: 80%;
+  margin: 1rem auto;
   text-align: center;
+  background-color: rgba(216, 191, 216, 0.9);
+  
 }
+
+.aboutUs > h3 {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(238, 130, 238, 0.479);
+}
+
+.aboutUs-text{
+  width: 60%;
+  background-color: rgba(255, 255, 0, 0.349);
+  font-family: roboto;
+  margin: 1rem auto;
+}
+
+.aboutUs-text > p{
+  padding: 15px;
+}
+
+
 .image-store {
-  width: 65%;
-  margin: 4% 15% 15% 15%;
-  background-position: center;
-}
+  width: 60%;
+  margin: 50px 20%;
+ }
+
+
+ /*----> Main: Demo Text -----*/
+
+ .demo-test{
+   width: 60%;
+   font-family: roboto;
+  margin: 1rem auto;
+
+ }
+
+
+ 

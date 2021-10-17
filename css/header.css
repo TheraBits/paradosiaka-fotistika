@@ -57,7 +57,8 @@ header {
 /*<----- Navigation Bar ------>*/
 
 .nav-bar {
-  background-color: rgba(255, 250, 205, 0.8);
+  background-color: rgba(255, 250, 205, 0.8);  
+  /* try background color :a brighter yellow like rgba(243, 243, 52, 0.63)*/
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -78,6 +79,7 @@ header {
 .nav-bar li a {
   text-decoration: none;
   padding: 0 2px;
+ font-weight: 500 ;
   
 }
 
