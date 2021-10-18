@@ -73,7 +73,7 @@ header {
   top: 0;
   align-items: center;
   overflow: visible;
-  max-height: 40px;
+  max-height: 30px;
   padding: 0;
   margin: 0 0 0 0;
 }
@@ -102,8 +102,7 @@ header {
   background-image: url(/resources/images/logo-not-lighted.png);
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 50px 0px 0 3.4rem;
-
+  margin: 60px 0px 0 3.4rem;
   border-radius: 40px;
 }
 
@@ -118,6 +117,8 @@ header {
     position: relative;
     width: 70px;
     height: 70px;
+    margin: 40px 0px 0 3.4rem;
+    
   }
 }
 
@@ -126,12 +127,15 @@ header {
     position: relative;
     width: 60px;
     height: 60px;
+    margin: 30px 0px 0 3.4rem;
   }
 }
 
 @media (max-width: 600px) {
 
-  
+  .brand-name {
+    margin: 10px 0;
+  }
 
   .brand-name-image {
     width: 90%;
@@ -141,18 +145,20 @@ header {
   .brand-alist ul li a {
     width: 80%;
     font-size: 1rem;
+   
     
   }
 
   .nav-bar {
+    height: 30px;
     font-size: 0.95rem;
     justify-content: center;
-    background-color: rgb(231, 220, 209);
+    background-color: rgb(231, 220, 209, 0.5);
     
   }
 
   .nav-bar ul li a {
-    padding: 0 4px;
+    padding: 0 3.5px;
   }
 
   .logo-fanari3 {
@@ -165,8 +171,6 @@ header {
 
 @media (max-width: 425px) {
   
-
-
 
   .brand-name-image {
     width: 95%;
@@ -183,16 +187,14 @@ header {
   }
 
   .nav-bar {
-    justify-content: center;
-    height: 40px;
+    justify-content: space-evenly;
+    height: 30px;
   }
 
   .nav-bar ul {
-    padding: 0;
+    padding: 0px;
   }
 
-  .brand-alist ul li a {
-    
-  }
+  
   
 }
