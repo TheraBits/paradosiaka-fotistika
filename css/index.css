@@ -13,11 +13,20 @@ body {
   font-weight: 500;
 }
 
+/*----> Main ----*/
+main {
+  margin: 0;
+}
+
+
+
 /*<----- Main: Store Section ------>*/
 
 .aboutUs {
   width: 100%;
-  margin: 6rem auto;
+  margin: 0 auto;
+  
+ 
 }
 
 .aboutUs > h1 {
@@ -60,3 +69,11 @@ body {
   font-family: roboto;
   margin: 1rem auto;
 }
+
+@media (max-width: 600px) {
+  .image-store {
+    width: 100%;
+    margin: 50px auto;   
+    border-width: 5px;
+    }
+} 
