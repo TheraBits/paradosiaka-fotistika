@@ -1,10 +1,7 @@
-
-
-
 body {
   background-image: linear-gradient(
-  white 15%,
-    rgb(194,179,159, 0.8) ,
+    white 15%,
+    rgb(194, 179, 159, 0.8),
     rgb(175, 156, 116, 0.5),
     rgb(234, 171, 174),
     rgb(131, 75, 61, 0.5),
@@ -21,7 +18,6 @@ body {
 .aboutUs {
   width: 100%;
   margin: 6rem auto;
-
 }
 
 .aboutUs > h1 {
@@ -30,7 +26,6 @@ body {
   text-align: center;
   font-stretch: ultra-expanded;
   background-color: rgba(216, 191, 216, 0.9);
-  
 }
 
 .aboutUs > h3 {
@@ -42,32 +37,26 @@ body {
   background-color: rgba(238, 130, 238, 0.479);
 }
 
-.aboutUs-text{
+.aboutUs-text {
   width: 60%;
   background-color: rgba(255, 255, 0, 0.349);
   font-family: roboto;
   margin: 1rem auto;
 }
 
-.aboutUs-text > p{
+.aboutUs-text > p {
   padding: 15px;
 }
-
 
 .image-store {
   width: 60%;
   margin: 50px 20%;
- }
+}
 
+/*----> Main: Demo Text -----*/
 
- /*----> Main: Demo Text -----*/
-
- .demo-test{
-   width: 60%;
-   font-family: roboto;
+.demo-test {
+  width: 60%;
+  font-family: roboto;
   margin: 1rem auto;
-
- }
-
-
- 
+}
