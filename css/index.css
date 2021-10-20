@@ -73,6 +73,7 @@ main {
 
 
 div.polaroid {
+  display: inline-block;
   width: 80%;
   max-width: 400px;
   background-color: white;
