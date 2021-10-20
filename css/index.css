@@ -20,7 +20,7 @@ main {
 
 
 
-/*<----- Main: Store Section ------>*/
+/*<----- Main: About Us Section ------>*/
 
 .aboutUs {
   width: 100%;
@@ -62,18 +62,31 @@ main {
   margin: 50px 20%;
 }
 
-/*----> Main: Demo Text -----*/
 
-.demo-test {
-  width: 60%;
-  font-family: roboto;
-  margin: 1rem auto;
+
+/*<----- Main: Products -> Fanaria Section ------>*/
+
+.fanaria{
+  background-color: sandybrown;
 }
 
-@media (max-width: 600px) {
-  .image-store {
-    width: 100%;
-    margin: 50px auto;   
-    border-width: 5px;
-    }
-} 
+
+/*<----- Main: Products -> Fotistika Section ------>*/
+
+.fotistika {
+  background-color: wheat;
+}
+
+
+/*<----- Main: Products -> Kolones fotismou ------>*/
+
+.kolones {
+  background-color: rgba(0, 128, 128, 0.637);
+}
+
+
+.krani {
+  background-color: violet;
+}
+
+/*<----- Main: Products -> Krani Filarmonikis ------>*/
