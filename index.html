@@ -12,21 +12,26 @@
     
     <title>Document</title>
 
-    
+ <script>
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+          if($(window).scrollTop() > $(window).height()){
+              $(".nav-bar").css({"background-color":"rgba(243, 243, 52, 0.63)"});   
+          }
+          else{
+              $(".nav-bar").css({"background-color":"transparent"});
+          }
+  
+      })
+  })
+</script>
+
+  </head>
   <body>
     <header>
       
-      <!--
-      <div class="brand-alist">
-        <img src="/resources/images/brand-name-lower.png" />
-        <ul>
-          <li><a href="#">Παραδοσιακά Βενετσιάνικα Φανάρια |</a></li>
-          <li><a href="#">Κράνη Φιλαρμονικής</a></li>
-        </ul>
-      
-      </div>
-      <div class="logo-fanari3" id="logo-fanari3"></div> 
-  -->
+     
       
       <button type="button" id="brand" class="brand-name" onclick="changeImage">
         <div class="brand-alist">
@@ -40,9 +45,7 @@
     
     
     </header>
-    <label for="brand">
-      <div class="logo-fanari3" id="logo-fanari3"></div
-    ></label>
+   
 
     <nav class="nav-bar">
       <ul>
@@ -52,6 +55,10 @@
         <li><a href="#contact">Επικοινωνία </a> |</li>
        
       </ul>
+
+      <label for="brand">
+        <div class="logo-fanari3" id="logo-fanari3"></div
+      ></label>
       
     </nav>
 
