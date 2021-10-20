@@ -42,7 +42,7 @@ main {
   margin: 1rem auto;
   text-align: center;
   font-family: Sansation_Italic;
-  padding: 2rem;
+  padding: 2rem 0;
   background-color: rgba(238, 130, 238, 0.479);
 }
 
@@ -74,6 +74,7 @@ main {
 
 div.polaroid {
   width: 80%;
+  max-width: 400px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
@@ -86,6 +87,7 @@ div.container {
 
 div.polaroid img {
   width: 100%;
+  max-width: 400px;
   background-color: whitesmoke;
 }
 
