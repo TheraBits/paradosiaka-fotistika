@@ -61,7 +61,7 @@ main {
   background-color: rgba(96, 165, 165, 0.9);
 }
 
-.about-us-text > p {
+.about-us-text  p {
   padding: 2rem;
   line-height: 2rem;
 }
@@ -72,9 +72,11 @@ main {
 }
 
 .img-liston, .img-krani {
-  width: 100%;
+  width: 80%;
   object-fit: none;
 object-position: center center;
+margin: 0 10%;
+
 }
 
 /*<----- Main: Products -> Fanaria Section ------>*/
@@ -125,3 +127,21 @@ div.polaroid img {
 }
 
 /*<----- Main: Products -> Krani Filarmonikis ------>*/
+
+
+
+
+
+
+/*<----- Media Queries ------>*/
+
+@media (max-width: 600px) {
+
+  .image-store {
+    width: 100%;
+    margin: auto;
+    object-fit: stretch;
+    /* object-position: -60px center; */
+  }
+}
+
