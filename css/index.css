@@ -72,7 +72,7 @@ main {
 }
 
 .img-liston, .img-krani {
-  width: 80%;
+  width: 100%;
   object-fit: none;
 object-position: center center;
 }
