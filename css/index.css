@@ -22,14 +22,14 @@ main {
 
 /*<----- Main: About Us Section ------>*/
 
-.aboutUs {
+.about-us {
   width: 100%;
   margin: 0 auto;
   
  
 }
 
-.aboutUs > h1 {
+.about-us > h1 {
   width: 80%;
   margin: 1rem auto;
   text-align: center;
@@ -37,7 +37,7 @@ main {
   background-color: rgba(216, 191, 216, 0.9);
 }
 
-.aboutUs > h3 {
+.about-us > h3 {
   width: 80%;
   margin: 1rem auto;
   text-align: center;
@@ -46,23 +46,31 @@ main {
   background-color: rgba(238, 130, 238, 0.479);
 }
 
-.aboutUs-text {
-  width: 60%;
+.about-us-text {
+  width: 80%;
   background-color: rgba(255, 255, 0, 0.349);
-  font-family: roboto;
   margin: 1rem auto;
 }
 
-.aboutUs-text > p {
-  padding: 15px;
+.about-us-text > h2 {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  background-color: rgba(96, 165, 165, 0.9);
 }
+
+
 
 .image-store {
   width: 60%;
   margin: 50px 20%;
 }
 
-
+.img-liston, .img-krani {
+  object-fit: none;
+object-position: top center;
+}
 
 /*<----- Main: Products -> Fanaria Section ------>*/
 

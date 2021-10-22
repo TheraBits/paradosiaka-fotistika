@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <link rel="stylesheet" href="/css/index.css" />
-    <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/footer.css" />
 
-    
-    <title>Document</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="/css/header.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
 
- <script>
 
-    $(document).ready(function(){
-      $(window).scroll(function(){
-          if($(window).scrollTop() > $(window).height()){
-              $(".nav-bar").css({"background-color":"rgb(231, 220, 209, 1)"}); 
-              $(".logo-fanari3").css({"top":"30px"});    
-          }
-          else{
-              $(".nav-bar").css({"background-color":"transparent"});
-              $(".logo-fanari3").css({"top":"0px"});   
-          }
-  
+  <title>Document</title>
+
+  <script>
+
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > $(window).height()) {
+          $(".nav-bar").css({ "background-color": "rgb(231, 220, 209, 1)" });
+          $(".logo-fanari3").css({ "top": "30px" });
+        }
+        else {
+          $(".nav-bar").css({ "background-color": "transparent" });
+          $(".logo-fanari3").css({ "top": "0px" });
+        }
+
       })
-  })
-</script>
+    })
+  </script>
 
-<!-- <script>
+  <!-- <script>
   $(document).ready(function(){
       $(window).scroll(function() {
         if ($(document).scrollTop() >1290 ) { 
@@ -46,204 +47,229 @@
     });
 </script> -->
 
-  </head>
-  <body>
-    <header>
-      
-     
-      
-      <button type="button" id="brand" class="brand-name" onclick="changeImage">
-        <div class="brand-alist">
-          <a href="#about"><img class="brand-name-image" alt="Dimitris Poulimenos handmade"src="/resources/images/brand-name-center.png" /></a>
-          <ul>
-            <li><a href="#">Παραδοσιακά Βενετσιάνικα Φανάρια |</a></li>
-            <li><a href="#">Κράνη Φιλαρμονικής</a></li>
-          </ul>
-        
-      </button>
-    
-    
-    </header>
-   
+</head>
 
-    <nav class="nav-bar">
-      <ul>
-        <li><a href="#">Προϊόντα</a>|</li>
+<body>
+  <header>
 
-        <li><a href="#about">Σχετικά με Εμάς </a>|</li>
-        <li><a href="#contact">Επικοινωνία </a> |</li>
-       
-      </ul>
 
-      <label for="brand">
-        <div class="logo-fanari3" id="logo-fanari3"></div
-      ></label>
-      
-    </nav>
 
-    <main>
-     
-      <section id="about" class="aboutUs">
-        
-        <img
-        class="image-store"
-        alt="image of Dimitris Poulimenos' storefront"
-        src="https://lh3.googleusercontent.com/glKmKgjRUwIpiMsdNzAH0VzRMWdYtGlTyAbeMoes5ieIUmRwA8l1BitjqIUbZajRnLvwVLVJ=w1080-h608-p-no-v0"
-      />
-      <h1>Χειροποίητα Βενετσιάνικα Φωτιστικά</h1>
-      
-        
-      <div class="aboutUs-text"> 
-      <p>
-          Στο εργαστήριο του Δημήτρη Πουλημένου έχουμε πολυετή εμπειρία και εξειδίκευση στην κατασκευή των παραδοσιακών Βενετσιάνικων Φαναριών της Κέρκυρας. Εξαιρετικό δείγμα της δουλειάς μας αποτελούν τα εντυπωσιακά φαναράκια που κοσμούν το Liston στην κεντρική πλατεία της Κέρκυρας.
+    <button type="button" id="brand" class="brand-name" onclick="changeImage">
+      <div class="brand-alist">
+        <a href="#about"><img class="brand-name-image" alt="Dimitris Poulimenos handmade"
+            src="/resources/images/brand-name-center.png" /></a>
+        <ul>
+          <li><a href="#">Παραδοσιακά Βενετσιάνικα Φανάρια |</a></li>
+          <li><a href="#">Κράνη Φιλαρμονικής</a></li>
+        </ul>
+
+    </button>
+
+
+  </header>
+
+
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="#">Προϊόντα</a>|</li>
+
+      <li><a href="#about">Σχετικά με Εμάς </a>|</li>
+      <li><a href="#contact">Επικοινωνία </a> |</li>
+
+    </ul>
+
+    <label for="brand">
+      <div class="logo-fanari3" id="logo-fanari3"></div>
+    </label>
+
+  </nav>
+
+  <main>
+
+    <section id="about" class="about-us">
+
+      <img class="image-store" alt="image of Dimitris Poulimenos' storefront"
+        src="https://lh3.googleusercontent.com/glKmKgjRUwIpiMsdNzAH0VzRMWdYtGlTyAbeMoes5ieIUmRwA8l1BitjqIUbZajRnLvwVLVJ=w1080-h608-p-no-v0" />
+
+      <h1>Το εργαστήριο μας</h1>
+
+
+      <div class="about-us-text">
+        <h2>Χειροποίητα Βενετσιάνικα Φωτιστικά</h2>
+        <p>
+          Στο εργαστήριο μας έχουμε πολυετή εμπειρία και εξειδίκευση στην κατασκευή των παραδοσιακών
+          Βενετσιάνικων Φαναριών της Κέρκυρας.
+          <br>
+          Εξαιρετικό δείγμα της δουλειάς μας αποτελούν τα εντυπωσιακά φαναράκια που
+          κοσμούν το Liston στην κεντρική πλατεία της Κέρκυρας.
         </p>
-<p>Στο κατάστημά μας θα βρείτε επίσης:</p>
-  <p>
-    Κράνη Φιλαρμονικών
-  
-  <p>Αντίκες - Φωτιστικά εσωτερικών χώρων</p>
-  
-  <p>Εκκλησιαστικά Είδη</p>
-  
-  <p>Κολόνες Φωτισμού</p>
-  <p>Αποστολή σε όλη την Ελλάδα</p>
-    </div>
-       
-      </section>
-<section class="products">
-  <div class="fanaria">
-    <h2>Χειροποίητα Βενετσιάνικα Φωτιστικά</h1>
-    <h6>Φωτισμός εξωτερικών χώρων και κήπου</h6>
+        <img class="img-liston" alt="κτίριο Liston στην Κέρκυρα με παραδοσιακά φανάρια"
+          src="https://www.kefaloniapress.gr/wp-content/uploads/2019/04/%CE%BB%CE%AF%CF%83%CF%84%CE%BF%CE%BD-696x441.jpg">
 
-   
-   
 
-    
+        <h2>Χειροποίητα Κράνη Φιλαρμονικών</h2>
+        <p> Σε όλα τα στάδια της κατασκευής ακολουθούνται παραδοσιακές τεχνικές.</p>
+        <p>
+          Είμαστε από τα ελάχιστα εργαστήρια που ασχολούνται με την τέχνη της περικεφαλαίας.
+          <br>
+          Έχουμε κατασκευάσει κράνη
+          για τις φιλαρμονικές της Κέρκυρας, και για τις μπάντες Πειραιά, Μάνδρας, Μεγάρων, Καλλιθέας, Ρόδου, Κω και
+          Κύπρου.
+        </p>
 
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari fixed 1.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanari fixed 1</p>
+        <img class="img-krani" alt="εικόνα με φιλαρμονική της Κέρκυρας το Πάσχα"
+          src="https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_480,c_limit,dpr_2.5/cdn/c670c790-0af4-4587-9a87-7f4ec5c5d00f/e22fd31d-aa05-4eff-8fd5-aa7285b0965c.jpg">
+
+        <p>Αντίκες - Φωτιστικά εσωτερικών χώρων</p>
+
+
+        <p>Κολόνες Φωτισμού</p>
+
+
+        <p>Εκκλησιαστικά Είδη</p>
+
+
+        <p>Αποστολή σε όλη την Ελλάδα</p>
       </div>
-    </div>
 
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari fixed 2.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanari fixed 2</p>
+    </section>
+    <section class="products">
+      <div class="fanaria">
+        <h2>Χειροποίητα Βενετσιάνικα Φωτιστικά</h1>
+          <h6>Φωτισμός εξωτερικών χώρων και κήπου</h6>
+
+
+
+
+
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari fixed 1.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanari fixed 1</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari fixed 2.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanari fixed 2</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari standing 1.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanari standing 1</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari hanging 1.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanari hanging 1</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari hanging 2.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanari hanging 2</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari standing 3.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanari standing 3</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari hanging 3.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanari hanging 3</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanarakia 1.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanarakia 1</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari fixed 4.png" alt="Norther Lights">
+            <div class="container">
+              <p>fanari fixed 4</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari standing 2.png" alt="Norther Lights">
+            <div class="container">
+              <p>fanari standing 2</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanari fixed 3.png" alt="Norther Lights">
+            <div class="container">
+              <p>fanari fixed 3</p>
+            </div>
+          </div>
+
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanarakia 2.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanarakia 2</p>
+            </div>
+          </div>
+
+          <div class="polaroid">
+            <img src="/resources/images/fanaria/fanarakia 3.jpg" alt="Norther Lights">
+            <div class="container">
+              <p>fanarakia 3</p>
+            </div>
+          </div>
+
+
       </div>
-    </div>
-   
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari standing 1.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanari standing 1</p>
+      <div class="fotistika">
+        <h2>Φωτιστικά Αντίκες και Πολυέλαιοι</h2>
+        <h6>Φωτισμός εσωτερικών χώρων</h6>
       </div>
-    </div>
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari hanging 1.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanari hanging 1</p>
+      <div class="kolones">
+        <h2>Κολώνες Φωτισμού</h2>
+        <h6>Φωτισμός δρόμου και κήπων</h6>
       </div>
-    </div>
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari hanging 2.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanari hanging 2</p>
+      <div class="krani">
+        <h2>Χειροποίητα Κράνη για Φιλαρμονικές</h2>
       </div>
-    </div>
 
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari standing 3.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanari standing 3</p>
-      </div>
-    </div>
+    </section>
+  </main>
 
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari hanging 3.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanari hanging 3</p>
-      </div>
-    </div>
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanarakia 1.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanarakia 1</p>
-      </div>
-    </div>
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari fixed 4.png" alt="Norther Lights">
-      <div class="container">
-      <p>fanari fixed 4</p>
-      </div>
-    </div>
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari standing 2.png" alt="Norther Lights">
-      <div class="container">
-      <p>fanari standing 2</p>
-      </div>
-    </div>
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanari fixed 3.png" alt="Norther Lights">
-      <div class="container">
-      <p>fanari fixed 3</p>
-      </div>
-    </div>
-
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanarakia 2.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanarakia 2</p>
-      </div>
-    </div>
-
-    <div class="polaroid">
-      <img src="/resources/images/fanaria/fanarakia 3.jpg" alt="Norther Lights">
-      <div class="container">
-      <p>fanarakia 3</p>
-      </div>
-    </div>
-    
-
-  </div>
-  <div class="fotistika">
-    <h2>Φωτιστικά Αντίκες και Πολυέλαιοι</h2>
-    <h6>Φωτισμός εσωτερικών χώρων</h6>
-  </div>
-  <div class="kolones">
-    <h2>Κολώνες Φωτισμού</h2>
-    <h6>Φωτισμός δρόμου και κήπων</h6>
-  </div>
-  <div class="krani">
-    <h2>Χειροποίητα Κράνη για Φιλαρμονικές</h2>
-  </div>
-      
-</section>
-    </main>
-
-    <footer>
+  <footer>
     <section class="contact-us" id="contact"></section>
     <p>Η Διεύθυνσή μας</p>
     <p>Βρυώνη
       Κέρκυρα 49084
       Ελλάδα</p>
-      <p>Καλέστε μας στα τηλέφωνα</p>
-      <p>2661 027811
-        697 828 1307</p>
-        <p>Ωράριο Λειτουργίας</p>
-        <p>Δευτέρα με Σάββατο:	9:00 – 14:00 και 17:00 – 20:00</p>
-        <p>Κυριακή κλειστά</p>
-        
-        <a href="https://www.facebook.com/groups/349359505200332" target="_blank"><img alt="image of facebook logo" class="socials"src="https://www.pngjoy.com/pngm/0/104456_facebook-logo-fb-twitter-and-instagram-icon-hd.png"></a>
-        
-      </footer>
-  </body>
+    <p>Καλέστε μας στα τηλέφωνα</p>
+    <p>2661 027811
+      697 828 1307</p>
+    <p>Ωράριο Λειτουργίας</p>
+    <p>Δευτέρα με Σάββατο: 9:00 – 14:00 και 17:00 – 20:00</p>
+    <p>Κυριακή κλειστά</p>
+
+    <a href="https://www.facebook.com/groups/349359505200332" target="_blank"><img alt="image of facebook logo"
+        class="socials"
+        src="https://www.pngjoy.com/pngm/0/104456_facebook-logo-fb-twitter-and-instagram-icon-hd.png"></a>
+
+  </footer>
+</body>
+
 </html>
