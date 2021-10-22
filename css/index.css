@@ -72,9 +72,9 @@ main {
 }
 
 .img-liston, .img-krani {
-  width: 60%;
+  width: 80%;
   object-fit: none;
-object-position: top center;
+object-position: center center;
 }
 
 /*<----- Main: Products -> Fanaria Section ------>*/
