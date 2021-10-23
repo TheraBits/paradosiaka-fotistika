@@ -1,10 +1,12 @@
 body {
   background-image: linear-gradient(
     white 15%,
-    rgb(194, 179, 159, 0.8),
-    rgb(175, 156, 116, 0.5),
+    rgb(210, 137, 0, 0.7),
+   
+    rgba(255, 255, 255, 0.24),
+    rgb(255, 213, 155, 0.8),
+    rgba(255, 255, 255, 0.24),
     rgb(234, 171, 174),
-    rgb(131, 75, 61, 0.5),
     rgb(235, 43, 227, 0.5)
   );
   background-repeat: no-repeat;
@@ -48,7 +50,7 @@ main {
 
 .about-us-text {
   width: 80%;
-  background-color: rgba(255, 255, 0, 0.349);
+  /* background-color: rgba(255, 255, 0, 0.349); */
   margin: 1rem auto;
 
 }
@@ -95,7 +97,7 @@ margin: 0 10%;
 /*<----- Main: Products -> Fanaria Section ------>*/
 
 .fanaria{
-  background-color: sandybrown;
+  /* background-color: sandybrown; */
 }
 
 
