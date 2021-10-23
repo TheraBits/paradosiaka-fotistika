@@ -170,14 +170,11 @@ header {
     padding: 0 3.5px;
   }
 
-  .logo-fanari3 {
-    display: none;
+  /* .logo-fanari3 {
+    /* display: none; 
    
-  }
-}
-
-@media (max-width: 425px) {
-  
+  } 
+  */
 
   .brand-name-image {
     width: 95%;
@@ -189,10 +186,10 @@ header {
   }
 
 
-  .logo-fanari3 {
-    display: none;
+  /*  .logo-fanari3 {
+    display: none; 
   }
-
+*/
   .nav-bar {
     justify-content: space-evenly;
     height: 30px;
