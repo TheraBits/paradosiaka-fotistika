@@ -75,13 +75,22 @@ main {
   margin: 50px 20%;
 }
 
-.img-liston, .img-krani {
+.img-liston {
+  width: 80%;
+  object-fit: none;
+object-position: right center;
+margin: 0 10%;
+
+}
+
+.img-krani {
   width: 80%;
   object-fit: none;
 object-position: center center;
 margin: 0 10%;
-
 }
+
+
 
 /*<----- Main: Products -> Fanaria Section ------>*/
 
