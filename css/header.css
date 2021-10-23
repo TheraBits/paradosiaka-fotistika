@@ -122,7 +122,6 @@ header {
 @media (max-width: 992px) {
   .logo-fanari3 {
     position: relative;
-  
     width: 70px;
     height: 70px;
     margin: 40px 0px 0 3.4rem;
@@ -160,7 +159,7 @@ header {
   }
 
   .nav-bar {
-    height: 30px;
+    height: 60px;
     font-size: 0.95rem;
     justify-content: center;
     background-color: rgb(231, 220, 209, 0.5);
@@ -196,7 +195,7 @@ header {
 
   .nav-bar {
     justify-content: space-evenly;
-    height: 30px;
+    height: 60px;
   }
 
   .nav-bar ul {
