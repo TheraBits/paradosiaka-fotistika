@@ -37,7 +37,7 @@ main {
   background-color: rgba(216, 191, 216, 0.9);
 }
 
-.about-us > h3 {
+.about-us > h3   {
   width: 80%;
   margin: 1rem auto;
   text-align: center;
@@ -64,6 +64,10 @@ main {
 .about-us-text  p {
   padding: 2rem;
   line-height: 2rem;
+}
+
+.about-us-text-right {
+  text-align: end;
 }
 
 .image-store {
@@ -111,19 +115,21 @@ div.polaroid img {
 /*<----- Main: Products -> Fotistika Section ------>*/
 
 .fotistika {
-  background-color: wheat;
+  background-color: rgb(96, 131, 73);
 }
 
 
 /*<----- Main: Products -> Kolones fotismou ------>*/
 
 .kolones {
-  background-color: rgba(0, 128, 128, 0.637);
+  background-color: rgb(201, 73, 201);
+
 }
 
 
 .krani {
-  background-color: violet;
+  background-color: rgba(0, 0, 128, 0.377);
+
 }
 
 /*<----- Main: Products -> Krani Filarmonikis ------>*/
