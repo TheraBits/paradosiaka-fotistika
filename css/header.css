@@ -153,12 +153,19 @@ header {
 
 @media (max-width: 600px) {
 
+header {
+  background-image: none;
+background-color: white;
+height: fit-content;
+}
+
   .brand-name {
     margin: 10px 0;
+    box-shadow: none;
   }
 
   .brand-name-image {
-    width: 90%;
+    width: 100%;
   }
 
   
@@ -166,9 +173,9 @@ header {
     width: 80%;
     font-size: 1rem;
    
-    
   }
 
+ 
   .nav-bar {
     height: 150px;
     font-size: 0.95rem;
@@ -178,7 +185,7 @@ header {
   }
 
   .nav-bar ul li a {
-    padding: 0 3.5px;
+    padding: 0 3.3px;
   }
 
   
@@ -188,17 +195,6 @@ header {
   }
 
  
-
-  .brand-name-image {
-    width: 95%;
-  }
-
-  .brand-alist ul li a {
-    width: 80%;
-    font-size: 0.9rem;
-  }
-
-
    .logo-fanari3 {
     display: none; 
   }
