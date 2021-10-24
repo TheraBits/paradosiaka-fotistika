@@ -157,6 +157,10 @@ div.polaroid img {
 
 @media (max-width: 600px) {
 
+  body {
+    background-image: none;
+  }
+
   .image-store {
     width: 100%;
     margin: auto;

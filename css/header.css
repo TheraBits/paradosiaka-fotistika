@@ -154,13 +154,13 @@ header {
 @media (max-width: 600px) {
 
 header {
-  background-image: none;
+background-image: none;
 background-color: white;
 height: fit-content;
 }
 
   .brand-name {
-    margin: 10px 0;
+    margin: 10px 0 20px 0;
     box-shadow: none;
   }
 
