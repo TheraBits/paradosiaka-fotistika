@@ -30,22 +30,28 @@
     })
   </script> -->
 
-  <!-- <script>
-  $(document).ready(function(){
-      $(window).scroll(function() {
-        if ($(document).scrollTop() >1290 ) { 
-          $(".navbar").css("background-color", "rgb(255, 160, 160)"); 
-        }else if ($(document).scrollTop() >850) { 
-            $(".navbar").css("background-color", "black"); 
-          }else if ($(document).scrollTop() >350) { 
-            $(".navbar").css("background-color", "rgba(47, 73, 158, 0.514)"); 
-          }
-         else {
-          $(".navbar").css("background-color", "red"); 
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 1290) {
+          $(".nav-bar").css("background-color", "rgb(255, 160, 160)");
+          $(".logo-fanari3").css({ "top": "30px" });
+        }
+        else if ($(document).scrollTop() > 850) {
+          $(".nav-bar").css("background-color", "rgb(29, 20, 23, 1)");
+          $(".logo-fanari3").css({ "top": "30px" });
+        }
+        else if ($(document).scrollTop() > 350) {
+          $(".nav-bar").css("background-color", "rgba(47, 73, 158, 0.514)");
+          $(".logo-fanari3").css({ "top": "30px" });
+        }
+        else {
+          $(".nav-bar").css("background-color", "transparent");
+          $(".logo-fanari3").css({ "top": "0px" });
         }
       });
     });
-</script> -->
+  </script>
 
 </head>
 
