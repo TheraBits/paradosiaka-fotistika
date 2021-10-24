@@ -12,6 +12,7 @@ body {
   font-family: 'Didact Gothic', sans-serif;
   color: rgb(29, 20, 23);
   font-weight: 500;
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +37,7 @@ main {
 
 .about-us > h1 {
   width: 80%;
-  margin: 1rem auto;
+  margin: 2.2rem auto;
   text-align: center;
   font-stretch: ultra-expanded;
   background-color: rgba(216, 191, 216, 0.9);
@@ -54,25 +55,25 @@ main {
 .about-us-text {
   width: 80%;
   /* background-color: rgba(255, 255, 0, 0.349); */
-  margin: 1rem auto;
+  margin: auto;
 
 }
 
 .about-us-text > h2 {
   width: 80%;
-  margin: 1rem auto;
+  margin: 2rem auto;
   text-align: center;
   font-stretch: ultra-expanded;
   background-color: rgba(96, 165, 165, 0.9);
 }
 
 .about-us-text  p {
-  padding: 2rem;
-  line-height: 2rem;
+  
+ 
 }
 
 .about-us-text-right {
-  text-align: end;
+  text-align: center;
 }
 
 .image-store {
@@ -159,13 +160,13 @@ div.polaroid img {
 
   body {
     background-image: none;
+    font-size: 0.9em;
   }
 
   .image-store {
     width: 100%;
     margin: auto;
-    object-fit: stretch;
-    /* object-position: -60px center; */
+    
   }
 }
 
