@@ -10,7 +10,7 @@ body {
     rgb(235, 43, 227, 0.5)
   );
   background-repeat: no-repeat;
-  font-family: Sansation_Regular_gr;
+  font-family: Sansation_Regular_gr, 'Didact Gothic', sans-serif;
   color: rgb(29, 20, 23);
   font-weight: 500;
 }

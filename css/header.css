@@ -20,6 +20,8 @@ font color of handmade: rgb(29, 55, 46, 1)
   src: url(/resources/fonts/Sansation_Italic.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
 * {
   scroll-behavior: smooth;
   margin: 0;
