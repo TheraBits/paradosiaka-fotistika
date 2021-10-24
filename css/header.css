@@ -76,7 +76,7 @@ header {
   top: 0;
   align-items: center;
   overflow: visible;
-  max-height: 45px;
+  max-height: 40px;
   padding: 0;
   margin: 0 0 0 0;
 }
@@ -159,7 +159,7 @@ header {
   }
 
   .nav-bar {
-    height: 30px;
+    height: 45px;
     font-size: 0.95rem;
     justify-content: center;
     background-color: rgb(231, 220, 209, 0.5);
