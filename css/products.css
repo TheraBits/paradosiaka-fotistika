@@ -1,3 +1,20 @@
+@font-face {
+    font-family: Sansation_Regular_gr;
+    src: url(/resources/fonts/Sansation-Regular-gr.ttf);
+  }
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+header, h1 {
+    font-family: Sansation_Regular_gr, 'Didact Gothic', sans-serif;
+}
+
+
 .fanaria, .fotistika, .krani, .kolones {
     display: grid;
     grid-template-columns: repeat(auto-fill,  minmax(250px, 1fr));
