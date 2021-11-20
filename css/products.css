@@ -39,10 +39,17 @@ div.polaroid {
  
   }
 
-  .container {
-      text-align: center;
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
   }
-
+  
+  div.polaroid img {
+    width: 100%;
+    max-width: 400px;
+    background-color: whitesmoke;
+  }
+ 
   h1 {
       text-align: center;
   }
