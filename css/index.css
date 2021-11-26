@@ -1,13 +1,29 @@
+/* 
+rgba(52, 96, 81, 0.71);
+rgba(29, 55, 46, 1);  grammata
+rgba(124, 69, 106, 1);
+rgba(53, 5, 65, 1); grammata
+rgba(235, 230, 219, 1); bckg
+rgba(255, 255, 255, 1);bckg
+rgb(235, 43, 227, 0.5) gia to telos ??
+rgba(246, 151, 243, 1) gia to drop down menu apo figma
+
+*/
+
+/* Linear Gradient
+rgba(255, 255, 255, 1)
+rgba(245, 243, 237, 1)
+rgba(235, 230, 219, 1)
+rgba(254, 250, 241, 0.9254)
+rgba(124, 69, 106, 0.76)
+rgba(53, 5, 65, 0.28) */
+
+
+
+
+
 body {
-  background-image: linear-gradient(
-    white 15%,
-    rgb(210, 137, 0, 0.7),   
-    rgba(255, 255, 255, 0.24),
-    rgb(255, 213, 155, 0.8),
-    rgba(255, 255, 255, 0.24),
-    rgb(234, 171, 174),
-    rgb(235, 43, 227, 0.5)
-  );
+ 
   background-repeat: no-repeat;
   font-family: 'Didact Gothic', sans-serif;
   color: rgb(29, 20, 23);
