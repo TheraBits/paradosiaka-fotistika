@@ -271,6 +271,24 @@ const categFotistika = [
 
 ]
 
+const categKolones = [
+    {
+        name: "kolona 1",
+        imageURL: "./resources/images/Kolones/kolona 1.png",
+        alt: "image of kolona 1",
+        description: "ΚΦ1"
+
+    },
+
+    {
+        name: "kolona 2",
+        imageURL: "./resources/images/Kolones/kolona 2.png",
+        alt: "image of kolona 2",
+        description: "ΚΦ2"
+        
+    },
+]
+
 
 
 // let index=0;

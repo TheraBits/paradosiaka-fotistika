@@ -27,7 +27,7 @@
         <script>
             for (let idx in categFanaria) {
                 document.write(`<div class="polaroid">
-                    <img class="fanaria" alt="${categFanaria[idx].alt}" src="${categFanaria[idx].imageURL}">
+                    <img class="fanaria-img" alt="${categFanaria[idx].alt}" src="${categFanaria[idx].imageURL}">
                     <div class="container"
                     <p>${categFanaria[idx].name}</p>
                     </div>
@@ -43,35 +43,30 @@
         <script>
             for (let index in categFotistika) {
                 document.write(`<div class="polaroid">
-                <img class="fotistika" alt="${categFotistika[index].alt}" src="${categFotistika[index].imageURL}">
+                <img class="fotistika-img" alt="${categFotistika[index].alt}" src="${categFotistika[index].imageURL}">
                 <div class="container"
                 <p>${categFotistika[index].name}</p>
                 </div>
             </div>`)
             }
         </script>
-
+    </div>
    
 
-<h1>Κολώνες Φωτισμού</h1>
+        <h1>Κολώνες Φωτισμού</h1>
+        <div class="kolones" style="background-color: darkkhaki  ;"> 
 
-        <div class="kolones" style="background-color: darkkhaki;"> 
-        
-            <div class="polaroid">
-                <img src="/resources/images/Kolones/kolona 1.png" alt="Norther Lights">
-                <div class="container">
-                    <p>kolona 1</p>
-                </div>
-            </div>
-
-            <div class="polaroid">
-                <img src="/resources/images/Kolones/kolona 2.png" alt="Norther Lights">
-                <div class="container">
-                    <p>kolona 2</p>
-                </div>
-            </div>
-        
-        </div>
+            <script>
+                for (let indx in categKolones) {
+                 document.write(`<div class="polaroid">
+                    <img class="kolones-img" alt="${categKolones[indx].alt}" src="${categKolones[indx].imageURL}")>
+                    <div class="container"
+                    <p>${categKolones[indx].name}</p>
+                    </div>
+                </div>`)
+            }
+                </script>
+          </div>  
 
 
         <h1>Κράνη και Σήματα Φιλαρμονικής</h1>
