@@ -285,10 +285,60 @@ const categKolones = [
         imageURL: "./resources/images/Kolones/kolona 2.png",
         alt: "image of kolona 2",
         description: "ΚΦ2"
-        
+
     },
 ]
 
+
+const categKrani = [
+    {
+        name: "kranos 1",
+        imageURL: "./resources/images/Krani and Simata/kranos 1.png",
+        alt: "image of kranos 1",
+        description: "Κ&Σ1"
+
+    },
+
+    {
+        name: "kranos 2",
+        imageURL: "./resources/images/Krani and Simata/kranos 2.jpg",
+        alt: "image of kranos 2",
+        description: "Κ&Σ2"
+
+    },
+
+    {
+        name: "kranos 3",
+        imageURL: "./resources/images/Krani and Simata/kranos 3.jpg",
+        alt: "image of kranos 3",
+        description: "Κ&Σ3"
+
+    },
+
+    {
+        name: "kranos 4",
+        imageURL: "./resources/images/Krani and Simata/kranos 4.jpg",
+        alt: "image of kranos 4",
+        description: "Κ&Σ4"
+
+    },
+
+    {
+        name: "sima 1",
+        imageURL: "./resources/images/Krani and Simata/sima 1.png",
+        alt: "image of sima 1",
+        description: "Κ&Σ α"
+
+    },
+
+    {
+        name: "sima 2",
+        imageURL: "./resources/images/Krani and Simata/sima 2.jpg",
+        alt: "image of sima 2",
+        description: "Κ&Σ β"
+
+    },
+]
 
 
 // let index=0;

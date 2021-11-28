@@ -57,11 +57,11 @@
         <div class="kolones" style="background-color: darkkhaki  ;"> 
 
             <script>
-                for (let indx in categKolones) {
+                for (let idx in categKolones) {
                  document.write(`<div class="polaroid">
-                    <img class="kolones-img" alt="${categKolones[indx].alt}" src="${categKolones[indx].imageURL}")>
+                    <img class="kolones-img" alt="${categKolones[idx].alt}" src="${categKolones[idx].imageURL}")>
                     <div class="container"
-                    <p>${categKolones[indx].name}</p>
+                    <p>${categKolones[idx].name}</p>
                     </div>
                 </div>`)
             }
@@ -73,48 +73,16 @@
 
         <div class="krani" id="krani-section" style="background-color: cornflowerblue;">
         
-            <div class="polaroid">
-                <img src="/resources/images/Krani and Simata/kranos 1.png" alt="Norther Lights">
-                <div class="container">
-                    <p>kranos 1</p>
-                </div>
-            </div>
-
-            <div class="polaroid">
-                <img src="/resources/images/Krani and Simata/kranos 2.jpg" alt="Norther Lights">
-                <div class="container">
-                    <p>kranos 2</p>
-                </div>
-            </div>
-
-            <div class="polaroid">
-                <img src="/resources/images/Krani and Simata/kranos 3.jpg" alt="Norther Lights">
-                <div class="container">
-                    <p>kranos 3</p>
-                </div>
-            </div>
-
-            <div class="polaroid">
-                <img src="/resources/images/Krani and Simata/kranos 4.jpg" alt="Norther Lights">
-                <div class="container">
-                    <p>kranos 4</p>
-                </div>
-            </div>
-
-            <div class="polaroid">
-                <img src="/resources/images/Krani and Simata/sima 1.png" alt="Norther Lights">
-                <div class="container">
-                    <p>sima 1</p>
-                </div>
-            </div>
-
-            <div class="polaroid">
-                <img src="/resources/images/Krani and Simata/sima 2.jpg" alt="Norther Lights">
-                <div class="container">
-                    <p>sima 2</p>
-                </div>
-            </div>
-        
+            <script>
+                for (let index in categKrani) {
+                 document.write(`<div class="polaroid">
+                    <img class="krani-img" alt="${categKrani[index].alt}" src="${categKrani[index].imageURL}")>
+                    <div class="container"
+                    <p>${categKrani[index].name}</p>
+                    </div>
+                </div>`)
+            }
+                </script>   
         
         
         
