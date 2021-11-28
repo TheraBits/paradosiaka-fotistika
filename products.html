@@ -7,16 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/products.css">
     <title>Photos Fanaria</title>
+
+    <script src="javascript/products.js"></script>
 </head>
 
 <body>
 
-    <script>alert("Hi Miltos 😝")</script>
+   
     <header class="header"><a href="./index.html">Δημήτρης Πουλημένος handmade</a></header>
 
     
 
     <h1>Βενετσιάνικα Φανάρια εξωτερικού χώρου</h1>
+
+    <!-- <div class="fanaria" id="fanaria-section" >      -->
+
+               
+    <div class="fanaria" id="fanaria-section">
+        <script>
+            for (let idx in categFanaria) {
+                document.write(`<div class="polaroid">
+                    <img class="fanaria" alt="${categFanaria[idx].alt} "src="${categFanaria[idx].imageURL}">
+                    <div class="container"
+                    <p>${categFanaria[idx].name}</p>
+                    </div>
+                    </div>`)
+            }
+        </script>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="fanaria" id="fanaria-section" style="background-color: rgba(210, 105, 30, 0.541) ;">     
 
         <div class="polaroid">
