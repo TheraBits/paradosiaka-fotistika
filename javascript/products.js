@@ -163,5 +163,114 @@ const categFanaria = [
 ]
 
 
+const categFotistika = [
+    {
+        name: "lamp hanging 1",
+        imageURL: "./resources/images/Lampes/lamp hanging 1.png",
+        alt: "image of lamp hanging 1",
+        description: "lh1"
 
-let index=0;
+    },
+
+    {
+        name: "lamp hanging 2",
+        imageURL: "./resources/images/Lampes/lamp hanging 2.png",
+        alt: "image of lamp hanging 2",
+        description: "lh2"
+
+    },
+
+    {
+        name: "lamp 1",
+        imageURL: "./resources/images/Lampes/lamp 1.png",
+        alt: "image of lamp 1",
+        description: "l1"
+
+    },
+  
+    {
+        name: "lamp 2",
+        imageURL: "./resources/images/Lampes/lamp 2.png",
+        alt: "image of lamp 2",
+        description: "l2"
+
+    },
+
+    {
+        name: "lamp 3",
+        imageURL: "./resources/images/Lampes/lamp 3.png",
+        alt: "image of lamp 3",
+        description: "l3"
+
+    },
+
+    {
+        name: "lamp 4",
+        imageURL: "./resources/images/Lampes/lamp 4.png",
+        alt: "image of lamp 4",
+        description: "l4"
+
+    },
+
+    {
+        name: "lamp 5",
+        imageURL: "./resources/images/Lampes/lamp 5.png",
+        alt: "image of lamp 5",
+        description: "l5"
+
+    },
+
+    {
+        name: "lamp 6",
+        imageURL: "./resources/images/Lampes/lamp 6.png",
+        alt: "image of lamp 6",
+        description: "l6"
+
+    },
+
+    {
+        name: "kiropigio 1",
+        imageURL: "./resources/images/Lampes/kiropigio 1.png",
+        alt: "image of kiropigio 1",
+        description: "k1"
+
+    },
+
+    {
+        name: "kiropigio 2",
+        imageURL: "./resources/images/Lampes/kiropigio 2.png",
+        alt: "image of kiropigio 2",
+        description: "k2"
+
+    },
+
+    {
+        name: "polielaios 1",
+        imageURL: "./resources/images/Lampes/polielaios 1.png",
+        alt: "image of polielaios 1",
+        description: "p1"
+
+    },
+
+    {
+        name: "polielaios 2",
+        imageURL: "./resources/images/Lampes/polielaios 2.png",
+        alt: "image of polielaios 2",
+        description: "p2"
+
+    },
+
+    {
+        name: "polielaios 3",
+        imageURL: "./resources/images/Lampes/polielaios 3.jpg",
+        alt: "image of polielaios 3",
+        description: "p3"
+
+    },
+    
+
+]
+
+
+
+// let index=0;
