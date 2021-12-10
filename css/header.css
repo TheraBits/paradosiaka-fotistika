@@ -121,6 +121,10 @@ header {
   text-underline-offset: 0.2rem;
 }
 
+.drop-down-menu-products{
+  display: none;
+}
+
 
 
 /* ----- Navigation Bar: Logo Image - Fanari ----*/
