@@ -6,17 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/products.css">
-    <title>Photos Fanaria</title>
+    <title>Products</title>
 
 
 </head>
 
 <body>
+    <a href="#krani-section">band</a>
+
+    <a href="/sliderTest.html#liston">liston</a>
+    <a href="/sliderTest.html#shop">shop</a>
+    <a href="/sliderTest.html#band">band</a>
+
+
 
    
     <header class="header"><a href="./index.html">Δημήτρης Πουλημένος handmade</a></header>
 
-    
+    <h2>Χειροποίητα Βενετσιάνικα Φωτιστικά</h2>
+
+        <p>Eχουμε εξειδίκευση στην κατασκευή των παραδοσιακών Βενετσιάνικων Φαναριών της Κέρκυρας. </p>
+
+        <p>Εξαιρετικό δείγμα της δουλειάς μας είναι τα εντυπωσιακά φαναράκια που
+          κοσμούν το κτίριο Liston στην κεντρική πλατεία της Κέρκυρας.
+        </p>
+        <img class="img-liston" alt="κτίριο Liston στην Κέρκυρα με παραδοσιακά φανάρια"
+          src="https://apartmentscorfu.com/wp-content/uploads/2018/03/Corfu-Town-Liston-Square-1024x682.jpg">
+
+
+        <button type="button"><a href="">Δείτε τα φανάρια μας</a></button>
+
+        <h2>Χειροποίητα Κράνη για Φιλαρμονικές</h2>
+
+        <p>
+          Είμαστε από τα ελάχιστα εργαστήρια που ασχολούνται με την τέχνη της περικεφαλαίας.
+        </p>
+
+        <p> Ακολουθούμε παραδοσιακές τεχνικές σε όλα τα στάδια κατασκευής.</p>
+
+        <p> Kράνη μας θα δείτε στις φιλαρμονικές της Κέρκυρας, αλλά και του Πειραιά, Μάνδρας, Μεγάρων,
+          Καλλιθέας, Ρόδου, Κω, καθώς και της Κύπρου.
+        </p>
+
+        <img class="img-krani" alt="εικόνα με φιλαρμονική της Κέρκυρας το Πάσχα"
+          src="https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_480,c_limit,dpr_2.5/cdn/c670c790-0af4-4587-9a87-7f4ec5c5d00f/e22fd31d-aa05-4eff-8fd5-aa7285b0965c.jpg">
+
+        <button type="button"><a href="">Δείτε τα κράνη μας</a></button> -->
 
     <h1>Βενετσιάνικα Φανάρια εξωτερικού χώρου</h1>
 
@@ -27,9 +62,10 @@
         <script>
             for (let idx in categFanaria) {
                 document.write(`<div class="polaroid">
-                    <img class="fanaria-img" alt="${categFanaria[idx].alt}" src="${categFanaria[idx].imageURL}">
+                    <img id="${categFanaria[idx].name}"class="fanaria-img" id="${categFanaria[idx].name}" alt="${categFanaria[idx].alt}" src="${categFanaria[idx].imageURL}">
                     <div class="container"
                     <p>${categFanaria[idx].name}</p>
+                    <p>Description: ${categFanaria[idx].description}</p>
                     </div>
                     </div>`)
             }
@@ -43,9 +79,10 @@
         <script>
             for (let index in categFotistika) {
                 document.write(`<div class="polaroid">
-                <img class="fotistika-img" alt="${categFotistika[index].alt}" src="${categFotistika[index].imageURL}">
+                <img id="${categFotistika[index].name}" class="fotistika-img" alt="${categFotistika[index].alt}" src="${categFotistika[index].imageURL}">
                 <div class="container"
                 <p>${categFotistika[index].name}</p>
+                <p>Description: ${categFotistika[index].description}</p>
                 </div>
             </div>`)
             }

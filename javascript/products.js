@@ -3,7 +3,7 @@ const categFanaria = [
         name: "fanarakia 1",
         imageURL: "./resources/images/fanaria/fanarakia 1.jpg",
         alt: "image of fanaraki 1",
-        description: "a"
+        description: "a",
 
     },
 
@@ -11,7 +11,8 @@ const categFanaria = [
         name: "fanari fixed 1",
         imageURL: "./resources/images/fanaria/fanari fixed 1.png",
         alt: "image of fanari fixed 1",
-        description: "b"
+        description: "b",
+
 
     },
 

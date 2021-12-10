@@ -18,21 +18,21 @@ rgba(254, 250, 241, 0.9254)
 rgba(124, 69, 106, 0.76)
 rgba(53, 5, 65, 0.28) */
 
-
-
-
-
 body {
- 
   background-repeat: no-repeat;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Manrope", "Didact Gothic", sans-serif;
   color: rgb(29, 20, 23);
   font-weight: 500;
-  line-height: 1.5em;
+  /* line-height: 1.5em; */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Sansation_Regular_gr, 'Didact Gothic', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Sansation_Regular_gr, "Didact Gothic", sans-serif;
 }
 
 /*----> Main ----*/
@@ -40,87 +40,84 @@ main {
   margin: 0;
 }
 
-
-
 /*<----- Main: About Us Section ------>*/
-
-.about-us {
-  width: 100%;
-  margin: 0 auto;
-  
- 
-}
-
-.about-us > h1 {
-  width: 80%;
-  margin: 2.2rem auto;
-  text-align: center;
-  font-stretch: ultra-expanded;
-  background-color: rgba(216, 191, 216, 0.9);
-}
-
-.about-us > h3   {
-  width: 80%;
-  margin: 1rem auto;
-  text-align: center;
-  font-family: Sansation_Italic;
-  padding: 2rem 0;
-  background-color: rgba(238, 130, 238, 0.479);
-}
-
-.about-us-text {
-  width: 80%;
-  /* background-color: rgba(255, 255, 0, 0.349); */
-  margin: auto;
-
-}
-
-.about-us-text > h2 {
-  width: 80%;
-  margin: 2rem auto;
-  text-align: center;
-  font-stretch: ultra-expanded;
-  background-color: rgba(96, 165, 165, 0.9);
-}
-
-.about-us-text  p {
-  
- 
-}
-
-.about-us-text-right {
-  text-align: center;
-}
 
 .image-store {
   width: 60%;
   margin: 50px 20%;
 }
 
-.img-liston {
+.about-us {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-us-h1 {
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  color: rgb(53, 5, 65);
+}
+
+.about-us-h2 {
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  font-size: 1.2rem;
+  color: rgba(29, 55, 46, 1);
+}
+
+.about-us-h3 {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+  color: rgba(29, 55, 46, 1);
+}
+
+.about-us-text {
   width: 80%;
-  object-fit: none;
-object-position: right center;
-margin: 0 10%;
+  background-color: rgba(235, 230, 219, 1);
+  margin: 3rem auto 0 auto;
+  padding:5rem 4rem 4rem 4rem;
+  line-height: 2;
+}
+
+.about-us-text-lightings {
+  display: flex;
+  align-items: center;
+  
+}
+
+.about-us-text-lightings-img {
+  position: relative;
+  top: -4rem;
+  width:8%;
+  margin: 0 0.5rem 0 2rem ;
+
+ transform: rotate(357deg);
+}
+
+.about-us-text-other-products {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 0 0;
 
 }
 
-.img-krani {
-  width: 80%;
-  object-fit: none;
-object-position: center center;
-margin: 0 10%;
+.about-us-text-other-products-img {
+  position: relative;
+  top: -1rem;
+  width:8%;
+  margin: 0 0.5rem 0 2rem ;
+
+  transform: scaleX(-1) rotate(160deg);
 }
-
-
 
 /*<----- Main: Products -> Fanaria Section ------>*/
 
-.fanaria{
+.fanaria {
   /* background-color: sandybrown; */
 }
-
-
 
 div.polaroid {
   display: inline-block;
@@ -142,38 +139,27 @@ div.polaroid img {
   background-color: whitesmoke;
 }
 
-
 /*<----- Main: Products -> Fotistika Section ------>*/
 
 .fotistika {
   background-color: rgb(96, 131, 73);
 }
 
-
 /*<----- Main: Products -> Kolones fotismou ------>*/
 
 .kolones {
   background-color: rgb(201, 73, 201);
-
 }
-
 
 .krani {
   background-color: rgba(0, 0, 128, 0.377);
-
 }
 
 /*<----- Main: Products -> Krani Filarmonikis ------>*/
 
-
-
-
-
-
 /*<----- Media Queries ------>*/
 
 @media (max-width: 600px) {
-
   body {
     background-image: none;
     font-size: 0.9em;
@@ -182,7 +168,5 @@ div.polaroid img {
   .image-store {
     width: 100%;
     margin: auto;
-    
   }
 }
-
