@@ -7,7 +7,7 @@ rgba(235, 230, 219, 1); bckg
 rgba(255, 255, 255, 1);bckg
 rgb(235, 43, 227, 0.5) gia to telos ??
 rgba(246, 151, 243, 1) gia to drop down menu apo figma
-
+#551a8b   grammata default se <a>
 */
 
 /* Linear Gradient
@@ -21,7 +21,7 @@ rgba(53, 5, 65, 0.28) */
 body {
   background-repeat: no-repeat;
   font-family: "Manrope", "Didact Gothic", sans-serif;
-  color: rgb(29, 20, 23);
+  color: black;
   font-weight: 500;
   /* line-height: 1.5em; */
 }
@@ -81,9 +81,10 @@ main {
   padding:5rem 4rem 4rem 4rem;
   font-weight: 500;
   line-height: 2;
+  
 }
 
-.about-us-text p{
+.about-us-text > p{
   font-weight: 600;
 }
 
@@ -184,6 +185,117 @@ justify-content: center;
   
 
 }
+
+
+
+
+
+/*<----- Main: Contact Us Section ------>*/
+
+
+.contact-us {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 25% 1fr;
+
+  gap: 2rem 2rem;
+  justify-content: center;
+
+  margin: 10rem 4rem;
+
+}
+
+
+.contact-us-img{
+  grid-area: 2 / 1 / 3 / 2;
+
+ 
+}
+
+.contact-us-img > img{
+  width: 100%;
+ 
+
+}
+
+.contact-us-header{
+position: relative;
+grid-area: 1 / 2 / 2 /2;
+z-index: -2;
+  
+ 
+}
+
+.contact-us-header-img{
+  position: absolute;
+  bottom: -1rem;
+  left: 8rem;
+  width: 15%;
+  z-index: -3;
+  
+}
+
+
+
+
+.contact-us-text{
+  grid-area: 2 / 2 / 3 /3;
+display: flex;
+flex-direction: column;
+align-items: center;
+  background-color: rgba(235, 230, 219, 1);
+  
+  
+ 
+}
+
+.contact-us-text-h3{
+  width: 80%;
+  margin: 2rem 0 0 0;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  line-height: 1.5;
+
+}
+
+.contact-us-text p {
+  margin: 2rem 0 0 0;
+}
+
+.contact-us-text-call-img {
+  width: 3.5rem;
+  margin: 0 2rem 0 2rem;
+
+
+}
+
+.contact-us-text-message-apps {  
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.contact-us-text-message-apps-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 2rem 0 2rem;
+}
+
+.contact-us-text-message-apps-img{
+  width: 4rem;
+ 
+}
+
+.contact-us-text-message-apps-a {
+ color: black;
+ text-decoration: none;
+}
+
+
+
 
 
 

@@ -5,7 +5,7 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(document).scrollTop() > 1290) {
-      $(".nav-bar").css("background-color", "rgb(255, 160, 160)");
+      $(".nav-bar").css("background-color", "rgb(216, 150, 166)");
       $(".logo-fanari3").css({ "top": "40px" });
     }
     else if ($(document).scrollTop() > 850) {
@@ -38,3 +38,5 @@ $(document).ready(function () {
 
 //   })
 // })
+
+
