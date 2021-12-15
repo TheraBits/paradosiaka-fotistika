@@ -20,7 +20,7 @@ rgba(53, 5, 65, 0.28) */
 
 body {
   background-repeat: no-repeat;
-  font-family: "Manrope", "Didact Gothic", sans-serif;
+  font-family: "Sansation_Regular_gr", "Manrope", "Didact Gothic", sans-serif;
   color: black;
   font-weight: 500;
   /* line-height: 1.5em; */
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Sansation_Regular_gr, "Didact Gothic", sans-serif;
+  font-family: "Sansation_Regular_gr", "Didact Gothic", sans-serif;
 }
 
 /*----> Main ----*/
@@ -78,47 +78,43 @@ main {
   width: 60%;
   background-color: rgba(235, 230, 219, 1);
   margin: 3rem auto 0 auto;
-  padding:5rem 4rem 4rem 4rem;
+  padding: 5rem 4rem 4rem 4rem;
   font-weight: 500;
   line-height: 2;
-  
 }
 
-.about-us-text > p{
+.about-us-text > p {
   font-weight: 600;
 }
 
 .about-us-text-lightings {
   display: flex;
   align-items: center;
-  
 }
 
 .about-us-text-lightings-img {
   position: relative;
   top: -3.5rem;
-  width:8%;
-  margin: 0 0.5rem 0 2rem ;
+  width: 8%;
+  margin: 0 0.5rem 0 2rem;
 
- transform: rotate(357deg);
+  transform: rotate(357deg);
 }
 
 .about-us-text-other-products {
   display: flex;
   align-items: center;
   margin: 2rem 0 0 0;
-
 }
 
 .about-us-text-other-products-img {
   position: relative;
   top: -2rem;
-  width:8%;
-  margin: 0 0.5rem 0 2rem ;
+  width: 8%;
+  margin: 0 0.5rem 0 2rem;
 
   transform: scaleX(-1) rotate(160deg);
 }
-
 
 /*<----- Main: Our Products Section ------>*/
 
@@ -128,13 +124,11 @@ main {
   grid-template-rows: auto;
   gap: 2rem 2rem;
   justify-content: center;
-  
-  margin: 3rem 4rem 0 4rem;
-  
 
+  margin: 3rem 4rem 0 4rem;
 }
 
-.our-products-h1{
+.our-products-h1 {
   grid-column: 1/3;
   margin: 10rem auto 0 auto;
   text-align: center;
@@ -143,102 +137,83 @@ main {
 }
 
 .our-products-category {
-position: relative;
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .our-products-category-img {
- width:100%; 
- max-height: 300px;
- object-fit: cover;
- z-index: -1;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  z-index: -1;
 
- /* vertical-align: middle; */
+  /* vertical-align: middle; */
+}
 
-} 
-
-.our-products-category-img-content{
- 
-  position: absolute; 
+.our-products-category-img-content {
+  position: absolute;
   bottom: 50px;
   width: 60%;
   background-color: rgba(196, 196, 196, 0.8);
   text-align: center;
-
 }
 
-.our-products-category-img-content>h3 {
- 
+.our-products-category-img-content > h3 {
   color: black;
   font-weight: 500;
   z-index: -3;
-  
-
 }
-
-
-
-
 
 /*<----- Main: Contact Us Section ------>*/
 
-
 .contact-us {
- 
   /* background-image: url(/resources/images/Images/liston\ easter\ miltos\ fb\ croped2.jpg);
 background-repeat: no-repeat;
 background-size: 100vw 100vh; */
-margin:  15% 15% 20% 15%;
+  margin: 15% 15% 20% 15%;
 }
 
-
-
-.contact-us-header{
-
-z-index: -2;
-display: flex;
-justify-content: center;
-margin: 10rem 0 0 0;
-
+.contact-us-header {
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0 0 0;
 }
 
-
-.our-products-h1{
-margin: 0;
-/* line-height: 2; */
-
-
-
+.contact-us-h1 {
+  margin: 5rem auto 0 auto;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  color: rgb(53, 5, 65);
+  /* line-height: 2; */
 }
 
-
-
-
-.contact-us-text{
-
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: rgba(235, 230, 219, 0.9);
-margin: 3rem 0 0 0 ;
-
-  
-  
- 
+.contact-us-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgba(235, 230, 219, 1); */
+  margin: 3rem 0 0 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 2.08%,
+    /* rgba(235, 235, 255, 0.3) 2.08%, */ rgb(235, 230, 219) 24.38%,
+    rgb(174, 141, 161) 89.58%,
+    rgb(166, 129, 154) 96.87%,
+    rgba(53, 5, 65, 0.45) 100%
+  );
 }
 
-.contact-us-text-h3{
+.contact-us-text-h3 {
   width: 80%;
   margin: 2rem 0 0 0;
   text-align: center;
   font-stretch: ultra-expanded;
   line-height: 1.5;
-
 }
 
 .contact-us-text p {
@@ -249,17 +224,12 @@ margin: 3rem 0 0 0 ;
   width: 3.5rem;
   margin: 0 2rem 0 2rem;
   /* margin: 0 1.5rem 0 1.5rem; */
-
-
 }
 
-.contact-us-text-message-apps {  
+.contact-us-text-message-apps {
   display: flex;
   justify-content: space-between;
-
 }
-
-
 
 .contact-us-text-message-apps-figure {
   display: flex;
@@ -268,24 +238,66 @@ margin: 3rem 0 0 0 ;
   margin: 1rem 2rem 2rem 2rem;
 }
 
-.contact-us-text-message-apps-img{
+.contact-us-text-message-apps-img {
   width: 4rem;
- 
 }
 
 .contact-us-text-message-apps-a {
- color: black;
- text-decoration: none;
- margin: 1rem  0 1rem 0  ;
+  color: black;
+  text-decoration: none;
+  margin: 1rem 0 1rem 0;
 }
 
+/*<----- Main: Contact Us Section  : Our Address------>*/
 
+.our-address-h1 {
+  margin: 5rem auto 0 auto;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  color: rgb(53, 5, 65);
+}
 
+.our-address-map {
+  width: 100%;
+  height: 90vh;
+  margin: 3rem auto 0 auto;
+  background-color: rgba(235, 230, 219, 1);
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.our-address-map-google-embeded {
+  width: 60%;
+  height: 70vh;
+  border: 10px white solid;
+  margin: auto;
+}
 
+.our-address-shop-details {
+  width: 100%;
 
+  margin: 3rem 0 0 0;
+  background-color: rgba(235, 230, 219, 1);
 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.our-address-shop-details-image {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.our-address-shop-details-text h3 {
+  margin: 0 auto 0 auto;
+  padding: 2rem 0 1rem 0;
+  color: rgba(29, 55, 46, 1);
+}
+
+.our-address-shop-details-text p {
+}
 
 /*<----- Media Queries ------>*/
 
@@ -301,13 +313,11 @@ margin: 3rem 0 0 0 ;
   }
 }
 
-
-
 /*<----- Main: Products -> Fanaria Section ------>*/
 
 /* .fanaria {
   /* background-color: sandybrown; */
-}
+/* } */
 
 div.polaroid {
   display: inline-block;
@@ -327,5 +337,4 @@ div.polaroid img {
   width: 100%;
   max-width: 400px;
   background-color: whitesmoke;
-} */
-
+}
