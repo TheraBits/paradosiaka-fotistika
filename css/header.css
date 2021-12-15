@@ -91,7 +91,7 @@ header {
           
        
 
-          display: flex;
+  display: flex;
   justify-content: space-between;
   position: sticky;
   position: -webkit-sticky;
@@ -101,6 +101,7 @@ header {
   max-height: 40px;
   padding: 0;
   margin: 0 0 0 0;
+  z-index: 1;
 }
 
 
@@ -124,6 +125,8 @@ header {
 .drop-down-menu-products{
   display: none;
 }
+
+
 
 
 

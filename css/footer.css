@@ -15,10 +15,17 @@ footer {
 @media (max-width:600px) {
 
     footer {
-    background-image: linear-gradient(  
+
+        background: linear-gradient(180deg, #FFFFFF 2.08%, #EBE6DB 34.38%, #AE8DA1 89.58%, #A6819A 96.87%, rgba(53, 5, 65, 0.6) 100%);
+
+
+        /* background: linear-gradient(180deg, #F797F3 0%, rgba(247, 151, 243, 0) 100%); */
+
+
+    /* background-image: linear-gradient(  
     rgb(234, 171, 174) 10%,
     rgb(235, 43, 227, 0.5) 60%
-  );
+  ); */
 }
 
 
