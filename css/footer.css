@@ -2,8 +2,11 @@
 
 footer {
     width: 100%;
+    line-height: 1.5;
     margin: 0;
-    
+    padding: 1rem;
+    /* background: linear-gradient(180deg, #FFFFFF 2.08%, #EBE6DB 34.38%, #AE8DA1 89.58%, #A6819A 96.87%, rgba(53, 5, 65, 0.6) 100%); */
+    background: linear-gradient(180deg,#EBE6DB 34.38%, rgb(235, 43, 227, 0.5) 100%);
 }
 
 .socials {
