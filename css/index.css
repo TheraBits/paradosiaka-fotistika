@@ -37,10 +37,53 @@ h6 {
 }
 
 
-
 /* p {
   font-family: "Didact Gothic", "Manrope", sans-serif;
 } */
+
+
+/*<---Header: Logo and Lantern <----*/
+
+header {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 0;
+  background-image: url("/resources/images/rough-plaster-wall-half.jpg");
+  box-shadow: 0px 1px  5px rgb(29, 20, 23, 0.5);
+
+}
+
+.brand-alist ul {
+  padding: 0 0 10px 0;
+}
+
+.brand-alist ul li {
+  display: inline-block;
+}
+
+.brand-alist ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgb(29, 20, 23);
+  font-weight: 500;
+  font-family: Sansation_Regular_gr, 'Didact Gothic', sans-serif;
+}
+
+.brand-name {
+  border: none;
+  background-color: rgba(253, 252, 252, 0.747);
+  margin: 10px 0 20px 0;
+  border-radius: 2px;
+  box-shadow: 0px -2px  8px rgb(29, 20, 23, 0.3);
+}
+
+.brand-name:hover {
+  box-shadow: 20px -1px 70px rgba(246, 151, 243, 1) ;
+}
+
+
+
 
 /*----> Main ----*/
 main {
