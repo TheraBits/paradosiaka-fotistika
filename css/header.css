@@ -64,7 +64,7 @@ header {
 }
 
 .brand-name:hover {
-  box-shadow: 20px -1px 70px rgba(246, 151, 243, 1) ;;
+  box-shadow: 20px -1px 70px rgba(246, 151, 243, 1) ;
 }
 
 /*<----- Navigation Bar ------>*/
@@ -121,6 +121,16 @@ header {
   text-decoration: underline;
   text-underline-offset: 0.2rem;
 }
+
+.nav-bar li a:active {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  color: rgba(246, 151, 243, 1);
+ 
+}
+
+
+
 
 .drop-down-menu-products{
   display: none;
