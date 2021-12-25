@@ -35,6 +35,13 @@ h6 {
   font-family: "Sansation_Regular_gr", "Didact Gothic", sans-serif;
 }
 
+
+
+
+/* p {
+  font-family: "Didact Gothic", "Manrope", sans-serif;
+} */
+
 /*----> Main ----*/
 main {
   margin: 0;
@@ -44,7 +51,7 @@ main {
 
 .image-store {
   width: 60%;
-  margin: 50px 20%;
+  margin: 5.5rem 20% 0 20%;
 }
 
 .about-us {
@@ -52,8 +59,9 @@ main {
   margin: 0 auto;
 }
 
+
 .about-us-h1 {
-  margin: 1rem auto 0 auto;
+  margin: 10rem auto 0 auto;
   text-align: center;
   font-stretch: ultra-expanded;
   color: rgb(53, 5, 65);
@@ -181,11 +189,11 @@ background-size: 100vw 100vh; */
   z-index: -2;
   display: flex;
   justify-content: center;
-  margin: 10rem 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .contact-us-h1 {
-  margin: 5rem auto 0 auto;
+  margin: 10rem auto 0 auto;
   text-align: center;
   font-stretch: ultra-expanded;
   color: rgb(53, 5, 65);
@@ -204,8 +212,10 @@ background-size: 100vw 100vh; */
     /* rgba(235, 235, 255, 0.3) 2.08%, */
     rgb(235, 230, 219) 44.38%,
     rgb(174, 141, 161) 89.58%,
-    rgb(166, 129, 154) 96.87%,
-    rgba(53, 5, 65, 0.45) 100%
+    rgb(166, 129, 154) 96.87%
+    /* rgba(53, 5, 65, 0.45) 100% */
+    
+    
   );
 }
 
@@ -252,7 +262,7 @@ background-size: 100vw 100vh; */
 /*<----- Main: Contact Us Section  : Our Address------>*/
 
 .our-address-h1 {
-  margin: 5rem auto 0 auto;
+  margin: 10rem auto 0 auto;
   text-align: center;
   font-stretch: ultra-expanded;
   color: rgb(53, 5, 65);
@@ -332,7 +342,7 @@ footer {
   width: 100%;
   line-height: 1.5;
   margin: 3rem 0 0 0;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   /* background: linear-gradient(180deg, #FFFFFF 2.08%, #EBE6DB 34.38%, #AE8DA1 89.58%, #A6819A 96.87%, rgba(53, 5, 65, 0.6) 100%); */
   background: linear-gradient(180deg,#EBE6DB 34.38%, rgb(235, 43, 227, 0.5) 100%);
 }
