@@ -36,11 +36,9 @@ h6 {
   font-family: "Sansation_Regular_gr", "Didact Gothic", sans-serif;
 }
 
-
 /* p {
   font-family: "Didact Gothic", "Manrope", sans-serif;
 } */
-
 
 /*<---Header: Logo and Lantern <----*/
 
@@ -50,8 +48,7 @@ header {
   justify-content: center;
   margin: 0 0 0 0;
   background-image: url("/resources/images/rough-plaster-wall-half.jpg");
-  box-shadow: 0px 1px  5px rgb(29, 20, 23, 0.5);
-
+  box-shadow: 0px 1px 5px rgb(29, 20, 23, 0.5);
 }
 
 .brand-alist ul {
@@ -67,7 +64,7 @@ header {
   font-size: 1.1rem;
   color: rgb(29, 20, 23);
   font-weight: 500;
-  font-family: Sansation_Regular_gr, 'Didact Gothic', sans-serif;
+  font-family: Sansation_Regular_gr, "Didact Gothic", sans-serif;
 }
 
 .brand-name {
@@ -75,15 +72,12 @@ header {
   background-color: rgba(253, 252, 252, 0.747);
   margin: 10px 0 20px 0;
   border-radius: 2px;
-  box-shadow: 0px -2px  8px rgb(29, 20, 23, 0.3);
+  box-shadow: 0px -2px 8px rgb(29, 20, 23, 0.3);
 }
 
 .brand-name:hover {
-  box-shadow: 20px -1px 70px rgba(246, 151, 243, 1) ;
+  box-shadow: 20px -1px 70px rgba(246, 151, 243, 1);
 }
-
-
-
 
 /*----> Main ----*/
 main {
@@ -220,6 +214,19 @@ main {
 
 /*<----- Main: Contact Us Section ------>*/
 
+.contact-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 1.08%,
+    rgb(235, 230, 219) 10.38%,
+    rgb(174, 141, 161) 25.58%,
+    rgba(53, 5, 65, 0.45) 31.5%,
+    rgb(166, 129, 154) 33%,
+    rgb(235, 230, 219) 36.38%,
+    rgba(255, 255, 255, 1) 41.08%
+  );
+}
+
 .contact-us {
   /* background-image: url(/resources/images/Images/liston\ easter\ miltos\ fb\ croped2.jpg);
 background-repeat: no-repeat;
@@ -246,14 +253,15 @@ background-size: 100vw 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80%;
   /* background-color: rgba(235, 230, 219, 1); */
-  margin: 3rem 0 0 0;
+  /* background-color:  rgba(255, 255, 255, 0); */
+  margin: 3rem auto 0 auto;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 10.08%,
-    /* rgba(235, 235, 255, 0.3) 2.08%, */ rgb(235, 230, 219) 44.38%,
-    rgb(174, 141, 161) 89.58%,
-    rgb(166, 129, 154) 96.87% /* rgba(53, 5, 65, 0.45) 100% */
+    rgba(235, 230, 219, 1) 64.38%,
+    rgb(255, 255, 255, 1) 99.38%
   );
 }
 
@@ -335,7 +343,6 @@ background-size: 100vw 100vh; */
   align-items: center;
 
   line-height: 1.2;
-
 }
 
 .our-address-shop-details-image {
@@ -352,13 +359,13 @@ background-size: 100vw 100vh; */
   text-decoration: inherit;
 }
 
-.our-address-shop-details-text-phones a:hover  {
+.our-address-shop-details-text-phones a:hover {
   color: rgb(85, 26, 139);
   text-decoration: underline;
   text-underline-offset: 0.1rem;
 }
 
-.our-address-shop-details-text-phones a:active{
+.our-address-shop-details-text-phones a:active {
   color: rgba(246, 151, 243, 1);
   text-decoration: underline;
   text-underline-offset: 0.1rem;
@@ -399,7 +406,7 @@ footer a:hover {
   text-underline-offset: 0.2rem;
 }
 
-footer a:active{
+footer a:active {
   color: rgba(246, 151, 243, 1);
   text-decoration: underline;
   text-underline-offset: 0.1rem;
