@@ -25,6 +25,7 @@ font color of handmade: rgb(29, 55, 46, 1)
 * {
   scroll-behavior: smooth;
   margin: 0;
+  padding: 0;
 }
 
 

@@ -20,6 +20,7 @@ rgba(53, 5, 65, 0.28) */
 
 body {
   overscroll-behavior: none;
+  overflow-x: hidden;
   background-repeat: no-repeat;
   font-family: "Sansation_Regular_gr", "Manrope", "Didact Gothic", sans-serif;
   color: black;
@@ -87,13 +88,17 @@ main {
 /*<----- Main: About Us Section ------>*/
 
 .image-store {
+  width: 100%;
+}
+
+.image-store-div {
   width: 60%;
-  margin: 5.5rem 20% 0 20%;
+  margin: 5.5rem auto 0 auto;
 }
 
 .about-us {
-  width: 100%;
-  margin: 0 auto;
+  /* width: 100%;
+  margin: 0 auto; */
 }
 
 .about-us-h1 {
@@ -307,8 +312,6 @@ background-size: 100vw 100vh; */
 
 /*<----- Main: Contact Us Section  : Our Address------>*/
 
-.our-address {
-}
 
 .our-address-h1 {
   margin: 10rem auto 0 auto;
@@ -322,9 +325,10 @@ background-size: 100vw 100vh; */
 }
 
 .our-address-map-google-embeded {
-  width: 100%;
+  width: 99%;
   height: 50vh;
   border: 10px white solid;
+  margin: 0 auto 0 auto;
 }
 
 .our-address-shop-details {
@@ -342,11 +346,15 @@ background-size: 100vw 100vh; */
 
 .our-address-shop-details-image {
   padding: 2rem 2rem 2rem 2rem;
-  width: 35%;
+  width: 100%;
   border-radius: 33px;
   filter: drop-shadow(5px 3px 7px rgba(235, 230, 219, 1))
     drop-shadow(5px 5px 8px rgba(124, 69, 106, 0.06))
     drop-shadow(5px 7px 10px rgba(246, 151, 243, 0.3));
+}
+
+.our-address-shop-details-image-div {
+  width: 35%
 }
 
 .our-address-shop-details-text-phones {
@@ -437,16 +445,74 @@ footer a:active {
 }
 
 /*<----- Media Queries ------>*/
+@media (max-width: 992px){
+
+  .image-store-div {
+    width: 80%;
+    margin: 5.5rem auto 0 auto;
+  }
+
+  .our-address-map-google-embeded {
+    width: 99%;
+    height: 50vh;
+  }
+
+
+  .our-address-shop-details {  
+    margin: 8rem 0 0 0;
+  }
+
+  .our-address-shop-details-image-div{
+    width: 40%
+  }
+}
+
+@media (max-width: 768px){
+
+  .image-store-div {
+    width: 90%;
+    margin: 5.5rem auto 0 auto;
+  }
+
+  .about-us-text {
+    width: 75%;
+  }
+
+  .our-products{
+    display: block;   
+  }
+
+  .our-products-category {
+    margin: 3rem 0 0 0 ;
+  }
+
+  .our-address-map-google-embeded {
+    width: 96%;
+    height: 60vh;
+    margin: auto;
+  }
+
+  .our-address-shop-details {
+    justify-content: center;
+  }
+
+  .our-address-shop-details-image-div{
+    width: 36%;
+
+  }
+}
+
 
 @media (max-width: 600px) {
+
   body {
     background-image: none;
     font-size: 0.9em;
   }
 
-  .image-store {
+  .image-store-div {
     width: 100%;
-    margin: auto;
+    margin: 5.5rem auto 0 auto;
   }
 }
 
