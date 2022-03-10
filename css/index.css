@@ -312,7 +312,6 @@ background-size: 100vw 100vh; */
 
 /*<----- Main: Contact Us Section  : Our Address------>*/
 
-
 .our-address-h1 {
   margin: 10rem auto 0 auto;
   text-align: center;
@@ -354,8 +353,6 @@ background-size: 100vw 100vh; */
 
 .our-address-shop-details-image-div {
   width: 35%;
- 
-  
 }
 
 .our-address-shop-details-text-phones {
@@ -446,8 +443,7 @@ footer a:active {
 }
 
 /*<----- Media Queries ------>*/
-@media (max-width: 992px){
-
+@media (max-width: 992px) {
   .image-store-div {
     width: 80%;
     margin: 5.5rem auto 0 auto;
@@ -458,18 +454,16 @@ footer a:active {
     height: 50vh;
   }
 
-
-  .our-address-shop-details {  
+  .our-address-shop-details {
     margin: 8rem 0 0 0;
   }
 
-  .our-address-shop-details-image-div{
-    width: 40%
+  .our-address-shop-details-image-div {
+    width: 40%;
   }
 }
 
-@media (max-width: 768px){
-
+@media (max-width: 768px) {
   body {
     background-image: none;
     font-size: 0.9em;
@@ -484,12 +478,12 @@ footer a:active {
     width: 75%;
   }
 
-  .our-products{
-    display: block;   
+  .our-products {
+    display: block;
   }
 
   .our-products-category {
-    margin: 3rem 0 0 0 ;
+    margin: 3rem 0 0 0;
   }
 
   .our-address-map-google-embeded {
@@ -506,75 +500,68 @@ footer a:active {
     padding: 2rem 0 0.5rem 0;
   }
 
-  .our-address-shop-details-image-div{
+  .our-address-shop-details-image-div {
     width: 42%;
-
   }
 }
 
-
 @media (max-width: 600px) {
-
   body {
     background-image: none;
     font-size: 0.9em;
   }
 
   header {
-    background-image: none;
+    /* background-image: none;
     background-color: white;
+    height: fit-content; */
+
+    min-height: 300px;
+    margin: 0 0 1rem 0;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .brand-name {
+    margin: 10px 10px 20px 10px;
+    box-shadow: none;
     height: fit-content;
-    }
-    
-      .brand-name {
-        margin: 10px 0 20px 0;
-        box-shadow: none;
-      }
-    
-      .brand-name-image {
-        width: 100%;
-      }
-    
-      
-      .brand-alist ul li a {
-        width: 80%;
-        font-size: 1rem;
-       
-      }
-    
+  }
+
+  .brand-name-image {
+    width: 100%;
+  }
+
+  .brand-alist ul li a {
+    width: 80%;
+    font-size: 1rem;
+  }
 
   .image-store-div {
     width: 100%;
-    margin: 5.5rem auto 0 auto;
+    margin: 1rem auto 0 auto;
   }
 
   .our-address-shop-details {
     width: 100%;
-  
+
     margin: 5rem 0 0 0;
     background-color: rgba(235, 230, 219, 0);
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-
   }
 
-  .our-address-shop-details-image-div{
+  .our-address-shop-details-image-div {
     width: 50%;
-
   }
 
   .our-address-shop-details-image {
     padding: 0;
   }
-
-
 }
-
-
 
 /*<----- Main: Products -> Fanaria Section ------>*/
 
