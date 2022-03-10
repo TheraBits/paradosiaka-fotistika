@@ -155,27 +155,6 @@ font color of handmade: rgb(29, 55, 46, 1)
 
 @media (max-width: 600px) {
 
-header {
-background-image: none;
-background-color: white;
-height: fit-content;
-}
-
-  .brand-name {
-    margin: 10px 0 20px 0;
-    box-shadow: none;
-  }
-
-  .brand-name-image {
-    width: 100%;
-  }
-
-  
-  .brand-alist ul li a {
-    width: 80%;
-    font-size: 1rem;
-   
-  }
 
  
   .nav-bar {

@@ -347,14 +347,15 @@ background-size: 100vw 100vh; */
 .our-address-shop-details-image {
   padding: 2rem 2rem 2rem 2rem;
   width: 100%;
-  border-radius: 33px;
   filter: drop-shadow(5px 3px 7px rgba(235, 230, 219, 1))
     drop-shadow(5px 5px 8px rgba(124, 69, 106, 0.06))
     drop-shadow(5px 7px 10px rgba(246, 151, 243, 0.3));
 }
 
 .our-address-shop-details-image-div {
-  width: 35%
+  width: 35%;
+ 
+  
 }
 
 .our-address-shop-details-text-phones {
@@ -519,6 +520,29 @@ footer a:active {
     font-size: 0.9em;
   }
 
+  header {
+    background-image: none;
+    background-color: white;
+    height: fit-content;
+    }
+    
+      .brand-name {
+        margin: 10px 0 20px 0;
+        box-shadow: none;
+      }
+    
+      .brand-name-image {
+        width: 100%;
+      }
+    
+      
+      .brand-alist ul li a {
+        width: 80%;
+        font-size: 1rem;
+       
+      }
+    
+
   .image-store-div {
     width: 100%;
     margin: 5.5rem auto 0 auto;
@@ -541,6 +565,10 @@ footer a:active {
   .our-address-shop-details-image-div{
     width: 50%;
 
+  }
+
+  .our-address-shop-details-image {
+    padding: 0;
   }
 
 
