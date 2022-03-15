@@ -124,7 +124,7 @@ main {
 }
 
 .about-us-text {
-  width: 60%;
+  width: 50%;
   background-color: rgba(235, 230, 219, 1);
   margin: 3rem auto 0 auto;
   padding: 5rem 4rem 4rem 4rem;
@@ -134,11 +134,25 @@ main {
 
 .about-us-text > p {
   font-weight: 600;
+
+
 }
+
+
 
 .about-us-text-lightings {
   display: flex;
   align-items: center;
+  margin: 0 0 0 0;
+
+}
+
+.about-us-text-lightings ul  {
+list-style-type: circle;
+list-style-image: linear-gradient(rgba(246, 151, 243, 1) 10%,
+  rgba(124, 69, 106, 0.76) 50%,
+  rgba(53, 5, 65, 0.28) 80%);
+
 }
 
 .about-us-text-lightings-img {
@@ -154,6 +168,14 @@ main {
   display: flex;
   align-items: center;
   margin: 2rem 0 0 0;
+}
+
+.about-us-text-other-products ul li{
+  list-style-type: circle;
+  /* list-style-image: linear-gradient(rgba(246, 151, 243, 1) 10%,
+  rgba(124, 69, 106, 0.76) 50%,
+  rgba(53, 5, 65, 0.28) 80%); */
+ 
 }
 
 .about-us-text-other-products-img {
@@ -443,11 +465,26 @@ footer a:active {
 }
 
 /*<----- Media Queries ------>*/
+
+@media (max-width: 1200px){
+.about-us-text-lightings-img {
+ top: -4.2rem;
+ 
+}
+
+
+}
+
 @media (max-width: 992px) {
   .image-store-div {
     width: 80%;
     margin: 5.5rem auto 0 auto;
   }
+
+  .about-us-text-lightings-img {
+    top: -5rem;
+    
+   }
 
   .our-address-map-google-embeded {
     width: 99%;
@@ -477,6 +514,11 @@ footer a:active {
   .about-us-text {
     width: 75%;
   }
+
+  .about-us-text-lightings-img {
+    top: -3.5rem;
+    
+   }
 
   .our-products {
     display: block;
@@ -541,6 +583,39 @@ footer a:active {
     width: 100%;
     margin: 1rem auto 0 auto;
   }
+
+  .about-us-text {
+    width: 80%;
+    background-color: rgba(235, 230, 219, 1);
+    margin: 3rem auto 0 auto;
+    padding: 2rem 2rem 2rem 4rem;
+    font-weight: 500;
+    line-height: 2;
+  }
+
+  .about-us-text-lightings-img {
+    top: -4.95rem;
+    
+   }
+
+   .our-products {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-us-text-call-img {
+    width: 3.5rem;
+    /* margin: 0 2rem 0 2rem; */
+    margin: 0 1.5rem 0 1.5rem;
+  }
+
+  .contact-us-text-message-apps-a {
+   
+    width: 7rem;
+  
+  }
+  
+  
 
   .our-address-shop-details {
     width: 100%;
