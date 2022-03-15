@@ -564,7 +564,7 @@ footer a:active {
     background-color: white;
     height: fit-content; */
 
-    min-height: 100vh;
+    min-height: 90vh;
     margin: 0 1rem 1rem 0;
     flex-direction: column;
     justify-content: flex-start;
@@ -615,7 +615,7 @@ footer a:active {
 
    .our-products {
     display: block;
-    width: 100%;
+    width: 90%;
     margin: 0 0 0 0;
   }
 
