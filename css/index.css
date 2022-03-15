@@ -564,7 +564,7 @@ footer a:active {
     background-color: white;
     height: fit-content; */
 
-    min-height: 100%;
+    min-height: 90vh;
     margin: 0 1rem 1rem 0;
     flex-direction: column;
     justify-content: flex-start;
@@ -573,7 +573,7 @@ footer a:active {
   }
 
   .logo-fanari-3-small-viewport {
-    /* display: block; */
+    display: block;
     width: 25%;
     
     margin: 0 auto 8rem auto;
@@ -655,15 +655,10 @@ footer a:active {
 
 @media (max-width: 425px) {
 
-  header {
-    
-    min-height: 100%;
+
 
   .logo-fanari-3-small-viewport {
-    display: block;
     width: 30%;
-    
-    margin: 0 auto 8rem auto;
   }
 
   .brand-alist ul li a {
