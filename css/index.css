@@ -132,9 +132,8 @@ main {
   line-height: 2;
 }
 
-.about-us-text > p {
+.about-us-text  p {
   font-weight: 600;
-
 
 }
 
@@ -550,7 +549,7 @@ footer a:active {
 @media (max-width: 600px) {
   body {
     background-image: none;
-    font-size: 0.9em;
+    font-size: 1rem;
   }
 
   header {
@@ -601,6 +600,7 @@ footer a:active {
    .our-products {
     display: block;
     width: 100%;
+    margin: 0 0 0 0;
   }
 
   .contact-us-text-call-img {
@@ -614,7 +614,6 @@ footer a:active {
     width: 7rem;
   
   }
-  
   
 
   .our-address-shop-details {
@@ -630,13 +629,46 @@ footer a:active {
   }
 
   .our-address-shop-details-image-div {
-    width: 50%;
+    width: 100%;
   }
 
   .our-address-shop-details-image {
     padding: 0;
   }
 }
+
+@media (max-width: 425px) {
+
+  .about-us-h2 , .about-us-h1 {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .about-us-h3 {
+    text-align: inherit;
+  }
+
+  .contact-us-text-call-img {
+    width: 3rem;
+    /* margin: 0 2rem 0 2rem; */
+    margin: 0 1rem 0 1rem;
+  }
+
+  .contact-us-text-message-apps-img {
+    width: 3.5rem;
+  }
+
+  .contact-us-text-message-apps-a {
+   
+    width: 5.6rem;
+  
+  }
+
+  .contact-us-text-message-apps-figcaption {
+    font-size: 0.9rem;
+  }
+
+}
+
 
 /*<----- Main: Products -> Fanaria Section ------>*/
 
