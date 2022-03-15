@@ -564,7 +564,7 @@ footer a:active {
     background-color: white;
     height: fit-content; */
 
-    min-height: 90vh;
+    min-height: 100vh;
     margin: 0 1rem 1rem 0;
     flex-direction: column;
     justify-content: flex-start;
@@ -654,17 +654,6 @@ footer a:active {
 }
 
 @media (max-width: 425px) {
-
-
-
-  .logo-fanari-3-small-viewport {
-    width: 30%;
-  }
-
-  .brand-alist ul li a {
-
-    font-size: 1.1rem;
-  }
 
   .about-us-h2 , .about-us-h1 {
     padding: 0 1rem 0 1rem;
