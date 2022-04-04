@@ -136,28 +136,25 @@ main {
   line-height: 2;
 }
 
-.about-us-text  p {
+.about-us-text p {
   font-weight: 600;
   margin: 0 0 1rem 0;
   font-size: 1rem;
-
 }
-
-
 
 .about-us-text-lightings {
   display: flex;
   align-items: center;
   margin: 0 0 0 0;
-
 }
 
-.about-us-text-lightings ul  {
-list-style-type: circle;
-list-style-image: linear-gradient(rgba(246, 151, 243, 1) 10%,
-  rgba(124, 69, 106, 0.76) 50%,
-  rgba(53, 5, 65, 0.28) 80%);
-
+.about-us-text-lightings ul {
+  list-style-type: circle;
+  list-style-image: linear-gradient(
+    rgba(246, 151, 243, 1) 10%,
+    rgba(124, 69, 106, 0.76) 50%,
+    rgba(53, 5, 65, 0.28) 80%
+  );
 }
 
 .about-us-text-lightings-img {
@@ -175,12 +172,11 @@ list-style-image: linear-gradient(rgba(246, 151, 243, 1) 10%,
   margin: 2rem 0 0 0;
 }
 
-.about-us-text-other-products ul li{
+.about-us-text-other-products ul li {
   list-style-type: circle;
   /* list-style-image: linear-gradient(rgba(246, 151, 243, 1) 10%,
   rgba(124, 69, 106, 0.76) 50%,
   rgba(53, 5, 65, 0.28) 80%); */
- 
 }
 
 .about-us-text-other-products-img {
@@ -471,13 +467,10 @@ footer a:active {
 
 /*<----- Media Queries ------>*/
 
-@media (max-width: 1200px){
-.about-us-text-lightings-img {
- top: -4.2rem;
- 
-}
-
-
+@media (max-width: 1200px) {
+  .about-us-text-lightings-img {
+    top: -4.2rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -488,8 +481,7 @@ footer a:active {
 
   .about-us-text-lightings-img {
     top: -5rem;
-    
-   }
+  }
 
   .our-address-map-google-embeded {
     width: 99%;
@@ -522,8 +514,7 @@ footer a:active {
 
   .about-us-text-lightings-img {
     top: -3.5rem;
-    
-   }
+  }
 
   .our-products {
     display: block;
@@ -553,13 +544,15 @@ footer a:active {
 }
 
 @media (max-width: 600px) {
-
   body {
     background-image: none;
     font-size: 1rem;
   }
 
   header {
+
+    display: none;
+
     /* background-image: none;
     background-color: white;
     height: fit-content; */
@@ -569,13 +562,12 @@ footer a:active {
     flex-direction: column;
     justify-content: flex-start; */
    
-display: none;
   }
 
   .logo-fanari-3-small-viewport {
     display: block;
     width: 25%;
-    
+
     margin: 0 auto 8rem auto;
   }
 
@@ -599,7 +591,7 @@ display: none;
     margin: 1rem auto 0 auto;
   }
 
-  .about-us-text {
+    .about-us-text {
     width: 80%;
     background-color: rgba(235, 230, 219, 1);
     margin: 3rem auto 0 auto;
@@ -610,10 +602,9 @@ display: none;
 
   .about-us-text-lightings-img {
     top: -4.95rem;
-    
-   }
+  }
 
-   .our-products {
+  .our-products {
     display: block;
     width: 90%;
     margin: 0 auto 0 auto;
@@ -626,11 +617,8 @@ display: none;
   }
 
   .contact-us-text-message-apps-a {
-   
     width: 7rem;
-  
   }
-  
 
   .our-address-shop-details {
     width: 100%;
@@ -654,8 +642,8 @@ display: none;
 }
 
 @media (max-width: 425px) {
-
-  .about-us-h2 , .about-us-h1 {
+  .about-us-h2,
+  .about-us-h1 {
     padding: 0 1rem 0 1rem;
   }
 
@@ -674,17 +662,13 @@ display: none;
   }
 
   .contact-us-text-message-apps-a {
-   
     width: 5.6rem;
-  
   }
 
   .contact-us-text-message-apps-figcaption {
     font-size: 0.9rem;
   }
-
 }
-
 
 /*<----- Main: Products -> Fanaria Section ------>*/
 

@@ -35,15 +35,13 @@ font color of handmade: rgb(29, 55, 46, 1)
 
 /*<----- Navigation Bar ------>*/
 
-.nav-header{
+.nav-header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
 }
 
-
 .nav-bar {
-  
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 1) 0%,
@@ -95,10 +93,8 @@ font color of handmade: rgb(29, 55, 46, 1)
   text-underline-offset: 0.2rem;
   /* color: rgba(246, 151, 243, 1); */
   color: rgba(124, 69, 106, 1);
-  text-shadow: 5px 5px 25px rgba(246, 151, 243, 0.85)  ;
+  text-shadow: 5px 5px 25px rgba(246, 151, 243, 0.85);
 }
-
-
 
 .dropdown {
   position: relative;
@@ -128,7 +124,8 @@ font color of handmade: rgb(29, 55, 46, 1)
 }
 
 .fb {
-  font-size: 1.5rem}
+  font-size: 1.5rem;
+}
 
 /* ----- Navigation Bar: Logo Image - Fanari ----*/
 
@@ -172,9 +169,6 @@ font color of handmade: rgb(29, 55, 46, 1)
 }
 
 @media (max-width: 600px) {
-
- 
-
   .identity {
     display: flex;
     justify-content: space-between;
@@ -182,27 +176,20 @@ font color of handmade: rgb(29, 55, 46, 1)
     padding: 1rem;
 
     background-color: white;
-
-  
   }
 
   .close {
     display: block;
   }
 
-
-
   .brand-name-image {
-    width: 60%;
-   
+    width: 80%;
   }
 
   .nav-bar {
     font-size: 1.2rem;
     justify-content: space-between;
     align-items: flex-start;
-
-
 
     background-image: linear-gradient(
       to right,
@@ -236,34 +223,23 @@ font color of handmade: rgb(29, 55, 46, 1)
     display: flex;
     flex-direction: column;
     padding: 0 0 0 1rem;
-   
   }
 
   .nav-bar ul li {
     margin: 1rem 0;
-    
-    
   }
-
 
   .nav-bar ul li a {
     padding: 0 3.3px;
-  
-   
   }
 
-  
-  
   .nav-bar li a:hover {
     text-decoration: underline;
     text-underline-offset: 0.2rem;
-    background-color:  rgba(246, 151, 243, 0.3) ;
+    background-color: rgba(246, 151, 243, 0.3);
     color: rgba(124, 69, 106, 1);
     border-radius: 10px;
-    
   }
-
-  
 
   .nav-bar span {
     display: none;
@@ -273,14 +249,14 @@ font color of handmade: rgb(29, 55, 46, 1)
     position: relative;
     display: block;
     background-color: transparent;
-    margin:  0;
+    margin: 0;
     padding: 0 0 0 1.5rem;
- 
   }
 
   .hamburger,
   .close {
     font-size: 2rem;
+    margin: 1rem;
   }
 
   .hamburger:active,
