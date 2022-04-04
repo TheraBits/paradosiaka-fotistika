@@ -35,13 +35,15 @@ font color of handmade: rgb(29, 55, 46, 1)
 
 /*<----- Navigation Bar ------>*/
 
+.nav-header{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
 .nav-bar {
-  /* background-color: rgb(231, 220, 209, 0.5);
-  try background color :a brighter yellow like rgba(243, 243, 52, 0.63) */
-  /* background-color: transparent; */
-
-  /* background-image: url("/resources/images/rough-plaster-wall-half.jpg"); */
-
+  
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 1) 0%,
@@ -61,9 +63,9 @@ font color of handmade: rgb(29, 55, 46, 1)
 
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  /* position: sticky;
   position: -webkit-sticky;
-  top: 0;
+  top: 0; */
   align-items: center;
   overflow: visible;
   max-height: 40px;
@@ -91,8 +93,12 @@ font color of handmade: rgb(29, 55, 46, 1)
 .nav-bar li a:active {
   text-decoration: underline;
   text-underline-offset: 0.2rem;
-  color: rgba(246, 151, 243, 1);
+  /* color: rgba(246, 151, 243, 1); */
+  color: rgba(124, 69, 106, 1);
+  text-shadow: 5px 5px 25px rgba(246, 151, 243, 0.85)  ;
 }
+
+
 
 .dropdown {
   position: relative;
@@ -173,14 +179,21 @@ font color of handmade: rgb(29, 55, 46, 1)
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+
+    background-color: white;
+
+  
   }
 
   .close {
     display: block;
   }
 
+
+
   .brand-name-image {
-    width: 55%;
+    width: 60%;
    
   }
 
@@ -208,14 +221,15 @@ font color of handmade: rgb(29, 55, 46, 1)
     width: 100%;
     max-height: none;
     height: 100vh;
+    padding: 1rem 0 0 0;
 
     /* animate slide up/down */
-    transform: translateY(-100%);
-    transition: transform 0.2s ease;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
   }
 
   nav:target {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 
   .nav-bar > ul {
@@ -227,20 +241,26 @@ font color of handmade: rgb(29, 55, 46, 1)
 
   .nav-bar ul li {
     margin: 1rem 0;
+    
+    
   }
 
 
   .nav-bar ul li a {
     padding: 0 3.3px;
+  
    
   }
 
   
   
-  .nav-bar li a:active {
+  .nav-bar li a:hover {
     text-decoration: underline;
     text-underline-offset: 0.2rem;
-    color: rgba(246, 151, 243, 1);
+    background-color:  rgba(246, 151, 243, 0.3) ;
+    color: rgba(124, 69, 106, 1);
+    border-radius: 10px;
+    
   }
 
   
@@ -261,6 +281,11 @@ font color of handmade: rgb(29, 55, 46, 1)
   .hamburger,
   .close {
     font-size: 2rem;
+  }
+
+  .hamburger:active,
+  .close:active {
+    color: rgba(246, 151, 243, 1);
   }
 
   .logo-fanari3 {
