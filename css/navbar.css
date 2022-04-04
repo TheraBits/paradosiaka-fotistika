@@ -36,6 +36,8 @@ font color of handmade: rgb(29, 55, 46, 1)
   /* background-color: rgb(231, 220, 209, 0.5);
   try background color :a brighter yellow like rgba(243, 243, 52, 0.63) */
   /* background-color: transparent; */
+
+  /* background-image: url("/resources/images/rough-plaster-wall-half.jpg"); */
   
   background-image: linear-gradient(to right, 
           rgba(255, 255, 255, 1) 0%,
@@ -92,11 +94,41 @@ font color of handmade: rgb(29, 55, 46, 1)
  
 }
 
+.dropdown {
+  position:relative;
+  display: flex;
+  flex-direction: column;
 
 
+}
 
-.drop-down-menu-products{
+.dropdown:hover .dropdown-menu{
+ display: block;
+
+ 
+}
+
+
+.dropdown-menu {
   display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 15rem;
+  padding: 1rem 0 1rem 0;
+  background-color: rgba(245, 243, 237, 1);
+  left: -5px;
+  top: 20px;
+  padding: 0.5rem 0 0 1rem;
+  line-height: 1.2rem;
+ 
+
+ 
+  
+
+}
+
+.dropdown-menu li {
+  padding: 0.4rem;
 }
 
 
