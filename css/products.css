@@ -8,35 +8,88 @@
 
 body {
     font-family: 'Didact Gothic', sans-serif;
+
+    background-color: rgba(245, 243, 237, 0.3);
    
 }
 
-header, h1 {
+h1 {
     font-family: Sansation_Regular_gr, 'Didact Gothic', sans-serif;
+  
+  text-align: center;
+  font-stretch: ultra-expanded;
+  color: rgb(53, 5, 65);
+
+  margin: 4.5rem auto 0 auto;
 }
+
+h2 {
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  font-stretch: ultra-expanded;
+  font-size: 1.2rem;
+  color: rgba(29, 55, 46, 1);
+}
+
+
+
+.img-liston{
+  width: 100%;
+  margin: 4.5rem 0 0 0;
+  height: 40vh;
+  object-fit: cover;
+  object-position: bottom right;
+}
+
+
+
+.about-product{
+  width: 70%;
+  /* background-color: rgba(235, 230, 219, 1); */
+  /* margin: 3rem auto 0 auto; */
+  padding: 3rem 4rem 3rem 4rem;
+  font-weight: 500;
+  line-height: 2;
+  margin: 0 auto;
+
+  
+}
+
+.about-product p {
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
 
 
 .fanaria, .fotistika, .krani, .kolones {
+  margin: 0 0 0 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill,  minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill,  minmax(300px, 1fr));
     gap: 40px;
     justify-content: center;
     align-items: center;
+    padding: 5rem;
+    background-image: url(../resources/images/rough-plaster-wall.jpg);
+  
     
 }
 
 
 
-.polaroid img{
+.polaroid img {
     width: 100%;
     display: block;
-    
-   
+    height: 50vh;
+    object-fit: contain;
+       
 }
 
 div.polaroid {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   padding: 1rem;
  
   }
 
@@ -48,9 +101,11 @@ div.polaroid {
   div.polaroid img {
     width: 100%;
     max-width: 400px;
-    background-color: whitesmoke;
+    background-color: rgba(245, 243, 237, 1);
+  }
+
+  .to-top i {
+      font-size: 2.5rem;
   }
  
-  h1 {
-      text-align: center;
-  }
+ 
