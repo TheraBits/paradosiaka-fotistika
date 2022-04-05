@@ -28,6 +28,10 @@ body {
   /* line-height: 1.5em; */
 }
 
+.nav-header {
+  z-index: 1000;
+}
+
 h1,
 h2,
 h3,
@@ -93,8 +97,6 @@ main {
 
 .image-store {
   width: 100%;
- 
- 
 }
 
 .image-store-div {
@@ -451,20 +453,8 @@ footer a:active {
   text-align: center;
 }
 
-.to-top-text {
-  text-decoration: none;
-}
-
-.to-top-text:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.to-top-image {
-  /* position: relative;
-  top: 0.28rem;
-  right: 0.3rem;  */
-  width: 2vw;
+.to-top i {
+  font-size: 2.5rem;
 }
 
 /*<----- Media Queries ------>*/
@@ -552,7 +542,6 @@ footer a:active {
   }
 
   header {
-
     display: none;
 
     /* background-image: none;
@@ -563,7 +552,6 @@ footer a:active {
     margin: 0 0 0 0;
     flex-direction: column;
     justify-content: flex-start; */
-   
   }
 
   .logo-fanari-3-small-viewport {
@@ -593,7 +581,7 @@ footer a:active {
     margin: 1rem auto 0 auto;
   }
 
-    .about-us-text {
+  .about-us-text {
     width: 80%;
     background-color: rgba(235, 230, 219, 1);
     margin: 3rem auto 0 auto;

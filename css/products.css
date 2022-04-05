@@ -1,21 +1,18 @@
 @font-face {
-    font-family: Sansation_Regular_gr;
-    src: url(/resources/fonts/Sansation-Regular-gr.ttf);
-  }
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-
-
+  font-family: Sansation_Regular_gr;
+  src: url(/resources/fonts/Sansation-Regular-gr.ttf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 
 body {
-    font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
 
-    background-color: rgba(245, 243, 237, 0.3);
-   
+  background-color: rgba(245, 243, 237, 0.3);
 }
 
 h1 {
-    font-family: Sansation_Regular_gr, 'Didact Gothic', sans-serif;
-  
+  font-family: Sansation_Regular_gr, "Didact Gothic", sans-serif;
+
   text-align: center;
   font-stretch: ultra-expanded;
   color: rgb(53, 5, 65);
@@ -31,9 +28,7 @@ h2 {
   color: rgba(29, 55, 46, 1);
 }
 
-
-
-.img-liston{
+.img-liston {
   width: 100%;
   margin: 4.5rem 0 0 0;
   height: 40vh;
@@ -41,9 +36,7 @@ h2 {
   object-position: bottom right;
 }
 
-
-
-.about-product{
+.about-product {
   width: 70%;
   /* background-color: rgba(235, 230, 219, 1); */
   /* margin: 3rem auto 0 auto; */
@@ -51,8 +44,6 @@ h2 {
   font-weight: 500;
   line-height: 2;
   margin: 0 auto;
-
-  
 }
 
 .about-product p {
@@ -61,51 +52,44 @@ h2 {
   font-size: 1.2rem;
 }
 
-
-
-.fanaria, .fotistika, .krani, .kolones {
+.fanaria,
+.fotistika,
+.krani,
+.kolones {
   margin: 0 0 0 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,  minmax(300px, 1fr));
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    background-image: url(../resources/images/rough-plaster-wall.jpg);
-  
-    
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-image: url(../resources/images/rough-plaster-wall.jpg);
 }
 
-
-
 .polaroid img {
-    width: 100%;
-    display: block;
-    height: 50vh;
-    object-fit: contain;
-       
+  width: 100%;
+  display: block;
+  height: 50vh;
+  object-fit: contain;
 }
 
 div.polaroid {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   padding: 1rem;
- 
-  }
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+}
 
-  div.container {
-    text-align: center;
-    padding: 10px 20px;
-  }
-  
-  div.polaroid img {
-    width: 100%;
-    max-width: 400px;
-    background-color: rgba(245, 243, 237, 1);
-  }
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
 
-  .to-top i {
-      font-size: 2.5rem;
-  }
- 
- 
+div.polaroid img {
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(245, 243, 237, 1);
+}
+
+.to-top i {
+  font-size: 2.5rem;
+}
