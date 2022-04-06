@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/footer.css" />
 
-    <title>Παραδοσιακά Βενετσιάνικα Φωτιστικά</title>
+    <title>Λάμπες και Φωτιστικά Σαλονιού</title>
   </head>
   <body>
     <section class="nav-header">
@@ -59,13 +59,13 @@
           <li class="dropdown">
             <a href="#" class="active">Προϊόντα </a><span>|</span>
             <ul class="dropdown-menu">
-              <li><a href="#">Παραδοσιακά Φωτιστικά Κήπου</a></li>
+              <li><a href="/fanaria.html">Παραδοσιακά Φωτιστικά Κήπου</a></li>
               <li><a href="/fotistika.html">Φωτιστικά Σαλονιού</a></li>
-              <li><a href="/kolones.html">Κολώνες Φωτισμού</a></li>
+              <li><a href="#">Κολώνες Φωτισμού</a></li>
               <li><a href="/krani-filarmonikis.html">Κράνη Φιλαρμονικής</a></li>
             </ul>
           </li>
-          <li><a href="/index.html#contact-us">Επικοινωνία</a><span>|</span></li>
+          <li><a href="/index.html#contact-us">Επικοινωνία </a><span>|</span></li>
           <li>
             <a
               class="fb"
@@ -97,24 +97,22 @@
             srcset="/resources/images/Images/store-front-mobile-1.jpg"
           />
           <img
-            class="img-liston"
+            class="img-column"
             alt="κτίριο Liston στην Κέρκυρα με παραδοσιακά φανάρια"
-            src="/resources/images/Images/Liston lanterns.jpg"
-            width="1055"
-            height="372"
+            src="/resources/images/Images/column-hero2.jpg"
+            width="958"
+            height="171"
           />
         </picture>
-        <h1>Χειροποίητα Βενετσιάνικα Φωτιστικά</h1>
-        <h2>Εξωτερικών χώρων</h2>
+        <h1>Κολώνες Φωτισμού</h1>
+        <h2>για κήπους, δρόμους, πάρκα </h2>
         <div class="about-product">
           <p>
-            Το εργαστήριο μας εξειδικευεται στην κατασκευή των παραδοσιακών
-            Βενετσιάνικων Φαναριών της Κέρκυρας.
+            Διαθέτουμε κολώνες φωτισμού για τον κήπο.
           </p>
 
           <p>
-            Εξαιρετικό δείγμα της δουλειάς μας είναι τα εντυπωσιακά φαναράκια
-            που κοσμούν το κτίριο Liston στην κεντρική πλατεία της Κέρκυρας.
+            Θα τις βρείτε σε ποικιλία χρωμάτων, μονές ή διπλές.
           </p>
 
           <!-- <button type="button"><a href="">Δείτε τα φανάρια μας</a></button> -->
@@ -124,19 +122,19 @@
       <section class="products">
         <script src="javascript/products.js"></script>
 
-        <div class="fanaria" id="fanaria-section">
-          <script>
-            for (let idx in categFanaria) {
-              document.write(`<div class="polaroid">
-                            <img id="${categFanaria[idx].name}"class="fanaria-img" id="${categFanaria[idx].name}" alt="${categFanaria[idx].alt}" src="${categFanaria[idx].imageURL}">
-                            <div class="container"
-                            <p>${categFanaria[idx].name}</p>
-                            <p>Description: ${categFanaria[idx].description}</p>
-                            </div>
-                            </div>`);
+        <div class="kolones"> 
+
+            <script>
+                for (let idx in categKolones) {
+                 document.write(`<div class="polaroid">
+                    <img class="kolones-img" alt="${categKolones[idx].alt}" src="${categKolones[idx].imageURL}")>
+                    <div class="container"
+                    <p>${categKolones[idx].name}</p>
+                    </div>
+                </div>`)
             }
-          </script>
-        </div>
+                </script>
+          </div>  
       </section>
     </main>
 
