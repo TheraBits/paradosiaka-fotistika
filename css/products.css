@@ -99,7 +99,7 @@ h2 {
 
 .fotistika {
   /* background-image: url(/resources/images/Images/Textured\ Semi-Gloss\ Wallpaper.webp); */
-  background-image: url(/resources/images/Images/Huneycutt\ Textured\ \ Wallpaper.webp);
+  background-image: url(/resources/images/Images/Wallpaper\ large.webp);
 
 }
 
@@ -149,7 +149,7 @@ div.polaroid img {
 
 @media (max-width: 600px) {
   .fotistika {
-    background-image: url(/resources/images/Images/Textured\ Semi-Gloss\ Wallpaper.webp);
+    background-image: url(/resources/images/Images/Wallpaper\ mobile.webp);
     /* background-image: url(/resources/images/Images/Huneycutt\ Textured\ \ Wallpaper.webp); */
     /* background-repeat: no-repeat; */
   }
