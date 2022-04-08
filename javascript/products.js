@@ -334,7 +334,7 @@ const categKrani = [
 
     {
         name: "sima 2",
-        imageURL: "./resources/images/Krani and Simata/sima 2.jpg",
+        imageURL: "./resources/images/Krani and Simata/sima2.png",
         alt: "image of sima 2",
         description: "Κ&Σ β"
 
