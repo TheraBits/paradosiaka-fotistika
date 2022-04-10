@@ -220,17 +220,12 @@ const categFotistika = [
 
   {
     name: "polielaios 2",
-    imageURL: "./resources/images/Lampes/polielaios 2.png",
+    imageURL: "./resources/images/Lampes/polielaios 2.jpg",
     alt: "image of polielaios 2",
     description: "p2",
   },
 
-  {
-    name: "polielaios 3",
-    imageURL: "./resources/images/Lampes/polielaios 3.jpg",
-    alt: "image of polielaios 3",
-    description: "p3",
-  },
+  
 ];
 
 const categKolones = [
