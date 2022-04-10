@@ -1,12 +1,5 @@
 const categFanaria = [
   {
-    name: "fanarakia 1",
-    imageURL: "./resources/images/fanaria/fanarakia 1.jpg",
-    alt: "image of fanaraki 1",
-    description: "a",
-  },
-
-  {
     name: "fanari fixed 1",
     imageURL: "./resources/images/fanaria/fanari fixed 1.png",
     alt: "image of fanari fixed 1",
@@ -46,13 +39,6 @@ const categFanaria = [
     imageURL: "./resources/images/fanaria/fanari hanging 2.jpg",
     alt: "image of fanari hanging 2",
     description: "B",
-  },
-
-  {
-    name: "fanari hanging 3",
-    imageURL: "./resources/images/fanaria/fanari hanging 3.jpg",
-    alt: "image of fanari hanging 3",
-    description: "C",
   },
 
   {
@@ -132,12 +118,7 @@ const categFanaria = [
     description: "CD",
   },
 
-  {
-    name: "liston 3",
-    imageURL: "./resources/images/fanaria/liston 3.jpg",
-    alt: "image of fanari liston 3",
-    description: "EF",
-  },
+  
 ];
 
 const categFotistika = [
@@ -224,8 +205,6 @@ const categFotistika = [
     alt: "image of polielaios 2",
     description: "p2",
   },
-
-  
 ];
 
 const categKolones = [
