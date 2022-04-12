@@ -225,6 +225,7 @@ main {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
+  /* object-position: top; */
   z-index: -1;
 
   /* vertical-align: middle; */
@@ -371,6 +372,7 @@ background-size: 100vw 100vh; */
 }
 
 .our-address-shop-details-image {
+ 
   padding: 2rem 2rem 2rem 2rem;
   width: 100%;
   filter: drop-shadow(5px 3px 7px rgba(235, 230, 219, 1))
@@ -623,6 +625,11 @@ footer a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1.5em;
+
+  }
+
+  .our-address-shop-details-text-phones a {
   }
 
   .our-address-shop-details-image-div {
@@ -631,6 +638,10 @@ footer a:active {
 
   .our-address-shop-details-image {
     padding: 0;
+    margin: 5rem 0 0 0;
+
+    
+
   }
 }
 
