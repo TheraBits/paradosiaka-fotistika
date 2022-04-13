@@ -195,13 +195,19 @@ font color of handmade: rgb(29, 55, 46, 1)
     justify-content: space-between;
     align-items: flex-start;
 
-    background-image: linear-gradient(
-      to right,
+    background-image: conic-gradient(from 150deg at 60% bottom,
+  
       rgba(255, 255, 255, 1) 0%,
       rgba(245, 243, 237, 1) 13.69%,
       rgba(235, 230, 219, 1) 54.46%,
-      rgba(124, 69, 106, 1) 92.65%,
-      rgba(53, 5, 65, 1) 99%
+      rgba(124, 69, 106, 1) 82.85%,
+      rgba(53, 5, 65, 1) 83%,
+      rgba(124, 69, 106, 1) 83.05%,
+      rgba(235, 230, 219, 1) 90.46%,
+      rgba(245, 243, 237, 1) 96.69%,
+      rgba(255, 255, 255, 1) 99%
+      
+      
     );
 
     position: absolute;
