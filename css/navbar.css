@@ -184,7 +184,7 @@ font color of handmade: rgb(29, 55, 46, 1)
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0 0 1rem;
+    padding: 1rem;
 
     background-color: white;
     color:rgba(53, 5, 65, 1);
@@ -244,15 +244,20 @@ font color of handmade: rgb(29, 55, 46, 1)
     display: flex;
     flex-direction: column;
     padding: 1rem 0 0 2.5rem;
+    width: 70%;
 
   }
 
   .nav-bar ul li {
     margin: 1rem 0;
+    
+
   }
 
   .nav-bar ul li a {
     padding: 0 3.3px;
+  
+
   }
 
   .nav-bar li a:hover {
@@ -272,6 +277,7 @@ font color of handmade: rgb(29, 55, 46, 1)
     background-color: transparent;
     margin: 0;
     padding: 0 0 0 1.5rem;
+    width: 100%;
   }
 
   .hamburger,
