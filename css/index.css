@@ -623,18 +623,16 @@ footer a:active {
     justify-content: center;
     align-items: center;
     line-height: 1.5em;
+    margin: 2rem 0 0 0;
   }
 
-  .our-address-shop-details-text-phones a {
-  }
-
-  .our-address-shop-details-image-div {
+   .our-address-shop-details-image-div {
     width: 100%;
   }
 
   .our-address-shop-details-image {
     padding: 0;
-    /* margin: 2rem 0 0 0; */
+   
   }
 }
 
