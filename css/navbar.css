@@ -278,16 +278,11 @@ font color of handmade: rgb(29, 55, 46, 1)
     background-color: transparent;
     margin: 0;
     padding: 0 0 0 1.5rem;
-    width: 100%;
+  
     
   }
 
-  .dropdown-menu li {
-  display: flex;
-  flex-wrap: column nowrap;
-
-  }
-
+  
   .hamburger,
   .close {
     font-size: 2rem;
