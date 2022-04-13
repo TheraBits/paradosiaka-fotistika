@@ -57,7 +57,8 @@
         <ul>
           <li><a href="/index.html">Εργαστήριο</a><span>|</span></li>
           <li class="dropdown">
-            <a href="/index.html#products" class="active">Προϊόντα </a><span>|</span>
+            <a href="/index.html#products" class="active">Προϊόντα </a
+            ><span>|</span>
             <ul class="dropdown-menu">
               <li><a href="/fanaria.html">Παραδοσιακά Φωτιστικά Κήπου</a></li>
               <li><a href="/fotistika.html">Φωτιστικά Σαλονιού</a></li>
@@ -65,7 +66,9 @@
               <li><a href="#">Κράνη Φιλαρμονικής</a></li>
             </ul>
           </li>
-          <li><a href="/index.html#contact-us">Επικοινωνία </a><span>|</span></li>
+          <li>
+            <a href="/index.html#contact-us">Επικοινωνία </a><span>|</span>
+          </li>
           <li>
             <a
               class="fb"
@@ -99,7 +102,7 @@
             height="244"
           />
           <img
-            class="img-krani"
+            class="about-image img-krani"
             alt="κτίριο Liston στην Κέρκυρα με παραδοσιακά φανάρια"
             src="/resources/images/Images/krani-hero.jpg"
             width="1491"
@@ -109,15 +112,18 @@
         <h1>Κράνη και Σήματα Φιλαρμονικής</h1>
         <h2>Χειροποίητα</h2>
         <div class="about-product">
-            <p>
-                Είμαστε από τα ελάχιστα εργαστήρια που ασχολούνται με την τέχνη της περικεφαλαίας.
-              </p>
-      
-              <p> Ακολουθούμε παραδοσιακές τεχνικές σε όλα τα στάδια κατασκευής.</p>
-      
-              <p> Kράνη μας θα δείτε στις φιλαρμονικές της Κέρκυρας, αλλά και του Πειραιά, Μάνδρας, Μεγάρων,
-                Καλλιθέας, Ρόδου, Κω, καθώς και της Κύπρου.
-              </p>
+          <p>
+            Είμαστε από τα ελάχιστα εργαστήρια που ασχολούνται με την τέχνη της
+            περικεφαλαίας.
+          </p>
+
+          <p>Ακολουθούμε παραδοσιακές τεχνικές σε όλα τα στάδια κατασκευής.</p>
+
+          <p>
+            Kράνη μας θα δείτε στις φιλαρμονικές της Κέρκυρας, αλλά και του
+            Πειραιά, Μάνδρας, Μεγάρων, Καλλιθέας, Ρόδου, Κω, καθώς και της
+            Κύπρου.
+          </p>
 
           <!-- <button type="button"><a href="">Δείτε τα φανάρια μας</a></button> -->
         </div>
@@ -126,35 +132,34 @@
       <section class="products">
         <script src="javascript/products.js"></script>
 
-        <div class="krani" id="krani-section" style="background-color: cornflowerblue;">
-        
-            <script>
-                for (let index in categKrani) {
-                 document.write(`<div class="polaroid">
+        <div
+          class="krani"
+          id="krani-section"
+          style="background-color: cornflowerblue"
+        >
+          <script>
+            for (let index in categKrani) {
+              document.write(`<div class="polaroid">
                     <img class="krani-img" alt="${categKrani[index].alt}" src="${categKrani[index].imageURL}")>
                     <div class="container"
                     <p>${categKrani[index].name}</p>
                     </div>
-                </div>`)
+                </div>`);
             }
-                </script>   
-        
-        
-        
+          </script>
         </div>
-
       </section>
     </main>
 
     <footer>
-      <div class="to-top" >
+      <div class="to-top">
         <a href="#" class="to-top-text" aria-label="go to top of the page">
           <i class="fa-solid fa-angle-up" aria-hidden="true"></i>
         </a>
       </div>
 
       <p>
-        Web Development by
+        Web Design and Development by
         <a href="https://www.linkedin.com/in/anita-angelidou-549294231/"
           >Anita Angelidou</a
         >

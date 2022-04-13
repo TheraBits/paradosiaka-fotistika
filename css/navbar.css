@@ -75,7 +75,7 @@ font color of handmade: rgb(29, 55, 46, 1)
   max-height: 40px;
   padding: 0 1rem;
   margin: 0 0 0 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 .nav-bar li {
@@ -109,6 +109,7 @@ font color of handmade: rgb(29, 55, 46, 1)
   position: relative;
   display: flex;
   flex-direction: column;
+ 
 }
 
 .dropdown:hover .dropdown-menu {
@@ -202,6 +203,7 @@ font color of handmade: rgb(29, 55, 46, 1)
     font-size: 1.2rem;
     justify-content: space-between;
     align-items: flex-start;
+
     
 
     background-image: conic-gradient(from 150deg at 60% bottom,
@@ -221,7 +223,7 @@ font color of handmade: rgb(29, 55, 46, 1)
 
     position: absolute;
     overflow: hidden;
-    z-index: 1;
+    z-index: 10;
 
     top: 0;
     left: 0;
@@ -244,8 +246,7 @@ font color of handmade: rgb(29, 55, 46, 1)
     display: flex;
     flex-direction: column;
     padding: 1rem 0 0 2.5rem;
-    width: 70%;
-
+     
   }
 
   .nav-bar ul li {
@@ -278,6 +279,13 @@ font color of handmade: rgb(29, 55, 46, 1)
     margin: 0;
     padding: 0 0 0 1.5rem;
     width: 100%;
+    
+  }
+
+  .dropdown-menu li {
+  display: flex;
+  flex-wrap: column nowrap;
+
   }
 
   .hamburger,

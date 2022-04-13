@@ -151,6 +151,19 @@ div.polaroid img {
 }
 
 @media (max-width: 600px) {
+
+  .about-product p {
+  margin: 2rem 0 0 0;
+  
+}
+
+.about-image {
+  height: 55vh;
+  margin: 2rem 0 0 0;
+}
+  
+  
+
   .fotistika {
     background-image: url(/resources/images/Images/Wallpaper\ mobile.webp);
     /* background-image: url(/resources/images/Images/Huneycutt\ Textured\ \ Wallpaper.webp); */
@@ -164,6 +177,13 @@ div.polaroid img {
     filter: sepia(0.2);
     }
 
+    .krani {
+      background-image: url(/resources/images/Images/metal-mobile.JPG);
+      object-fit: contain;
+    
+    }
+
+   
    
 }
 
