@@ -628,10 +628,12 @@ footer a:active {
 
    .our-address-shop-details-image-div {
     width: 100%;
+    margin: 0;
   }
 
   .our-address-shop-details-image {
     padding: 0;
+    
    
   }
 }
