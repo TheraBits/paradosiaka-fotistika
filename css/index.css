@@ -235,14 +235,22 @@ main {
   position: absolute;
   bottom: 50px;
   width: 60%;
-  background-color: rgba(196, 196, 196, 0.8);
-  text-align: center;
+  height: auto;
+  background-color: rgba(245, 243, 237, 0.8);
+ text-align: center;
+ padding: 0.5rem;
+  
+
+ 
 }
 
 .our-products-category-img-content > h3 {
   color: black;
-  font-weight: 500;
+  font-weight: 600;
   z-index: -3;
+ 
+ 
+  
 }
 
 /*<----- Main: Contact Us Section ------>*/
