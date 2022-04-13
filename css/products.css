@@ -152,13 +152,13 @@ div.polaroid img {
 
 @media (max-width: 600px) {
 
-  .about-product p {
+.about-product p {
   margin: 2rem 0 0 0;
   
 }
 
 .about-image {
-  height: 45vh;
+  height: 55vh;
   margin: 2rem 0 0 0;
 }
   
@@ -168,6 +168,12 @@ div.polaroid img {
     background-image: url(/resources/images/Images/Wallpaper\ mobile.webp);
     /* background-image: url(/resources/images/Images/Huneycutt\ Textured\ \ Wallpaper.webp); */
     /* background-repeat: no-repeat; */
+  }
+
+  .img-lamp {
+    object-fit: cover;
+    object-position: top;
+    
   }
 
   .kolones {
