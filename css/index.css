@@ -372,7 +372,6 @@ background-size: 100vw 100vh; */
 }
 
 .our-address-shop-details-image {
- 
   padding: 2rem 2rem 2rem 2rem;
   width: 100%;
   filter: drop-shadow(5px 3px 7px rgba(235, 230, 219, 1))
@@ -422,7 +421,6 @@ footer {
   /* line-height: 1.5; */
   font-family: "Didact Gothic", sans-serif;
 
-  
   margin: 3rem 0 0 0;
   padding: 0.5rem 1rem 0.5rem 1rem;
   background: linear-gradient(
@@ -540,7 +538,7 @@ footer a:active {
   }
 }
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
   body {
     background-image: none;
     font-size: 1rem;
@@ -618,7 +616,6 @@ footer a:active {
   .our-address-shop-details {
     width: 100%;
 
-   
     background-color: rgba(235, 230, 219, 0);
 
     display: flex;
@@ -626,7 +623,6 @@ footer a:active {
     justify-content: center;
     align-items: center;
     line-height: 1.5em;
-
   }
 
   .our-address-shop-details-text-phones a {
@@ -638,10 +634,7 @@ footer a:active {
 
   .our-address-shop-details-image {
     padding: 0;
-    margin: 5rem 0 0 0;
-
-    
-
+    margin: 2rem 0 0 0;
   }
 }
 
