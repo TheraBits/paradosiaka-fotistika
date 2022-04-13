@@ -31,7 +31,12 @@ font color of handmade: rgb(29, 55, 46, 1)
 .identity,
 .close {
   display: none;
+ 
 }
+
+
+
+
 
 /*<----- Navigation Bar ------>*/
 
@@ -89,6 +94,7 @@ font color of handmade: rgb(29, 55, 46, 1)
   text-underline-offset: 0.2rem;
 }
 
+
 .nav-bar li a:active {
   text-decoration: underline;
   text-underline-offset: 0.2rem;
@@ -97,6 +103,7 @@ font color of handmade: rgb(29, 55, 46, 1)
   color: rgba(29, 55, 46, 1);
   /* text-shadow: 5px 5px 25px rgba(246, 151, 243, 0.85); */
 }
+
 
 .dropdown {
   position: relative;
@@ -177,9 +184,10 @@ font color of handmade: rgb(29, 55, 46, 1)
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 
     background-color: white;
+    color:rgba(53, 5, 65, 1);
   }
 
   .close {
@@ -194,6 +202,7 @@ font color of handmade: rgb(29, 55, 46, 1)
     font-size: 1.2rem;
     justify-content: space-between;
     align-items: flex-start;
+    
 
     background-image: conic-gradient(from 150deg at 60% bottom,
   
@@ -220,6 +229,7 @@ font color of handmade: rgb(29, 55, 46, 1)
     max-height: none;
     height: 100vh;
     padding: 1rem 0 0 0;
+    
 
     /* animate slide up/down */
     transform: translateX(-100%);
@@ -233,7 +243,8 @@ font color of handmade: rgb(29, 55, 46, 1)
   .nav-bar > ul {
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 1rem;
+    padding: 1rem 0 0 2.5rem;
+
   }
 
   .nav-bar ul li {
@@ -247,7 +258,6 @@ font color of handmade: rgb(29, 55, 46, 1)
   .nav-bar li a:hover {
     text-decoration: underline;
     text-underline-offset: 0.2rem;
-    background-color: rgba(246, 151, 243, 0.3);
     color: rgba(124, 69, 106, 1);
     border-radius: 10px;
   }
@@ -277,5 +287,9 @@ font color of handmade: rgb(29, 55, 46, 1)
 
   .logo-fanari3 {
     display: none;
+  }
+
+  .fb{
+    font-size: 2rem;
   }
 }
