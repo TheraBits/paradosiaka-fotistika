@@ -184,7 +184,7 @@ font color of handmade: rgb(29, 55, 46, 1)
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1rem; */
+    padding: 1rem 0 0 1rem;
 
     background-color: white;
     color:rgba(53, 5, 65, 1);
