@@ -622,19 +622,17 @@ footer a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* line-height: 1.5rem; */
+    line-height: 1.3rem;
     margin: 2rem 0 0 0;
   }
 
-   .our-address-shop-details-image-div {
+  .our-address-shop-details-image-div {
     width: 100%;
-    margin: 0;
+    margin: 2rem;
   }
 
   .our-address-shop-details-image {
     padding: 0;
-    
-   
   }
 }
 
