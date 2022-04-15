@@ -1,12 +1,15 @@
 footer {
   width: 100%;
   line-height: 1.5;
-  margin: 3rem 0 0 0;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 1rem 0 0 0;
+  padding: 0.5rem 1rem 1.5rem 1rem;
+  vertical-align: middle;
+  /* background-image: linear-gradient(rgb(175,156,116,0.3), rgb(234,171,174),rgb(131,75,61,0.5),rgb(235,43,227,0.5)) */
+
   background: linear-gradient(
     180deg,
     #ffffff 65.08%,
-    #ebe6db 70.38%,
+    #ebe6db 60.38%,
     #ae8da1 88.58%,
     #a6819a 97.87%,
     rgba(53, 5, 65, 0.5) 99%
@@ -29,6 +32,10 @@ footer a:active {
   color: rgba(246, 151, 243, 1);
   text-decoration: underline;
   text-underline-offset: 0.1rem;
+}
+
+.footer-text{
+  margin: auto 0;
 }
 
 .to-top {
