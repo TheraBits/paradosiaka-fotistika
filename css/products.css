@@ -28,7 +28,6 @@ h2 {
   color: rgba(29, 55, 46, 1);
 }
 
-
 .img-liston {
   width: 100%;
   margin: 4.5rem 0 0 0;
@@ -50,7 +49,7 @@ h2 {
   margin: 4.5rem 0 0 0;
   height: 40vh;
   object-fit: cover;
-  object-position:  center center;
+  object-position: center center;
 }
 
 .img-krani {
@@ -59,12 +58,7 @@ h2 {
   height: 40vh;
   object-fit: cover;
   object-position: center;
- 
- 
-  
 }
-
-
 
 .about-product {
   width: 70%;
@@ -95,26 +89,23 @@ h2 {
   padding: 5rem;
 }
 
-.fanaria{
+.fanaria {
   background-image: url(../resources/images/rough-plaster-wall.jpg);
-
 }
 
 .fotistika {
   /* background-image: url(/resources/images/Images/Textured\ Semi-Gloss\ Wallpaper.webp); */
   background-image: url(/resources/images/Images/Wallpaper\ large.webp);
-
 }
 
 .kolones {
-background-image: url(/resources/images/Images/sky\ grey\ cyan.webp);
-background-repeat: no-repeat;
-background-size: cover;
-filter: sepia(0.08);
+  background-image: url(/resources/images/Images/sky\ grey\ cyan.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: sepia(0.08);
 }
 
 .krani {
-
   background-image: url(/resources/images/Images/metal.JPG);
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +117,6 @@ filter: sepia(0.08);
   display: block;
   height: 50vh;
   object-fit: contain;
- 
 }
 
 div.polaroid {
@@ -146,23 +136,15 @@ div.polaroid img {
   background-color: rgba(245, 243, 237, 1);
 }
 
-.to-top i {
-  font-size: 2.5rem;
-}
-
 @media (max-width: 600px) {
+  .about-product p {
+    margin: 2rem 0 0 0;
+  }
 
-.about-product p {
-  margin: 2rem 0 0 0;
-  
-}
-
-.about-image {
-  height: 55vh;
-  margin: 2rem 0 0 0;
-}
-  
-  
+  .about-image {
+    height: 55vh;
+    margin: 2rem 0 0 0;
+  }
 
   .fotistika {
     background-image: url(/resources/images/Images/Wallpaper\ mobile.webp);
@@ -173,7 +155,6 @@ div.polaroid img {
   .img-lamp {
     object-fit: cover;
     object-position: top;
-    
   }
 
   .kolones {
@@ -181,15 +162,10 @@ div.polaroid img {
     background-repeat: no-repeat;
     background-size: cover;
     filter: sepia(0.2);
-    }
+  }
 
-    .krani {
-      background-image: url(/resources/images/Images/metal-mobile.JPG);
-      object-fit: contain;
-    
-    }
-
-   
-   
+  .krani {
+    background-image: url(/resources/images/Images/metal-mobile.JPG);
+    object-fit: contain;
+  }
 }
-

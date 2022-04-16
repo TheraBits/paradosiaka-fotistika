@@ -4,6 +4,8 @@ footer {
   margin: 1rem 0 0 0;
   padding: 0.5rem 1rem 1.5rem 1rem;
   vertical-align: middle;
+  font-family: "Didact Gothic", sans-serif;
+
   /* background-image: linear-gradient(rgb(175,156,116,0.3), rgb(234,171,174),rgb(131,75,61,0.5),rgb(235,43,227,0.5)) */
 
   background: linear-gradient(
@@ -34,13 +36,17 @@ footer a:active {
   text-underline-offset: 0.1rem;
 }
 
-.footer-text{
+.footer-text {
   margin: auto 0;
 }
 
 .to-top {
   margin: 9rem 0 3rem 0;
   text-align: center;
+}
+
+.to-top i {
+  font-size: 2.5rem;
 }
 
 .to-top-text {
@@ -57,4 +63,10 @@ footer a:active {
     top: 0.28rem;
     right: 0.3rem;  */
   width: 2vw;
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.8rem;
+  }
 }
