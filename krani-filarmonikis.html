@@ -141,8 +141,9 @@
             for (let index in categKrani) {
               document.write(`<div class="polaroid">
                     <img class="krani-img" alt="${categKrani[index].alt}" src="${categKrani[index].imageURL}")>
-                    <div class="container"
-                    <p>${categKrani[index].name}</p>
+                    <div class="container">
+                    <p class="polaroid-codename">${categKrani[index].name}</p>
+                    <p>${categKrani[index].description}</p>
                     </div>
                 </div>`);
             }

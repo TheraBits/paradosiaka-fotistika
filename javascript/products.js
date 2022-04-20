@@ -1,277 +1,278 @@
 const categFanaria = [
   {
-    name: "fanari fixed 1",
+    name: "Φανάρι τοίχου 1",
     imageURL: "./resources/images/fanaria/fanari fixed 1.png",
-    alt: "image of fanari fixed 1",
-    description: "b",
+    alt: "Βενετσιάνικο φανάρι τοίχου σιδερένιο χειροποίητο",
+    description: "Βενετσιάνικο τοίχου σιδερένιο χειροποίητο",
   },
 
   {
-    name: "fanari fixed 2",
+    name: "Φανάρι τοίχου 2",
     imageURL: "./resources/images/fanaria/fanari fixed 2.png",
-    alt: "image of fanari fixed 2",
-    description: "c",
+    alt: "Χάλκινο φανάρι τοίχου χειροποίητο",
+    description: "Χάλκινο τοίχου χειροποίητο",
   },
 
   {
-    name: "fanari fixed 3",
+    name: "Φανάρι τοίχου 3",
     imageURL: "./resources/images/fanaria/fanari fixed 3.png",
-    alt: "image of fanari fixed 3",
-    description: "d",
+    alt: "Φανάρια τοίχου χάλκινα και σιδερένια, μικρού και μεσαίου μεγέθους",
+    description:
+      "Χάλκινο μικρό - Σιδερένιο μικρό - Σιδερένιο μεσαίου μεγέθους",
   },
 
   {
-    name: "fanari fixed 4",
+    name: "Φανάρι τοίχου 4",
     imageURL: "./resources/images/fanaria/fanari fixed 4.png",
-    alt: "image of fanari fixed 4",
-    description: "b",
+    alt: "Χάλκινο φανάρι χειροποίητο σε μικρό και μεγάλο μέγεθος",
+    description: "Χάλκινο χειροποίητο μικρό και μεγάλο",
   },
 
   {
-    name: "fanari hanging 1",
+    name: "Φανάρι κρεμαστό 1",
     imageURL: "./resources/images/fanaria/fanari hanging 1.png",
-    alt: "image of fanari hanging 1",
-    description: "A",
+    alt: "Βενετσιάνικο κρεμαστό φανάρι σιδερένιο μικρό",
+    description: "Κρεμαστό σιδερένιο βενετσιάνικο μικρό",
   },
 
   {
-    name: "fanari hanging 2",
+    name: "Φανάρι κρεμαστό 2",
     imageURL: "./resources/images/fanaria/fanari hanging 2.jpg",
-    alt: "image of fanari hanging 2",
-    description: "B",
+    alt: "σιδερένιο φανάρι τύπου Ρόδου σε μικρό και μεγάλο μέγεθος",
+    description: "Σιδερένιο τύπου Ρόδου, μικρό και μεγάλο",
   },
 
   {
-    name: "fanari hanging 4",
+    name: "Φανάρι κρεμαστό 3",
     imageURL: "./resources/images/fanaria/fanari hanging 4.jpg",
-    alt: "image of fanari hanging 4",
-    description: "D",
+    alt: "σιδερένιο κρεμαστό μικρό και μεγάλο με ρίτσα",
+    description: "Σιδερένιο κρεμαστό μικρό και μεγάλο με ρίτσα",
   },
 
   {
-    name: "fanari standing 1",
+    name: "Φανάρι κολλητό 1",
     imageURL: "./resources/images/fanaria/fanari standing 1.png",
-    alt: "image of fanari standing 1",
-    description: "ab",
+    alt: "χάλκινα χειροποίητα φανάρια τοίχου (κολλητά) σε μικρό και μεγάλο μέγεθος",
+    description: "Χάλκινα χειροποίητα τοίχου (κολλητά), μικρό και μεγάλο",
   },
 
   {
-    name: "fanari standing 2",
+    name: "Φανάρι κολλητό 2",
     imageURL: "./resources/images/fanaria/fanari standing 2.png",
-    alt: "image of fanari standing 2",
-    description: "cd",
+    alt: "Χάλκινα τοίχου (κολλητά), σε διάφορα σχέδια και μεγέθη",
+    description: "Χάλκινα τοίχου (κολλητά), σε διάφορα σχέδια και μεγέθη",
   },
 
   {
-    name: "fanari standing 3",
+    name: "Φανάρι κολλητό 3",
     imageURL: "./resources/images/fanaria/fanari standing 3.png",
-    alt: "image of fanari standing 3",
-    description: "ef",
+    alt: "Χάλκινα τοίχου (κολλητά), σε διάφορα σχέδια και μεγέθη",
+    description: "Χάλκινα τοίχου (κολλητά), σε διάφορα σχέδια και μεγέθη",
   },
 
   {
-    name: "fanari standing 4",
-    imageURL: "./resources/images/fanaria/fanari standing 4.jpg",
-    alt: "image of fanari standing 4",
-    description: "gh",
-  },
-
-  {
-    name: "fanari standing 5",
+    name: "Φανάρι κολλητό 4",
     imageURL: "./resources/images/fanaria/fanari standing 5.png",
-    alt: "image of fanari standing 5",
-    description: "ij",
+    alt: "φανάρι κολλητό τύπου Λιστόν μικρό, φανάρι κολλητό τύπου γαλλικού, και εξάγωνο κρεμαστό χάλκινο σκαλιστό",
+    description: "Φανάρι κολλητό τύπου Λιστόν μικρό - Φανάρι κολλητό τύπου γαλλικού - Εξάγωνο κρεμαστό χάλκινο σκαλιστό",
   },
 
   {
-    name: "fanari standing 6",
+    name: "Φανάρι κολώνας 1",
+    imageURL: "./resources/images/fanaria/fanari standing 4.jpg",
+    alt: "Σιδερένιο φανάρι χειροποίητο βενετσιάνικο για κολώνα, και Χάλκινο φανάρι χειροποίητο για κολώνα",
+    description: "Σιδερένιο χειροποίητο βενετσιάνικο για κολώνα - Χάλκινο χειροποίητο για κολώνα",
+  },
+
+  {
+    name: "Φανάρι κολώνας 2",
     imageURL: "./resources/images/fanaria/fanari standing 6.png",
-    alt: "image of fanari standing 6",
-    description: "kl",
+    alt: "σιδερένιο χειροποίητο φανάρι βενετσιάνικο κολώνας σε μικρό μέγεθος",
+    description: "Σιδερένιο χειροποίητο βενετσιάνικο κολώνας μικρό",
   },
 
   {
-    name: "fanari standing 7",
+    name: "Φανάρι κολώνας 3",
     imageURL: "./resources/images/fanaria/fanari standing 7.png",
-    alt: "image of fanari standing 7",
-    description: "mn",
+    alt: "χάλκινο φανάρι κολλητό τοίχου σε μικρό και μεγάλο μέγεθος - χάλκινο χειροποίητο κολώνας",
+    description: "Χάλκινο κολλητό τοίχου σε μικρό και μεγάλο μέγεθος - Χάλκινο χειροποίητο κολώνας",
   },
 
   {
-    name: "fanari standing 8",
+    name: "Φανάρι κολώνας 4",
     imageURL: "./resources/images/fanaria/fanari standing 8.png",
-    alt: "image of fanari standing 8",
-    description: "op",
+    alt: "σιδερένιο και χάλκινο φανάρι χειροποίητο βενετσιάνικο κολώνας",
+    description: "Σιδερένιο χειροποίητο βενετσιάνικο κολώνας - Χάλκινο μεγάλο για κολώνα",
   },
 
   {
-    name: "liston 1",
+    name: "Φανάρι Λιστόν 1",
     imageURL: "./resources/images/fanaria/liston 1.jpg",
-    alt: "image of fanari liston 1",
-    description: "AB",
+    alt: "φανάρι Λιστόν κολώνας μεγάλο, κολώνας τύπου Λιστόν μικρό",
+    description: "Φανάρι Λιστόν κολώνας μεγάλο - Κολώνας τύπου Λιστόν μικρό",
   },
 
   {
-    name: "liston 2",
+    name: "Φανάρι Λιστόν 2",
     imageURL: "./resources/images/fanaria/liston 2.jpg",
-    alt: "image of fanari liston 2",
-    description: "CD",
+    alt: "Λιστον κρεμαστό μεγάλο με γύρω γύρω, κρεμαστό Λιστόν μικρό μέγεθος",
+    description: "Λιστον κρεμαστό μεγάλο με γύρω γύρω - Κρεμαστό Λιστόν μικρό μέγεθος",
   },
-
-  
 ];
 
 const categFotistika = [
   {
-    name: "lamp hanging 1",
+    name: "Λάμπα κρεμαστή 1",
     imageURL: "./resources/images/Lampes/lamp hanging 1.png",
     alt: "image of lamp hanging 1",
-    description: "lh1",
+    description: "μπρούτζινο αχλάδι κρεμάστο χειροποίητο",
   },
 
   {
-    name: "lamp hanging 2",
+    name: "Λάμπα κρεμαστή 2",
     imageURL: "./resources/images/Lampes/lamp hanging 2.png",
     alt: "image of lamp hanging 2",
-    description: "lh2",
+    description: "λάμπα κρεμαστή μπρούτζινη χειροποίητη",
   },
 
   {
-    name: "lamp 1",
-    imageURL: "./resources/images/Lampes/lamp 1.png",
-    alt: "image of lamp 1",
-    description: "l1",
-  },
-
-  {
-    name: "lamp 2",
-    imageURL: "./resources/images/Lampes/lamp 2.png",
-    alt: "image of lamp 2",
-    description: "l2",
-  },
-
-  {
-    name: "lamp 3",
-    imageURL: "./resources/images/Lampes/lamp 3.png",
-    alt: "image of lamp 3",
-    description: "l3",
-  },
-
-  {
-    name: "lamp 4",
-    imageURL: "./resources/images/Lampes/lamp 4.png",
-    alt: "image of lamp 4",
-    description: "l4",
-  },
-
-  {
-    name: "lamp 5",
-    imageURL: "./resources/images/Lampes/lamp 5.png",
-    alt: "image of lamp 5",
-    description: "l5",
-  },
-
-  {
-    name: "lamp 6",
-    imageURL: "./resources/images/Lampes/lamp 6.png",
-    alt: "image of lamp 6",
-    description: "l6",
-  },
-
-  {
-    name: "kiropigio 1",
-    imageURL: "./resources/images/Lampes/kiropigio 1.png",
-    alt: "image of kiropigio 1",
-    description: "k1",
-  },
-
-  {
-    name: "kiropigio 2",
-    imageURL: "./resources/images/Lampes/kiropigio 2.png",
-    alt: "image of kiropigio 2",
-    description: "k2",
-  },
-
-  {
-    name: "polielaios 1",
-    imageURL: "./resources/images/Lampes/polielaios 1.png",
-    alt: "image of polielaios 1",
-    description: "p1",
-  },
-
-  {
-    name: "polielaios 2",
-    imageURL: "./resources/images/Lampes/polielaios 2.jpg",
-    alt: "image of polielaios 2",
-    description: "p2",
-  },
-
-  {
-    name: "polielaios 3",
+    name: "Λάμπη κρεμαστή 3",
     imageURL: "./resources/images/Lampes/polielaios 3.jpg",
-    alt: "image of polielaios 3",
-    description: "p3",
+    alt: "Λάμπα σαλονιού μπρούτζινη χειροποίητη",
+    description: "Λάμπα σαλονιού μπρούτζινη χειροποίητη",
   },
 
+  {
+    name: "Λάμπα 1",
+    imageURL: "./resources/images/Lampes/lamp 1.png",
+    alt: "λάμπα μπρούτζινη χειροποίητη γραφείου",
+    description: "λάμπα μπρούτζινη χειροποίητη γραφείου",
+  },
+
+  {
+    name: "Λάμπα 2",
+    imageURL: "./resources/images/Lampes/lamp 2.png",
+    alt: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+    description: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+  },
+
+  {
+    name: "Λάμπα 3",
+    imageURL: "./resources/images/Lampes/lamp 3.png",
+    alt: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+    description: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+  },
+
+  {
+    name: "Λάμπα 4",
+    imageURL: "./resources/images/Lampes/lamp 4.png",
+    alt: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+    description: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+  },
+
+  {
+    name: "Λάμπα 5",
+    imageURL: "./resources/images/Lampes/lamp 5.png",
+    alt: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+    description: "διακοσμητική μπρούτζινη λάμπα χειροποίητη",
+  },
+
+  {
+    name: "Λάμπα 6",
+    imageURL: "./resources/images/Lampes/lamp 6.png",
+    alt: "Λαμπατέρ μπρούτζινο χειροποίητο μεγάλο",
+    description: "λαμπατέρ μπρούτζινο χειροποίητο μεγάλο",
+  },
+
+  {
+    name: "Κηροπήγιο 1",
+    imageURL: "./resources/images/Lampes/kiropigio 1.png",
+    alt: "Κηροπήγιο μπρούτζινο",
+    description: "κηροπήγιο μπρούτζινο",
+  },
+
+  {
+    name: "Κηροπήγιο 2",
+    imageURL: "./resources/images/Lampes/kiropigio 2.png",
+    alt: "Λαδοφωτιά χειροποίητη",
+    description: "λαδοφωτιά χειροποίητη",
+  },
+
+  {
+    name: "Πολυέλαιος 1",
+    imageURL: "./resources/images/Lampes/polielaios 1.png",
+    alt: "iΦωτιστικό κρεμαστό μπρούτζινο",
+    description: "φωτιστικό κρεμαστό μπρούτζινο",
+  },
+
+  {
+    name: "Πολυέλαιος 2",
+    imageURL: "./resources/images/Lampes/polielaios 2.jpg",
+    alt: "Φωτιστικό κρεμαστό μπρούτζινο",
+    description: "φωτιστικό κρεμαστό μπρούτζινο",
+  },
 ];
 
 const categKolones = [
   {
-    name: "kolona 1",
+    name: "Κολώνα 1",
     imageURL: "./resources/images/Kolones/kolona 1.png",
-    alt: "image of kolona 1",
-    description: "ΚΦ1",
+    alt: "ιστός μαντεμένιος παραδοσιακός με φανάρι παραδοσιακό χάλκινο",
+    description:
+      "Ιστός μαντεμένιος παραδοσιακός, με φανάρι παραδοσιακό χάλκινο",
   },
 
   {
-    name: "kolona 2",
+    name: "Κολώνα 2",
     imageURL: "./resources/images/Kolones/kolona 2.png",
-    alt: "image of kolona 2",
-    description: "ΚΦ2",
+    alt: "Ιστοί σιδερένιοι και μεντεμένιοι παραδοσιακοί, με χάλκινα φανάρια ",
+    description:
+      "Ιστοί σιδερένιοι και μεντεμένιοι παραδοσιακοί, με φανάρια χάλκινα και γλόμπους άσπρους",
   },
 ];
 
 const categKrani = [
   {
-    name: "kranos 1",
+    name: "Κράνος 1",
     imageURL: "./resources/images/Krani and Simata/kranos 1.png",
-    alt: "image of kranos 1",
-    description: "Κ&Σ1",
+    alt: "κράνος νίκελ χειροποίητο",
+    description: "κράνος νίκελ χειροποίητο",
   },
 
   {
-    name: "kranos 2",
+    name: "Κράνος 2",
     imageURL: "./resources/images/Krani and Simata/kranos 2.png",
-    alt: "image of kranos 2",
-    description: "Κ&Σ2",
+    alt: "κράνος μπρούτζινο χειροποίητο",
+    description: "κράνος μπρούτζινο χειροποίητο",
   },
 
   {
-    name: "kranos 3",
+    name: "Κράνος 3",
     imageURL: "./resources/images/Krani and Simata/kranos 3.jpg",
-    alt: "image of kranos 3",
-    description: "Κ&Σ3",
+    alt: "κράνος νίκελ με λοφίο",
+    description: "κράνος νίκελ με λοφίο",
   },
 
   {
-    name: "kranos 4",
+    name: "Κράνος 4",
     imageURL: "./resources/images/Krani and Simata/kranos 4.jpg",
-    alt: "image of kranos 4",
-    description: "Κ&Σ4",
+    alt: "κράνη με λοφίο από μπρούτζο ή νίκελ",
+    description:
+      "κράνος μπρούτζινο χειροποίητο με λοφίο , κράνος νίκελ χειροποίητο με λοφίο",
   },
 
   {
-    name: "sima 1",
+    name: "Σήμα 1",
     imageURL: "./resources/images/Krani and Simata/sima 1.png",
-    alt: "image of sima 1",
-    description: "Κ&Σ α",
+    alt: "iαστέρι με σήμα φιλαρμονικής χειροποίητο",
+    description: "αστέρι με σήμα φιλαρμονικής χειροποίητο",
   },
 
   {
-    name: "sima 2",
+    name: "Σήμα 2",
     imageURL: "./resources/images/Krani and Simata/sima2.png",
-    alt: "image of sima 2",
-    description: "Κ&Σ β",
+    alt: "σήματα φιλαρμονικών",
+    description: "σήματα φιλαρμονικών",
   },
 ];
 

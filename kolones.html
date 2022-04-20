@@ -128,8 +128,10 @@
                 for (let idx in categKolones) {
                  document.write(`<div class="polaroid">
                     <img class="kolones-img" alt="${categKolones[idx].alt}" src="${categKolones[idx].imageURL}")>
-                    <div class="container"
-                    <p>${categKolones[idx].name}</p>
+                    <div class="container">
+                    <p class="polaroid-codename">${categKolones[idx].name}</p>
+                    <p>${categKolones[idx].description}</p>
+
                     </div>
                 </div>`)
             }

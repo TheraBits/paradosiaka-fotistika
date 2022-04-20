@@ -119,6 +119,13 @@ h2 {
   object-fit: contain;
 }
 
+.polaroid-codename{
+  font-weight: bold;
+  /* color:rgba(29, 55, 46, 1); */
+  /* color: #364f64; */
+}
+
+
 div.polaroid {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
