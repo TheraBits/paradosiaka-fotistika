@@ -233,7 +233,7 @@ main {
 
 .our-products-category-img-content {
   position: absolute;
-  bottom: 50px;
+  bottom: 2.5rem;
   width: 60%;
   height: auto;
   background-color: rgba(245, 243, 237, 0.8);
