@@ -223,7 +223,7 @@ main {
 }
 
 .our-products-category-img {
-  height: 60vh;
+  height: 55vh;
     width: 100%;
   object-fit: cover;
   z-index: -1;
@@ -419,6 +419,18 @@ background-size: 100vw 100vh; */
 
 /*<----- Media Queries ------>*/
 
+@media (min-width: 2000px) {
+ 
+
+  .our-products-category-img {
+    height: 70vh; 
+  }
+  
+  .our-products-category-img-content {
+    bottom: 6.5rem;  
+}
+}
+
 @media (max-width: 1200px) {
   .about-us-text-lightings-img {
     top: -4.2rem;
@@ -431,7 +443,7 @@ background-size: 100vw 100vh; */
   .our-products-category-img-content {
     bottom: 3.5rem;  
 }
-
+}
 @media (max-width: 992px) {
   .image-store-div {
     width: 80%;
@@ -576,7 +588,7 @@ background-size: 100vw 100vh; */
 
   .our-products-category-img {
    
-    height: 45vh;
+    height: 55vh;
     
   }
 
@@ -630,7 +642,7 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-     height: 30vh;
+     height: 45vh;
     
   }
 
