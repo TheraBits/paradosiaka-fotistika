@@ -34,7 +34,11 @@ font color of handmade: rgb(29, 55, 46, 1)
  
 }
 
-
+.identity:before,
+.close:before,
+a:before {
+  color:rgba(53, 5, 65, 1);
+}
 
 
 

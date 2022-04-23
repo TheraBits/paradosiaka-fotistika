@@ -200,7 +200,6 @@ main {
   grid-template-rows: auto;
   gap: 2rem 2rem;
   justify-content: center;
- 
 
   margin: 3rem 4rem 0 4rem;
 }
@@ -224,10 +223,9 @@ main {
 
 .our-products-category-img {
   height: 55vh;
-    width: 100%;
+  width: 100%;
   object-fit: cover;
   z-index: -1;
-
 }
 
 .our-products-category-img-content {
@@ -245,8 +243,6 @@ main {
   font-weight: 600;
   z-index: -3;
 }
-
-
 
 /*<----- Main: Contact Us Section ------>*/
 
@@ -420,15 +416,13 @@ background-size: 100vw 100vh; */
 /*<----- Media Queries ------>*/
 
 @media (min-width: 2000px) {
- 
-
   .our-products-category-img {
-    height: 70vh; 
+    height: 70vh;
   }
-  
+
   .our-products-category-img-content {
-    bottom: 6.5rem;  
-}
+    bottom: 6.5rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -437,12 +431,12 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-    height: 40vh; 
+    height: 40vh;
   }
-  
+
   .our-products-category-img-content {
-    bottom: 3.5rem;  
-}
+    bottom: 3.5rem;
+  }
 }
 @media (max-width: 992px) {
   .image-store-div {
@@ -455,12 +449,12 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-    height: 50vh; 
+    height: 50vh;
   }
-  
+
   .our-products-category-img-content {
-    bottom: 2rem;  
-}
+    bottom: 2rem;
+  }
 
   .our-address-map-google-embeded {
     width: 99%;
@@ -504,12 +498,12 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-    height: 50vh; 
+    height: 50vh;
   }
-  
+
   .our-products-category-img-content {
-    bottom: 3rem;  
-}
+    bottom: 3rem;
+  }
 
   .our-address-map-google-embeded {
     width: 96%;
@@ -587,20 +581,16 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-   
     height: 70vh;
-    
   }
 
   .our-products-category-img-content {
-  
     bottom: 4.5rem;
-   
   }
 
   .contact-us-text-call-img {
     width: 3.5rem;
-    
+
     margin: 0 1.5rem 0 1.5rem;
   }
 
@@ -642,13 +632,11 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-     height: 60vh;
-    
+    height: 60vh;
   }
 
   .our-products-category-img-content {
-     bottom: 2.5rem;
-   
+    bottom: 2.5rem;
   }
 
   .contact-us-text-call-img {

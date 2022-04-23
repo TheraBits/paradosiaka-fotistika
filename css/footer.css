@@ -1,4 +1,5 @@
 footer {
+  position: relative;
   width: 100%;
   line-height: 1.5;
   margin: 1rem 0 0 0;
@@ -65,8 +66,16 @@ footer a:active {
   width: 2vw;
 }
 
-@media (max-width: 600px) {
-  footer {
-    font-size: 0.8rem;
+.footer-rights {
+  display: inline;
+  position: absolute;
+  right: 5rem;
+}
+
+@media (max-width: 768px) {
+  .footer-rights {
+    display: block;
+    position: initial;
+    padding: 0 0 0.5rem 0;
   }
 }
