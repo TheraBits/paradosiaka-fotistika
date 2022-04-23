@@ -87,7 +87,6 @@ h2 {
   justify-content: center;
   align-items: stretch;
   padding: 5rem;
-  
 }
 
 .fanaria {
@@ -120,18 +119,16 @@ h2 {
   object-fit: contain;
 }
 
-.polaroid-codename{
+.polaroid-codename {
   font-weight: bold;
   /* color:rgba(29, 55, 46, 1); */
   /* color: #364f64; */
 }
 
-
 div.polaroid {
-   background-color: white;
+  background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1rem;
-  
 }
 
 div.container {
@@ -149,22 +146,22 @@ div.polaroid img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
 
-  margin: 4rem 0 0 0;
-  padding: 0 0 4rem 0;
+  margin: 8rem 0 0 0;
+  padding: 0 2.5rem 8rem 2.5rem;
 
   font-size: 1.3rem;
+  text-align: center;
 }
 
 .call-to-action h4 {
   margin: 1rem 0 0 0;
-  color:rgba(29, 55, 46, 1);
+  color: rgba(29, 55, 46, 1);
   font-size: 1.4rem;
 }
 
 .call-to-action-button {
-
   margin: 3rem 0 4rem 0;
   padding: 0.5rem 3rem;
 
@@ -174,7 +171,13 @@ div.polaroid img {
   border: 1px solid #aba7a5;
   border-radius: 8px;
   background: #fcf6e8;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fcf6e8), to(#d6afca));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fcf6e8),
+    to(#d6afca)
+  );
   background: -moz-linear-gradient(top, #fcf6e8, #d6afca);
   background: linear-gradient(to bottom, #fcf6e8, #d6afca);
   -webkit-box-shadow: #ffffff 0px 0px 40px 0px;
@@ -192,7 +195,13 @@ div.polaroid img {
 .call-to-action-button:focus {
   border: 1px solid #ddcedd;
   background: #ffffff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e0c9e0));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffffff),
+    to(#e0c9e0)
+  );
   background: -moz-linear-gradient(top, #ffffff, #e0c9e0);
   background: linear-gradient(to bottom, #ffffff, #e0c9e0);
   color: #350541;
@@ -200,11 +209,27 @@ div.polaroid img {
 }
 .call-to-action-button:active {
   background: #dfdbd2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#dfdbd2), to(#d6afca));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#dfdbd2),
+    to(#d6afca)
+  );
   background: -moz-linear-gradient(top, #dfdbd2, #d6afca);
   background: linear-gradient(to bottom, #dfdbd2, #d6afca);
 }
 
+@media (max-width: 768px) {
+  .call-to-action {
+    font-size: 1.2rem;
+    padding: 0 2.5rem 8rem 2.5rem;
+  }
+
+  .call-to-action h4 {
+    font-size: 1.3rem;
+  }
+}
 
 @media (max-width: 600px) {
   .about-product p {
@@ -237,5 +262,14 @@ div.polaroid img {
   .krani {
     background-image: url(/resources/images/Images/metal-mobile.JPG);
     object-fit: contain;
+  }
+
+  .call-to-action {
+    font-size: 1.2rem;
+    padding: 0 2rem 8rem 2rem;
+  }
+
+  .call-to-action-button {
+    font-weight: normal;
   }
 }

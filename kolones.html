@@ -57,7 +57,8 @@
         <ul>
           <li><a href="/index.html">Εργαστήριο</a><span>|</span></li>
           <li class="dropdown">
-            <a href="/index.html#products" class="active">Προϊόντα </a><span>|</span>
+            <a href="/index.html#products" class="active">Προϊόντα </a
+            ><span>|</span>
             <ul class="dropdown-menu">
               <li><a href="/fanaria.html">Χειροποίητα Φανάρια Κήπου</a></li>
               <li><a href="/fotistika.html">Φωτιστικά Σαλονιού</a></li>
@@ -65,7 +66,9 @@
               <li><a href="/krani-filarmonikis.html">Κράνη Φιλαρμονικής</a></li>
             </ul>
           </li>
-          <li><a href="/index.html#contact-us">Επικοινωνία </a><span>|</span></li>
+          <li>
+            <a href="/index.html#contact-us">Επικοινωνία </a><span>|</span>
+          </li>
           <li>
             <a
               class="fb"
@@ -108,12 +111,11 @@
         <h2>Μαντεμένιες</h2>
         <div class="about-product">
           <p>
-            Διαθέτουμε μαντεμένιες κολώνες φωτισμού για κήπους, δρόμους, πάρκα, πλατείες.
+            Διαθέτουμε μαντεμένιες κολώνες φωτισμού για κήπους, δρόμους, πάρκα,
+            πλατείες.
           </p>
 
-          <p>
-            Θα τις βρείτε σε ποικιλία χρωμάτων, μονές ή διπλές.
-          </p>
+          <p>Θα τις βρείτε σε ποικιλία χρωμάτων, μονές ή διπλές.</p>
 
           <!-- <button type="button"><a href="">Δείτε τα φανάρια μας</a></button> -->
         </div>
@@ -122,26 +124,41 @@
       <section class="products">
         <script src="javascript/products.js"></script>
 
-        <div class="kolones"> 
-
-            <script>
-                for (let idx in categKolones) {
-                 document.write(`<div class="polaroid">
+        <div class="kolones">
+          <script>
+            for (let idx in categKolones) {
+              document.write(`<div class="polaroid">
                     <img class="kolones-img" alt="${categKolones[idx].alt}" src="${categKolones[idx].imageURL}")>
                     <div class="container">
                     <p class="polaroid-codename">${categKolones[idx].name}</p>
                     <p>${categKolones[idx].description}</p>
 
                     </div>
-                </div>`)
+                </div>`);
             }
-                </script>
-          </div>  
+          </script>
+        </div>
       </section>
+      <div class="call-to-action">
+        <p>
+          Όλες οι κολώνες φωτισμού είναι διαθέσιμες κατόπιν&nbsp;παραγγελίας
+        </p>
+        <h4>
+          Για παραγγελίες, ή για οποιαδήποτε πληροφορία, επικοινωνήστε με
+          το&nbsp;κατάστημά&nbsp;μας
+        </h4>
+        <button
+          class="call-to-action-button"
+          onclick="window.location.href='/index.html#contact-us';"
+        >
+          Επικοινωνία
+        </button>
+        <p>Γίνεται αποστολή σε όλη την Ελλάδα</p>
+      </div>
     </main>
 
     <footer>
-      <div class="to-top" >
+      <div class="to-top">
         <a href="#" class="to-top-text" aria-label="go to top of the page">
           <i class="fa-solid fa-angle-up" aria-hidden="true"></i>
         </a>

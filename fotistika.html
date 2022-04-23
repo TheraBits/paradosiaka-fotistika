@@ -57,7 +57,8 @@
         <ul>
           <li><a href="/index.html">Εργαστήριο</a><span>|</span></li>
           <li class="dropdown">
-            <a href="/index.html#products" class="active">Προϊόντα </a><span>|</span>
+            <a href="/index.html#products" class="active">Προϊόντα </a
+            ><span>|</span>
             <ul class="dropdown-menu">
               <li><a href="/fanaria.html">Χειροποίητα Φανάρια Κήπου</a></li>
               <li><a href="#">Φωτιστικά Σαλονιού</a></li>
@@ -65,7 +66,9 @@
               <li><a href="/krani-filarmonikis.html">Κράνη Φιλαρμονικής</a></li>
             </ul>
           </li>
-          <li><a href="/index.html#contact-us">Επικοινωνία </a><span>|</span></li>
+          <li>
+            <a href="/index.html#contact-us">Επικοινωνία </a><span>|</span>
+          </li>
           <li>
             <a
               class="fb"
@@ -111,9 +114,7 @@
             Διαθέτουμε μεγάλη ποικιλία σε λάμπες οροφής, γραφείου, και αντίκες.
           </p>
 
-          <p>
-            Επίσης θα βρείτε πολυέλαιους.
-          </p>
+          <p>Επίσης θα βρείτε πολυέλαιους.</p>
 
           <!-- <button type="button"><a href="">Δείτε τα φανάρια μας</a></button> -->
         </div>
@@ -123,24 +124,40 @@
         <script src="javascript/products.js"></script>
 
         <div class="fotistika">
-
-            <script>
-                for (let index in categFotistika) {
-                    document.write(`<div class="polaroid">
+          <script>
+            for (let index in categFotistika) {
+              document.write(`<div class="polaroid">
                     <img id="${categFotistika[index].name}" class="fotistika-img" alt="${categFotistika[index].alt}" src="${categFotistika[index].imageURL}">
                     <div class="container">
                     <p class="polaroid-codename">${categFotistika[index].name}</p>
                     <p>${categFotistika[index].description}</p>
                     </div>
-                </div>`)
-                }
-            </script>
+                </div>`);
+            }
+          </script>
         </div>
       </section>
+      <div class="call-to-action">
+        <p>
+          Όλα τα φωτιστικά μας είναι χειροποίητα και είναι διαθέσιμα
+          κατόπιν&nbsp;παραγγελίας
+        </p>
+        <h4>
+          Για παραγγελίες, ή για οποιαδήποτε πληροφορία, επικοινωνήστε με
+          το&nbsp;κατάστημά&nbsp;μας
+        </h4>
+        <button
+          class="call-to-action-button"
+          onclick="window.location.href='/index.html#contact-us';"
+        >
+          Επικοινωνία
+        </button>
+        <p>Γίνεται αποστολή σε όλη την Ελλάδα</p>
+      </div>
     </main>
 
     <footer>
-      <div class="to-top" >
+      <div class="to-top">
         <a href="#" class="to-top-text" aria-label="go to top of the page">
           <i class="fa-solid fa-angle-up" aria-hidden="true"></i>
         </a>
