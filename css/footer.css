@@ -78,4 +78,9 @@ footer a:active {
     position: initial;
     padding: 0 0 0.5rem 0;
   }
+
+  @media (max-width: 768px) {
+   footer {
+     font-size: 0.9rem;
+   }
 }
