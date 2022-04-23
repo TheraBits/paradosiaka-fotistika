@@ -455,11 +455,11 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-    height: 30vh; 
+    height: 50vh; 
   }
   
   .our-products-category-img-content {
-    bottom: 3rem;  
+    bottom: 2rem;  
 }
 
   .our-address-map-google-embeded {
@@ -508,7 +508,7 @@ background-size: 100vw 100vh; */
   }
   
   .our-products-category-img-content {
-    bottom: 5.5rem;  
+    bottom: 3rem;  
 }
 
   .our-address-map-google-embeded {
@@ -642,7 +642,7 @@ background-size: 100vw 100vh; */
   }
 
   .our-products-category-img {
-     height: 45vh;
+     height: 60vh;
     
   }
 
