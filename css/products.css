@@ -266,7 +266,10 @@ div.polaroid img {
 
   .call-to-action {
     font-size: 1.2rem;
-    padding: 0 0.6rem 8rem 0.6rem;
+    padding: 0 0.6rem 5rem 0.6rem;
+    margin: 5rem 0 0 0;
+   
+    
   }
 
   .call-to-action-button {
