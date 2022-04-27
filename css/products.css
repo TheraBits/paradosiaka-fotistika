@@ -95,18 +95,18 @@ h2 {
 
 .fotistika {
   /* background-image: url(/resources/images/Images/Textured\ Semi-Gloss\ Wallpaper.webp); */
-  background-image: url(/resources/images/Images/Wallpaper\ large.webp);
+  background-image: url(../resources/images/Images/Wallpaper\ large.webp);
 }
 
 .kolones {
-  background-image: url(/resources/images/Images/sky\ grey\ cyan.webp);
+  background-image: url(../resources/images/Images/sky\ grey\ cyan.webp);
   background-repeat: no-repeat;
   background-size: cover;
   filter: sepia(0.08);
 }
 
 .krani {
-  background-image: url(/resources/images/Images/metal.JPG);
+  background-image: url(../resources/images/Images/metal.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -242,7 +242,7 @@ div.polaroid img {
   }
 
   .fotistika {
-    background-image: url(/resources/images/Images/Wallpaper\ mobile.webp);
+    background-image: url(../resources/images/Images/Wallpaper\ mobile.webp);
     /* background-image: url(/resources/images/Images/Huneycutt\ Textured\ \ Wallpaper.webp); */
     /* background-repeat: no-repeat; */
   }
@@ -253,14 +253,14 @@ div.polaroid img {
   }
 
   .kolones {
-    background-image: url(/resources/images/Images/sky\ cyan.webp);
+    background-image: url(../resources/images/Images/sky\ cyan.webp);
     background-repeat: no-repeat;
     background-size: cover;
     filter: sepia(0.2);
   }
 
   .krani {
-    background-image: url(/resources/images/Images/metal-mobile.JPG);
+    background-image: url(../resources/images/Images/metal-mobile.JPG);
     object-fit: contain;
   }
 

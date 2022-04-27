@@ -146,7 +146,7 @@ a:before {
 .logo-fanari3 {
   width: 90px;
   height: 90px;
-  background-image: url(/resources/images/logo-not-lighted.png);
+  background-image: url(../resources/images/logo-not-lighted.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin: 50px 0px 0 3.4rem;
@@ -155,7 +155,7 @@ a:before {
 }
 
 .logo-fanari3:hover {
-  background-image: url(/resources/images/logo-lighted2.png);
+  background-image: url(../resources/images/logo-lighted2.png);
   border-radius: 40px;
   /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
   filter: drop-shadow(5px 5px 15px rgba(124, 69, 106, 0.76))
