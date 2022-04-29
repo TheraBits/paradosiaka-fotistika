@@ -16,10 +16,6 @@
     ></script>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
@@ -171,9 +167,12 @@
 
     <footer>
       <div class="to-top">
-        <a href="#" class="to-top-text" aria-label="go to top of the page">
-          <i class="fa-solid fa-angle-up" aria-hidden="true"></i>
-        </a>
+        <i
+          onclick='window.scrollTo({top: 0, behavior: "smooth", passive: true});'
+          class="fa-solid fa-angle-up"
+          aria-label="go to top of the page"
+          aria-hidden="true"
+        ></i>
       </div>
 
       <p class="footer-rights">All rights reserved Dimitris Poulimenos</p>
