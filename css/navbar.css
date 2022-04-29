@@ -8,16 +8,19 @@ font color of handmade: rgb(29, 55, 46, 1)
 @font-face {
   font-family: Sansation_Regular;
   src: url(..resources/fonts/Sansation_Regular.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: Sansation_Regular_gr;
   src: url(../resources/fonts/Sansation-Regular-gr.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: Sansation_Italic;
   src: url(../resources/fonts/Sansation_Italic.ttf);
+  font-display: swap;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
