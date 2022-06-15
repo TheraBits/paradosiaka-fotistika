@@ -1,3 +1,7 @@
+
+
+@import url(navbar.css);
+@import url(footer.css);
 @font-face {
   font-family: Sansation_Regular_gr;
   src: url(../resources/fonts/Sansation-Regular-gr.ttf);

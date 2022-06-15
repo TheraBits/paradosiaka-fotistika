@@ -18,6 +18,9 @@ rgba(254, 250, 241, 0.9254)
 rgba(124, 69, 106, 0.76)
 rgba(53, 5, 65, 0.28) */
 
+@import url(navbar.css);
+@import url(footer.css);
+
 body {
   overscroll-behavior: none;
   overflow-x: hidden;
