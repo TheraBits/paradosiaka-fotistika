@@ -239,10 +239,16 @@ const categKolones = [
     description:
       "Ιστός μαντεμένιος παραδοσιακός, με φανάρι παραδοσιακό χάλκινο",
   },
-
   {
     name: "Κολώνα 4",
-    imageURL: "./resources/images/Kolones/kolona 4.png",
+    imageURL: "./resources/images/Kolones/kolona 4.jpg",
+    alt: "ιστός μαντεμένιος παραδοσιακός με φανάρι παραδοσιακό χάλκινο",
+    description:
+      "Ιστός μαντεμένιος παραδοσιακός, με φανάρι παραδοσιακό χάλκινο",
+  },
+  {
+    name: "Κολώνα 5",
+    imageURL: "./resources/images/Kolones/kolona 5.png",
     alt: "Ιστοί σιδερένιοι και μεντεμένιοι παραδοσιακοί, με χάλκινα φανάρια ",
     description:
       "Ιστοί σιδερένιοι και μεντεμένιοι παραδοσιακοί, με φανάρια χάλκινα και γλόμπους άσπρους",
