@@ -34,15 +34,43 @@ font color of handmade: rgb(29, 55, 46, 1)
 .identity,
 .close {
   display: none;
- 
 }
-
 
 a {
-  color:#551a8b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.12em;
+  color: #0d0102;
+  /* color: #551a8b; */
 }
 
+/* ----- Language toggle dropdown menu ----*/
 
+.language-toggle {
+  display: inline-block;
+  margin-inline-end: 1.5em;
+}
+
+.language-toggle select {
+  padding: 5px 25px 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #0d0102;
+  font-size: 16px;
+  cursor: pointer;
+  /* -webkit-appearance: none; 
+  appearance: none;  */
+}
+
+.language-toggle select::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 12px;
+}
+
+.small {
+  display: none;
+}
 
 /*<----- Navigation Bar ------>*/
 
@@ -86,7 +114,7 @@ a {
 
 .nav-bar li {
   display: inline-block;
-  color: #551a8b;
+  /* color: #551a8b; */
 }
 
 .nav-bar li a {
@@ -100,7 +128,6 @@ a {
   text-underline-offset: 0.2rem;
 }
 
-
 .nav-bar li a:active {
   text-decoration: underline;
   text-underline-offset: 0.2rem;
@@ -110,12 +137,10 @@ a {
   /* text-shadow: 5px 5px 25px rgba(246, 151, 243, 0.85); */
 }
 
-
 .dropdown {
   position: relative;
   display: flex;
   flex-direction: column;
- 
 }
 
 .dropdown:hover .dropdown-menu {
@@ -130,7 +155,7 @@ a {
   padding: 1rem 0 1rem 0;
   background-color: rgba(245, 243, 237, 1);
   left: -5px;
-  top: 18px;
+  top: 20px;
   padding: 0.5rem 0 0 1rem;
   line-height: 1.2rem;
 }
@@ -140,7 +165,9 @@ a {
 }
 
 .fb {
-  font-size: 1.5rem;
+  margin-inline-start: 0.8em;
+  font-size: 1.9em;
+  color: #0d0102;
 }
 
 /* ----- Navigation Bar: Logo Image - Fanari ----*/
@@ -176,7 +203,6 @@ a {
 }
 
 @media (max-width: 768px) {
-
   .logo-fanari3 {
     position: relative;
     width: 60px;
@@ -186,7 +212,6 @@ a {
 }
 
 @media (max-width: 600px) {
-  
   .identity {
     display: flex;
     justify-content: space-between;
@@ -194,7 +219,7 @@ a {
     padding: 1rem;
 
     background-color: white;
-    color:rgba(53, 5, 65, 1);
+    color: rgba(53, 5, 65, 1);
   }
 
   .close {
@@ -210,10 +235,9 @@ a {
     justify-content: space-between;
     align-items: flex-start;
 
-    
+    background-image: conic-gradient(
+      from 150deg at 60% bottom,
 
-    background-image: conic-gradient(from 150deg at 60% bottom,
-  
       rgba(255, 255, 255, 1) 0%,
       rgba(245, 243, 237, 1) 13.69%,
       rgba(235, 230, 219, 1) 54.46%,
@@ -223,8 +247,6 @@ a {
       rgba(235, 230, 219, 1) 90.46%,
       rgba(245, 243, 237, 1) 96.69%,
       rgba(255, 255, 255, 1) 99%
-      
-      
     );
 
     position: absolute;
@@ -237,7 +259,6 @@ a {
     max-height: none;
     height: 100vh;
     padding: 1rem 0 0 0;
-    
 
     /* animate slide up/down */
     transform: translateX(-100%);
@@ -252,19 +273,14 @@ a {
     display: flex;
     flex-direction: column;
     padding: 1rem 0 0 2.5rem;
-     
   }
 
   .nav-bar ul li {
     margin: 1rem 0;
-    
-
   }
 
   .nav-bar ul li a {
     padding: 0 3.3px;
-  
-
   }
 
   .nav-bar li a:hover {
@@ -284,11 +300,8 @@ a {
     background-color: transparent;
     margin: 0;
     padding: 0 0 0 1.5rem;
-  
-    
   }
 
-  
   .hamburger,
   .close {
     font-size: 2rem;
@@ -304,7 +317,16 @@ a {
     display: none;
   }
 
-  .fb{
-    font-size: 2rem;
+  .fb {
+    display: none;
+  }
+
+  .small {
+    margin-top: 1.5em;
+    display: block;
+  }
+
+  .large {
+    display: none;
   }
 }
