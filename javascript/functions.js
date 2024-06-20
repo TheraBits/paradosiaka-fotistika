@@ -29,8 +29,15 @@ toggleButton.addEventListener("click", function () {
   } else {
     currentLang = "gr";
   }
+
+  // Change the text of the page
   const elements = document.querySelectorAll(`[data-lang-${currentLang}]`);
   elements.forEach((element) => {
+    // Toggle the visibility of the flags
+    document.querySelector(".gr").style.display =
+      currentLang === "en" ? "none" : "inline";
+    document.querySelector(".en").style.display =
+      currentLang === "gr" ? "none" : "inline";
     const text = element.getAttribute(`data-lang-${currentLang}`);
     element.textContent = text;
   });
