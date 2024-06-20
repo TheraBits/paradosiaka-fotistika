@@ -83,16 +83,28 @@
         ></a>
       </div>
       <nav class="nav-bar" id="navbar">
-        <ul>
-          <div class="language-toggle large">
+        <ul class="nav-bar-ul">
+          <!-- <div class="language-toggle large">
             <select id="lang">
               <option value="el_GR" class="flag-el_GR">GR</option>
               <option value="en_EN" class="flag-en_EN">ΕΝ</option>
             </select>
-          </div>
+          </div> -->
+          <button class="lang-toggle" id="langToggle">
+            <img
+              src="./resources/images/flags/gb.png"
+              class="gr"
+              id="langToggleButton"
+            />
+            <img
+              src="./resources/images/flags/gr.png"
+              class="en"
+              id="langToggleButton"
+            />
+          </button>
           <li><a href="index.html">Εργαστήριο</a><span>|</span></li>
           <li class="dropdown">
-            <a href="index.html#products" class="active">Προϊόντα </a
+            <a href="index.html#products" class="active"> Προϊόντα </a
             ><span>|</span>
             <ul class="dropdown-menu">
               <li><a href="fanaria.html">Χειροποίητα Φανάρια Κήπου</a></li>
@@ -101,13 +113,7 @@
               <li><a href="krani-filarmonikis.html">Κράνη Φιλαρμονικής</a></li>
             </ul>
           </li>
-          <li><a href="index.html#contact-us">Επικοινωνία</a></li>
-          <div class="language-toggle small">
-            <select id="lang">
-              <option value="el_GR" class="flag-el_GR">GR</option>
-              <option value="en_EN" class="flag-en_EN">ΕΝ</option>
-            </select>
-          </div>
+          <li><a href="index.html#contact-us"> Επικοινωνία</a></li>
           <li>
             <a
               class="fb"
@@ -144,8 +150,15 @@
             height="372"
           />
         </picture>
-        <h1>Χειροποίητα Βενετσιάνικα Φωτιστικά</h1>
-        <h2>Εξωτερικών χώρων</h2>
+        <h1
+          data-lang-gr="Χειροποίητα Βενετσιάνικα Φωτιστικά"
+          data-lang-en="Handmade Venetian Lamps"
+        >
+          Χειροποίητα Βενετσιάνικα Φωτιστικά
+        </h1>
+        <h2 data-lang-gr="Εξωτερικών χώρων" data-lang-en="Outdoor">
+          Εξωτερικών χώρων
+        </h2>
         <div class="about-product">
           <p>
             Το εργαστήριο μας εξειδικευεται στην κατασκευή των παραδοσιακών
@@ -211,5 +224,6 @@
         >
       </p>
     </footer>
+    <script src="./javascript/functions.js"></script>
   </body>
 </html>

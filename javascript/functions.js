@@ -1,3 +1,5 @@
+// Move lantern on right side of menu down on scroll in Home page
+
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(document).scrollTop() > 1290) {
@@ -14,6 +16,25 @@ $(document).ready(function () {
       $(".logo-fanari3").css({ top: "0px" });
     }
   });
+});
+
+const toggleButton = document.getElementById("langToggle");
+let currentLang = document.getElementById("langToggleButton").className;
+
+toggleButton.addEventListener("click", function () {
+  // Toggle the language
+  // console.log("initial", currentLang);
+  if (currentLang === "gr") {
+    currentLang = "en";
+  } else {
+    currentLang = "gr";
+  }
+  const elements = document.querySelectorAll(`[data-lang-${currentLang}]`);
+  elements.forEach((element) => {
+    const text = element.getAttribute(`data-lang-${currentLang}`);
+    element.textContent = text;
+  });
+  console.log("elements", elements);
 });
 
 // $(document).ready(function () {

@@ -38,37 +38,22 @@ font color of handmade: rgb(29, 55, 46, 1)
 
 a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.12em;
+  font-size: 1em;
   color: #0d0102;
   /* color: #551a8b; */
 }
 
 /* ----- Language toggle dropdown menu ----*/
 
-.language-toggle {
+.lang-toggle {
   display: inline-block;
   margin-inline-end: 1.5em;
-}
-
-.language-toggle select {
-  padding: 5px 25px 5px 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  color: #0d0102;
-  font-size: 16px;
+  border: none;
+  background-color: transparent;
   cursor: pointer;
-  /* -webkit-appearance: none; 
-  appearance: none;  */
 }
 
-.language-toggle select::after {
-  content: "";
-  display: block;
-  width: 18px;
-  height: 12px;
-}
-
-.small {
+.lang_en {
   display: none;
 }
 
@@ -112,6 +97,11 @@ a {
   z-index: 10;
 }
 
+.nav-bar-ul {
+  display: flex;
+  align-items: center;
+}
+
 .nav-bar li {
   display: inline-block;
   /* color: #551a8b; */
@@ -119,7 +109,7 @@ a {
 
 .nav-bar li a {
   text-decoration: none;
-  padding: 0 2px;
+  padding: 0 5px;
   font-weight: 500;
 }
 
@@ -165,7 +155,7 @@ a {
 }
 
 .fb {
-  margin-inline-start: 0.8em;
+  margin-inline-start: 0.4em;
   font-size: 1.9em;
   color: #0d0102;
 }
@@ -318,15 +308,6 @@ a {
   }
 
   .fb {
-    display: none;
-  }
-
-  .small {
-    margin-top: 1.5em;
-    display: block;
-  }
-
-  .large {
     display: none;
   }
 }
