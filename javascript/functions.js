@@ -23,12 +23,14 @@ let currentLang = document.getElementById("langToggleButton").className;
 
 toggleButton.addEventListener("click", function () {
   // Toggle the language
-  // console.log("initial", currentLang);
-  if (currentLang === "gr") {
-    currentLang = "en";
-  } else {
-    currentLang = "gr";
-  }
+  currentLang = currentLang === "gr" ? "en" : "gr";
+
+  // Update the menu items
+  const links = document.querySelectorAll(".dropdown-menu a");
+  links.forEach((link) => {
+    const text = link.getAttribute(`data-lang-${currentLang}`);
+    link.textContent = text;
+  });
 
   // Change the text of the page
   const elements = document.querySelectorAll(`[data-lang-${currentLang}]`);
