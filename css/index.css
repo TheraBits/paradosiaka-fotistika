@@ -80,6 +80,7 @@ header {
 }
 
 .brand-name {
+  width: 39em;
   border: none;
   background-color: rgba(253, 252, 252, 0.747);
   margin: 10px 0 20px 0;
