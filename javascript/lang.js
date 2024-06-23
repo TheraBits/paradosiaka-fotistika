@@ -16,10 +16,14 @@ function updateLanguage(lang) {
   });
 
   // Change the logo visibility
-  document.querySelector(".img-gr").style.display =
-    lang === "en" ? "none" : "block";
-  document.querySelector(".img-en").style.display =
-    lang === "gr" ? "none" : "block";
+  const logoGr = document.querySelector(".img-gr");
+  const logoEn = document.querySelector(".img-en");
+  if (logoGr || logoEn) {
+    document.querySelector(".img-gr").style.display =
+      lang === "en" ? "none" : "block";
+    document.querySelector(".img-en").style.display =
+      lang === "gr" ? "none" : "block";
+  }
 
   // Change the text of the page
   const elements = document.querySelectorAll(`[data-lang-${lang}]`);
@@ -27,6 +31,21 @@ function updateLanguage(lang) {
     const text = element.getAttribute(`data-lang-${lang}`);
     element.textContent = text;
   });
+
+  // Update the map on index page
+  const mapIframe = document.getElementById("map");
+  if (mapIframe) {
+    if (lang === "en") {
+      mapIframe.src =
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846.3211227800933!2d19.891924678945347!3d39.591662366031784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5f5d96d06ff7%3A0xc938b808e170eaa0!2zzqDOn86lzpvOl86czpXOnc6fzqMgzpTOl86czpfOpM6hzpnOn86jIM6mz4nPhM65z4PPhM65zrrOrA!5e0!3m2!1sen!2sgr!4v1719167024386!5m2!1sen!2sgr";
+      mapIframe.title =
+        "Google map with direction to Dimitris Poulimenos workshop";
+    } else {
+      mapIframe.src =
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.5707856612084!2d19.890383915371!3d39.59182277946944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5f5d96d06ff7%3A0xc938b808e170eaa0!2zzqDOn86lzpvOl86czpXOnc6fzqMgzpTOl86czpfOpM6hzpnOn86jIM6mz4nPhM65z4PPhM65zrrOrA!5e0!3m2!1sel!2sgr!4v1639591032210!5m2!1sel!2sgr";
+      mapIframe.title = "Χάρτης του Google";
+    }
+  }
 
   // Update flag visibility
   document.querySelector(".gr").style.display =
