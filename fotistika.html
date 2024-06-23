@@ -79,20 +79,80 @@
         ></a>
       </div>
       <nav class="nav-bar" id="navbar">
-        <ul>
-          <li><a href="index.html">Εργαστήριο</a><span>|</span></li>
+        <ul class="nav-bar-ul">
+          <button class="lang-toggle" id="langToggle">
+            <img
+              src="./resources/images/flags/gb.png"
+              class="gr"
+              id="langToggleButton"
+            />
+            <img
+              src="./resources/images/flags/gr.png"
+              class="en"
+              id="langToggleButton"
+              style="display: none"
+            />
+          </button>
+          <li>
+            <a
+              href="index.html"
+              data-lang-en="Our Workshop"
+              data-lang-gr="Εργαστήριο"
+              >Εργαστήριο</a
+            ><span>|</span>
+          </li>
           <li class="dropdown">
-            <a href="index.html#products" class="active">Προϊόντα </a
+            <a
+              href="index.html#products"
+              class="active"
+              data-lang-en="Products"
+              data-lang-gr="Προϊόντα"
+            >
+              Προϊόντα </a
             ><span>|</span>
             <ul class="dropdown-menu">
-              <li><a href="fanaria.html">Χειροποίητα Φανάρια Κήπου</a></li>
-              <li><a href="fotistika.html">Φωτιστικά Σαλονιού</a></li>
-              <li><a href="kolones.html">Κολώνες Φωτισμού</a></li>
-              <li><a href="krani-filarmonikis.html">Κράνη Φιλαρμονικής</a></li>
+              <li>
+                <a
+                  href="fanaria.html"
+                  data-lang-en="Handmade Garden Lanterns"
+                  data-lang-gr="Χειροποίητα Φανάρια Κήπου"
+                  >Χειροποίητα Φανάρια Κήπου</a
+                >
+              </li>
+              <li>
+                <a
+                  href="fotistika.html"
+                  data-lang-en="Living Room Lighting"
+                  data-lang-gr="Φωτιστικά Σαλονιού"
+                  >Φωτιστικά Σαλονιού</a
+                >
+              </li>
+              <li>
+                <a
+                  href="kolones.html"
+                  data-lang-en="Lighting Columns"
+                  data-lang-gr="Κολώνες Φωτισμού"
+                  >Κολώνες Φωτισμού</a
+                >
+              </li>
+              <li>
+                <a
+                  href="krani-filarmonikis.html"
+                  data-lang-en="Philharmonic Helmets"
+                  data-lang-gr="Κράνη Φιλαρμονικής"
+                  >Κράνη Φιλαρμονικής</a
+                >
+              </li>
             </ul>
           </li>
           <li>
-            <a href="index.html#contact-us">Επικοινωνία </a><span>|</span>
+            <a
+              href="index.html#contact-us"
+              data-lang-en="Contact Us"
+              data-lang-gr="Επικοινωνία"
+            >
+              Επικοινωνία</a
+            >
           </li>
           <li>
             <a
@@ -129,13 +189,31 @@
             height="171"
           />
         </picture>
-        <h1>Λάμπες, Φωτιστικά, Πολυέλαιοι</h1>
-        <h2>Εσωτερικών χώρων</h2>
+        <h1
+          data-lang-en="Lamps, Lighting Fixtures, Chandeliers"
+          data-lang-gr="Λάμπες, Φωτιστικά, Πολυέλαιοι"
+        >
+          Λάμπες, Φωτιστικά, Πολυέλαιοι
+        </h1>
+        <h2
+          data-lang-en="Indoor Lighting Solutions"
+          data-lang-gr="Εσωτερικών χώρων"
+        >
+          Εσωτερικών χώρων
+        </h2>
         <div class="about-product">
-          <p>
+          <p
+            data-lang-en="Discover our exquisite range of ceiling lamps, desk lights, and vintage pieces."
+            data-lang-gr=" Διαθέτουμε μεγάλη ποικιλία σε λάμπες οροφής, γραφείου, και αντίκες."
+          >
             Διαθέτουμε μεγάλη ποικιλία σε λάμπες οροφής, γραφείου, και αντίκες.
           </p>
-          <p>Επίσης θα βρείτε πολυέλαιους.</p>
+          <p
+            data-lang-en="Explore our elegant selection of chandeliers."
+            data-lang-gr="Επίσης θα βρείτε πολυέλαιους."
+          >
+            Επίσης θα βρείτε πολυέλαιους.
+          </p>
           <!-- <button type="button"><a href="">Δείτε τα φανάρια μας</a></button> -->
         </div>
       </section>
@@ -156,21 +234,36 @@
         </div>
       </section>
       <div class="call-to-action">
-        <p>
+        <p
+          data-lang-en="All our lighting fixtures are crafted by hand and available for order."
+          data-lang-gr="Όλα τα φωτιστικά μας είναι χειροποίητα και είναι διαθέσιμα
+          κατόπιν&nbsp;παραγγελίας"
+        >
           Όλα τα φωτιστικά μας είναι χειροποίητα και είναι διαθέσιμα
           κατόπιν&nbsp;παραγγελίας
         </p>
-        <h4>
+        <h4
+          data-lang-gr=" Για παραγγελίες, ή για οποιαδήποτε πληροφορία, επικοινωνήστε με
+        το&nbsp;κατάστημά&nbsp;μας"
+          data-lang-en="For orders or any information, please contact our store."
+        >
           Για παραγγελίες, ή για οποιαδήποτε πληροφορία, επικοινωνήστε με
           το&nbsp;κατάστημά&nbsp;μας
         </h4>
         <button
           class="call-to-action-button"
           onclick="window.location.href='index.html#contact-us';"
+          data-lang-gr="Επικοινωνία"
+          data-lang-en="Contact us"
         >
           Επικοινωνία
         </button>
-        <p>Γίνεται αποστολή σε όλη την Ελλάδα</p>
+        <p
+          data-lang-gr="Γίνεται αποστολή σε όλη την Ελλάδα"
+          data-lang-en="We ship nationwide across Greece."
+        >
+          Γίνεται αποστολή σε όλη την Ελλάδα
+        </p>
       </div>
     </main>
     <footer>
@@ -192,5 +285,6 @@
         >
       </p>
     </footer>
+    <script src="./javascript/lang.js"></script>
   </body>
 </html>
