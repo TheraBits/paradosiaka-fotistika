@@ -34,7 +34,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Manrope&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css" />
 
-  <title>Παραδοσιακά Χειροποίητα Φωτιστικά</title>
+  <title data-lang-gr="Παραδοσιακά Χειροποίητα Φωτιστικά"
+  data-lang-en="Handmade Venetian Lamps">Παραδοσιακά Χειροποίητα Φωτιστικά</title>
 
 </head>
 
@@ -45,8 +46,10 @@
       <div class="brand-alist">
         <img class="brand-name-image" alt="Dimitris Poulimenos handmade" src="resources/images/brand-name-center.png" />
         <ul>
-          <li><a href="fanaria.html">Χειροποίητα Παραδοσιακά Φωτιστικά |</a></li>
-          <li><a href="krani-filarmonikis.html">Κράνη Φιλαρμονικής</a></li>
+          <li><a href="fanaria.html" data-lang-gr="Χειροποίητα Παραδοσιακά Φωτιστικά |"
+            data-lang-en="Handmade Venetian Lamps |">Χειροποίητα Παραδοσιακά Φωτιστικά |</a></li>
+          <li><a href="krani-filarmonikis.html" data-lang-gr="Κράνη Φιλαρμονικής"
+            data-lang-en="Philharmonic Helmets">Κράνη Φιλαρμονικής</a></li>
         </ul>
     </button>
   </header>
@@ -58,23 +61,96 @@
         <i class="fas fa-bars" aria-hidden="true"></i></a>
     </div>
     <nav class="nav-bar" id="navbar">
-      <ul>
-        <li><a href="index.html">Εργαστήριο</a><span>|</span></li>
-        <li class="dropdown"><a href="index.html#products" class="active">Προϊόντα </a><span>|</span>
+      <ul class="nav-bar-ul">
+        <button class="lang-toggle" id="langToggle">
+          <img
+            src="./resources/images/flags/gb.png"
+            class="gr"
+            id="langToggleButton"
+          />
+          <img
+            src="./resources/images/flags/gr.png"
+            class="en"
+            id="langToggleButton"
+            style="display: none"
+          />
+        </button>
+        <li>
+          <a
+            href="index.html"
+            data-lang-en="Our Workshop"
+            data-lang-gr="Εργαστήριο"
+            >Εργαστήριο</a
+          ><span>|</span>
+        </li>
+        <li class="dropdown">
+          <a
+            href="index.html#products"
+            class="active"
+            data-lang-en="Products"
+            data-lang-gr="Προϊόντα"
+          >
+            Προϊόντα </a
+          ><span>|</span>
           <ul class="dropdown-menu">
-            <li><a href="fanaria.html">Χειροποίητα Φανάρια Κήπου</a></li>
-            <li><a href="fotistika.html">Φωτιστικά Σαλονιού</a></li>
-            <li><a href="kolones.html">Κολώνες Φωτισμού</a></li>
-            <li><a href="krani-filarmonikis.html">Κράνη Φιλαρμονικής</a></li>
+            <li>
+              <a
+                href="fanaria.html"
+                data-lang-en="Handmade Garden Lanterns"
+                data-lang-gr="Χειροποίητα Φανάρια Κήπου"
+                >Χειροποίητα Φανάρια Κήπου</a
+              >
+            </li>
+            <li>
+              <a
+                href="fotistika.html"
+                data-lang-en="Living Room Lighting"
+                data-lang-gr="Φωτιστικά Σαλονιού"
+                >Φωτιστικά Σαλονιού</a
+              >
+            </li>
+            <li>
+              <a
+                href="kolones.html"
+                data-lang-en="Lighting Columns"
+                data-lang-gr="Κολώνες Φωτισμού"
+                >Κολώνες Φωτισμού</a
+              >
+            </li>
+            <li>
+              <a
+                href="krani-filarmonikis.html"
+                data-lang-en="Philharmonic Helmets"
+                data-lang-gr="Κράνη Φιλαρμονικής"
+                >Κράνη Φιλαρμονικής</a
+              >
+            </li>
           </ul>
         </li>
-        <li><a href="#contact-us">Επικοινωνία </a><span>|</span></li>
-        <li><a class="fb" href="https://www.facebook.com/paradosiaka.fotistika" target="_blank" aria-label="Facebook">
-            <i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+        <li>
+          <a
+            href="index.html#contact-us"
+            data-lang-en="Contact Us"
+            data-lang-gr="Επικοινωνία"
+          >
+            Επικοινωνία</a
+          >
+        </li>
+        <li>
+          <a
+            class="fb"
+            href="https://www.facebook.com/paradosiaka.fotistika"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i
+          ></a>
+        </li>
       </ul>
-      <a class="close" href="#x" aria-label="Κλείσε το κεντρικό μενού">
-        <span class="sr-only">Κλείσε το κεντρικό μενού</span>
-        <i class="fas fa-times" aria-hidden="true"></i></a>
+      <a class="close" href="#x" aria-label="Close main menu">
+        <span class="sr-only">Close main menu</span>
+        <i class="fas fa-times" aria-hidden="true"></i
+      ></a>
       <label for="brand">
         <div class="logo-fanari3" id="logo-fanari3"></div>
       </label>
@@ -89,39 +165,51 @@
             src="resources/images/Images/store-front.jpg" />
         </picture>
       </div>
-      <h1 id="aboutus" class="about-us-h1 h1">Το εργαστήριο μας</h1>
-      <h2 class="about-us-h2">Βρισκόμαστε στην Κέρκυρα από&nbsp;το&nbsp;1950</h2>
+      <h1 id="aboutus" class="about-us-h1 h1" data-lang-gr="Το εργαστήριο μας"
+      data-lang-en="Our Workshop">Το εργαστήριο μας</h1>
+      <h2 class="about-us-h2" data-lang-gr="Βρισκόμαστε στην Κέρκυρα από&nbsp;το&nbsp;1950"
+      data-lang-en="We are established in Corfu&nbsp;since&nbsp;1950">Βρισκόμαστε στην Κέρκυρα από&nbsp;το&nbsp;1950</h2>
       <div class="about-us-text">
         <div class="about-us-text-lightings">
           <div>
-            <p> Στο χώρο μας θα βρείτε:</p>
+            <p data-lang-gr="Στο χώρο μας θα βρείτε:"
+            data-lang-en="Discover what we offer:"> Στο χώρο μας θα βρείτε:</p>
             <ul>
-              <li>Παραδοσιακά βενετσιάνικα χειροποίητα φωτιστικά για εξωτερικούς χώρους</li>
-              <li>Φωτιστικά χειροποίητα για εσωτερικούς χώρους, Αντίκες, Πολυέλαιοι</li>
-              <li>Κολόνες Φωτισμού για κήπους, πλατείες, δρόμους</li>
+              <li data-lang-gr="Παραδοσιακά βενετσιάνικα χειροποίητα φωτιστικά για εξωτερικούς χώρους"
+              data-lang-en="Traditional Venetian handmade outdoor lighting fixtures crafted by hand">Παραδοσιακά βενετσιάνικα χειροποίητα φωτιστικά για εξωτερικούς χώρους</li>
+              <li data-lang-gr="Φωτιστικά χειροποίητα για εσωτερικούς χώρους, Αντίκες, Πολυέλαιοι"
+              data-lang-en="Artisanal indoor lighting fixtures, including antiques and chandeliers">Φωτιστικά χειροποίητα για εσωτερικούς χώρους, Αντίκες, Πολυέλαιοι</li>
+              <li data-lang-gr="Κολόνες Φωτισμού για κήπους, πλατείες, δρόμους"
+              data-lang-en="Light poles for gardens, squares, and streets">Κολόνες Φωτισμού για κήπους, πλατείες, δρόμους</li>
             </ul>
           </div>
         </div>
         <div class="about-us-text-other-products">
           <div>
-            <p> Καθώς και:</p>
+            <p data-lang-gr="Καθώς και:"
+            data-lang-en="Additionally, we provide:"> Καθώς και:</p>
             <ul>
-              <li>Χειροποίητα Κράνη Φιλαρμονικής</li>
-              <li>Εκκλησιαστικά Είδη</li>
+              <li data-lang-gr="Χειροποίητα Κράνη Φιλαρμονικής"
+              data-lang-en="Handmade Philharmonic Helmets">Χειροποίητα Κράνη Φιλαρμονικής</li>
+              <li data-lang-gr="Εκκλησιαστικά Είδη"
+              data-lang-en="Ecclesiastical Artifacts">Εκκλησιαστικά Είδη</li>
             </ul>
           </div>
         </div>
-        <h3 class="about-us-h3"> Γίνεται αποστολή σε όλη την&nbsp;Ελλάδα</h3>
+        <h3 class="about-us-h3" data-lang-gr="Γίνεται αποστολή σε όλη την&nbsp;Ελλάδα"
+        data-lang-en="We ship nationwide throughout&nbsp;Greece.">Γίνεται αποστολή σε όλη την&nbsp;Ελλάδα</h3>
       </div>
     </section>
     <section class="our-products" id="products">
-      <h1 class="our-products-h1 h1">Γνωρίστε τα προϊόντα μας</h1>
+      <h1 class="our-products-h1 h1" data-lang-gr="Γνωρίστε τα προϊόντα μας"
+      data-lang-en="Explore our products">Γνωρίστε τα προϊόντα μας</h1>
       <a href="fanaria.html" aria-label="Πήγαινε στη σελίδα με τα χειροποίητα βενετσιάνικα φανάρια">
         <div class="our-products-category">
           <img class="our-products-category-img" src="resources/images/Images/liston.jpg"
             alt="εικόνα του κτιρίου Λιστόν στην πόλη της Κέρκυρας" aria-hidden="true" loading="lazy">
           <div class="our-products-category-img-content">
-            <h3>Χειροποίητα Βενετσιάνικα Φανάρια</h3>
+            <h3 data-lang-gr="Χειροποίητα Βενετσιάνικα Φανάρια"
+            data-lang-en="Handmade Venetian Lanterns">Χειροποίητα Βενετσιάνικα Φανάρια</h3>
           </div>
         </div>
       </a>
@@ -131,7 +219,8 @@
             alt="εικόνα με μία μουσικό να φοράει το κράνος της φιλαρμονικής της στους δρόμους της Κέρκυρας"
             aria-hidden="true" loading="lazy">
           <div class="our-products-category-img-content">
-            <h3>Κράνη Φιλαρμονικής</h3>
+            <h3 data-lang-gr="Κράνη Φιλαρμονικής"
+            data-lang-en="Philharmonic Helmets">Κράνη Φιλαρμονικής</h3>
           </div>
         </div>
       </a>
@@ -141,7 +230,8 @@
             alt="εικόνα από μία μαντεμένια κολώνα φωτισμού σε ένα σοκάκι της Κέρκυρας" aria-hidden="true"
             loading="lazy">
           <div class="our-products-category-img-content">
-            <h3>Κολώνες Φωτισμού</h3>
+            <h3 data-lang-gr="Κολώνες Φωτισμού"
+            data-lang-en="Light Poles">Κολώνες Φωτισμού</h3>
           </div>
         </div>
       </a>
@@ -151,7 +241,8 @@
             alt="εικόνα από μια μπρούτζινη λάμπα και ροζ λουλούδια πάνω σε ένα γραφείο" aria-hidden="true"
             loading="lazy">
           <div class="our-products-category-img-content">
-            <h3>Λάμπες Φωτισμού Eσωτερικού&nbspΧώρου</h3>
+            <h3 data-lang-gr="Λάμπες Φωτισμού Eσωτερικού&nbspΧώρου"
+            data-lang-en="Indoor Lighting Fixtures">Λάμπες Φωτισμού Eσωτερικού&nbspΧώρου</h3>
           </div>
         </div>
       </a>
@@ -159,12 +250,16 @@
     <section class="contact-section">
       <div class="contact-us" id="contact-us">
         <div class="contact-us-header">
-          <h1 class="contact-us-h1 h1">Επικοινωνία</h1>
+          <h1 class="contact-us-h1 h1" data-lang-gr="Επικοινωνία"
+          data-lang-en="Contact Us">Επικοινωνία</h1>
         </div>
         <div class="contact-us-text">
-          <h3 class="contact-us-text-h3">Για ερωτήσεις, επιπλέον πληροφορίες και <br> για να λάβετε προσφορά σχετικά με
+          <h3 class="contact-us-text-h3" data-lang-gr="Για ερωτήσεις, επιπλέον πληροφορίες και για να λάβετε προσφορά σχετικά με
+            τα προιόντα μας"
+          data-lang-en="For any questions, further information, or to request a quote for our products">Για ερωτήσεις, επιπλέον πληροφορίες και <br> για να λάβετε προσφορά σχετικά με
             τα προιόντα μας</h3>
-          <p> Επικοινωνήστε μαζί μας :</p>
+          <p data-lang-gr="Επικοινωνήστε μαζί μας :"
+          data-lang-en="Please Contact Us:">Επικοινωνήστε μαζί μας :</p>
           <p>
             <a href="tel:00302661027811" aria-label="Καλέστε στο σταθερό μας τηλέφωνο"><img
                 class="contact-us-text-call-img"
@@ -179,7 +274,8 @@
                 aria-hidden="true"></a>
             </a>
           </p>
-          <p>ή στείλτε μας μήνυμα :</p>
+          <p data-lang-gr="ή στείλτε μας μήνυμα :"
+          data-lang-en="Or send us a message through :">ή στείλτε μας μήνυμα :</p>
           <div class="contact-us-text-message-apps">
             <a class="contact-us-text-message-apps-a" href="http://m.me/miltos.poulimenos.1" target="_blank" rel=" rel="
               noreferrer" aria-label="Στείλτε μας μήνυμα στο messenger του facebook">
@@ -209,7 +305,8 @@
         </div>
       </div>
       <div class="our-address">
-        <h1 class="our-address-h1 h1">Δείτε μας στο χάρτη :</h1>
+        <h1 class="our-address-h1 h1"  data-lang-gr="Επισκεφθείτε το κατάστημά μας :"
+        data-lang-en="Visit our Workshop :">Επισκεφθείτε το κατάστημά μας :</h1>
         <div class="our-address-map">
           <iframe class="our-address-map-google-embeded" title="Χάρτης του Google"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.5707856612084!2d19.890383915371!3d39.59182277946944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5f5d96d06ff7%3A0xc938b808e170eaa0!2zzqDOn86lzpvOl86czpXOnc6fzqMgzpTOl86czpfOpM6hzpnOn86jIM6mz4nPhM65z4PPhM65zrrOrA!5e0!3m2!1sel!2sgr!4v1639591032210!5m2!1sel!2sgr"
@@ -218,21 +315,28 @@
         <div class="our-address-shop-details">
           <div class="our-address-shop-details-text">
             <div>
-              <h3>Η Διεύθυνσή μας:</h3>
-              <p>Βρυώνη</p>
-              <p>Κέρκυρα 49084</p>
+              <h3  data-lang-gr="Η Διεύθυνσή μας:"
+              data-lang-en="Our Address:">Η Διεύθυνσή μας:</h3>
+              <p  data-lang-gr="Βρυώνη"
+              data-lang-en="Vryoni">Βρυώνη</p>
+              <p  data-lang-gr="Κέρκυρα 49084"
+              data-lang-en="Corfu 49084">Κέρκυρα 49084</p>
             </div>
             <div class="our-address-shop-details-text-phones">
-              <h3>Καλέστε μας στα τηλέφωνα:</h3>
+              <h3  data-lang-gr="Καλέστε μας στα τηλέφωνα:"
+              data-lang-en="Call us:">Καλέστε μας στα τηλέφωνα:</h3>
               <a href="tel:00302661027811">2661 027811</a>
               <a href="tel:00306978281307">697 828 1307</a>
               <a href="mailto:poulimenos.lights@gmail.com">poulimenos.lights@gmail.com</a>
             </div>
-            <h3>Ωράριο Λειτουργίας:</h3>
-            <p>Δευτέρα με Σάββατο:</p>
+            <h3  data-lang-gr="Ωράριο Λειτουργίας:"
+            data-lang-en="Opening Hours:">Ωράριο Λειτουργίας:</h3>
+            <p  data-lang-gr="Δευτέρα με Σάββατο:"
+            data-lang-en="Monday to Saturday:">Δευτέρα με Σάββατο:</p>
             <p>8:30 – 13:30 και 16:00 – 20:00</p>
             <br>
-            <p>Κυριακή κλειστά</p>
+            <p  data-lang-gr="Κυριακή κλειστά"
+            data-lang-en="Closed on Sunday">Κυριακή κλειστά</p>
           </div>
           <div class="our-address-shop-details-image-div">
             <img class="our-address-shop-details-image" src="resources/images/Images/download.png"
@@ -252,6 +356,7 @@
     <p>Web Design and Development by <a href="https://www.linkedin.com/in/anita-angelidou-549294231/" target="_blank"
         rel="noopener noreferrer">Anita Angelidou</a></p>
   </footer>
+  <script src="./javascript/lang.js"></script>
   <script src="javascript/functions.js"></script>
 </body>
 

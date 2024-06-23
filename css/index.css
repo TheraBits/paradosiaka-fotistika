@@ -392,6 +392,7 @@ background-size: 100vw 100vh; */
 }
 
 .our-address-shop-details-text-phones a {
+  font-family: inherit;
   color: inherit;
   text-decoration: inherit;
 }

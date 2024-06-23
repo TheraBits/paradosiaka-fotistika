@@ -1,5 +1,5 @@
 const toggleButton = document.getElementById("langToggle");
-let currentLang = localStorage.getItem("lang") || "gr"; // Default to English
+let currentLang = localStorage.getItem("lang") || "gr";
 
 // Update UI based on current language
 updateLanguage(currentLang);
