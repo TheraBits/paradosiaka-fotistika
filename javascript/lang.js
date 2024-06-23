@@ -15,6 +15,12 @@ function updateLanguage(lang) {
     link.textContent = text;
   });
 
+  // Change the logo visibility
+  document.querySelector(".img-gr").style.display =
+    lang === "en" ? "none" : "block";
+  document.querySelector(".img-en").style.display =
+    lang === "gr" ? "none" : "block";
+
   // Change the text of the page
   const elements = document.querySelectorAll(`[data-lang-${lang}]`);
   elements.forEach((element) => {
