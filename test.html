@@ -6,32 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="title"
-      content="Χειροποίητα Κράνη Φιλαρμονικής - Εργαστήριο Δημήτρης Πουλημένος"
+      content="Χειροποίητα Παραδοσιακά Βενετσιάνικα Φωτιστικά"
     />
     <meta
       name="description"
-      content="Είμαστε από τα ελάχιστα εργαστήρια στην Ελλάδα που ασχολούνται με την τέχνη της περικεφαλαίας. Κατασκευάζουμε χειροποίητα κράνη για φιλαρμονικές, μπρούτζινα ή νίκελ με λοφίο. Επίσης θα βρείτε χειροποίητα σήματα για φιλαρμονικές"
+      content="Στο εργαστήριο μας κατασκευάζουμε με μεράκι παραδοσιακά φωτιστικά για εξωτερικούς χώρους και κήπους. Διαθέτουμε χειροποίητα βενετσιάνικα φανάρια, τα παραδοσιακά φανάρια του Λιστόν, καθώς και μεγάλη ποικιλία από φωτιστικά χάλκινα και σιδερένια σε διάφορα μεγέθη. Μπορούν να τοποθετηθούν κρεμαστά, και στον τοίχο με μπράτσο ή κολλητά."
     />
     <meta
       property="og:title"
-      content="Χειροποίητα Κράνη Φιλαρμονικής - Εργαστήριο Δημήτρης Πουλημένος"
+      content="Χειροποίητα Παραδοσιακά Βενετσιάνικα Φωτιστικά"
     />
     <meta
       property="og:description"
-      content="Είμαστε από τα ελάχιστα εργαστήρια στην Ελλάδα που ασχολούνται με την τέχνη της περικεφαλαίας. Κατασκευάζουμε χειροποίητα κράνη για φιλαρμονικές, μπρούτζινα ή νίκελ με λοφίο. Επίσης θα βρείτε χειροποίητα σήματα για φιλαρμονικές"
+      content="Στο εργαστήριο μας κατασκευάζουμε με μεράκι παραδοσιακά φωτιστικά για εξωτερικούς χώρους και κήπους. Διαθέτουμε χειροποίητα βενετσιάνικα φανάρια, τα παραδοσιακά φανάρια του Λιστόν, καθώς και μεγάλη ποικιλία από φωτιστικά χάλκινα και σιδερένια σε διάφορα μεγέθη. Μπορούν να τοποθετηθούν κρεμαστά, και στον τοίχο με μπράτσο ή κολλητά."
     />
-    <meta
-      property="og:title"
-      content="Χειροποίητα Κράνη Φιλαρμονικής - Εργαστήριο Δημήτρης Πουλημένος"
-    />
-    <meta
-      property="og:image"
-      content="https://www.paradosiaka-fotistika.gr/resources/images/Images/corfu%20philarmonic.jpg"
-    />
-    <meta
-      name="description"
-      content="Είμαστε από τα ελάχιστα εργαστήρια στην Ελλάδα που ασχολούνται με την τέχνη της περικεφαλαίας. Κατασκευάζουμε χειροποίητα κράνη για φιλαρμονικές, μπρούτζινα ή νίκελ με λοφίο. Επίσης θα βρείτε χειροποίητα σήματα για φιλαρμονικές"
-    />
+    <meta property="og:image" content="resources/images/Images/liston.jpg" />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -43,6 +32,7 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
+
       gtag("config", "G-D71TBDEB9L");
     </script>
     <!-- Google tag (gtag.js) -->
@@ -69,16 +59,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/products.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/products.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
     <title
-      data-lang-en="Philharmonic Helmets"
-      data-lang-gr="Κράνη και Σήματα Φιλαρμονικής"
+      data-lang-gr="Παραδοσιακά Βενετσιάνικα Φωτιστικά"
+      data-lang-en="Traditional Venetian Lamps"
     >
-      Κράνη και Σήματα Φιλαρμονικής
+      Παραδοσιακά Βενετσιάνικα Φωτιστικά
     </title>
   </head>
+
   <body>
     <section class="nav-header">
       <div class="identity">
@@ -194,89 +188,65 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="resources/images/Images/krani-hero-mobile.jpg"
-            width="458"
-            height="244"
+            srcset="resources/images/Images/fanaria-hero-mobile.jpg"
           />
           <img
-            class="about-image img-krani"
+            class="about-image img-liston"
+            id="test"
             alt="κτίριο Liston στην Κέρκυρα με παραδοσιακά φανάρια"
-            src="resources/images/Images/krani-hero.jpg"
-            width="1491"
-            height="217"
+            src="resources/images/Images/Liston lanterns.jpg"
+            width="1055"
+            height="372"
           />
         </picture>
         <h1
-          data-lang-en="Helmets and Philharmonic Badges"
-          data-lang-gr="Κράνη και Σήματα Φιλαρμονικής"
+          data-lang-gr="Χειροποίητα Βενετσιάνικα Φωτιστικά"
+          data-lang-en="Handmade Venetian Lamps"
         >
-          Κράνη και Σήματα Φιλαρμονικής
+          Χειροποίητα Βενετσιάνικα Φωτιστικά
         </h1>
-        <h2 data-lang-en="Crafted by hand" data-lang-gr="Χειροποίητα">
-          Χειροποίητα
+        <h2
+          data-lang-gr="Εξωτερικών χώρων"
+          data-lang-en="Outdoor Lighting Solutions"
+        >
+          Εξωτερικών χώρων
         </h2>
         <div class="about-product">
           <p
-            data-lang-en="We are among the few workshops dedicated to the art of making helmets."
-            data-lang-gr="Είμαστε από τα ελάχιστα εργαστήρια που ασχολούνται με την τέχνη της
-        περικεφαλαίας."
+            data-lang-gr=" Το εργαστήριο μας εξειδικευεται στην κατασκευή των παραδοσιακών
+          Βενετσιάνικων Φαναριών της Κέρκυρας."
+            data-lang-en="Our workshop specializes in crafting traditional Venetian lanterns from Corfu."
           >
-            Είμαστε από τα ελάχιστα εργαστήρια που ασχολούνται με την τέχνη της
-            περικεφαλαίας.
+            Το εργαστήριο μας εξειδικευεται στην κατασκευή των παραδοσιακών
+            Βενετσιάνικων Φαναριών της Κέρκυρας.
           </p>
           <p
-            data-lang-en="We adhere to traditional techniques throughout all stages of production."
-            data-lang-gr="Ακολουθούμε παραδοσιακές τεχνικές σε όλα τα στάδια κατασκευής."
+            data-lang-gr="Εξαιρετικό δείγμα της δουλειάς μας είναι τα εντυπωσιακά φαναράκια
+          που κοσμούν το κτίριο Liston στην κεντρική πλατεία της Κέρκυρας."
+            data-lang-en="A remarkable example of our work is the stunning lanterns that decorate the Liston building in the heart of Corfu's central square."
           >
-            Ακολουθούμε παραδοσιακές τεχνικές σε όλα τα στάδια κατασκευής.
+            Εξαιρετικό δείγμα της δουλειάς μας είναι τα εντυπωσιακά φαναράκια
+            που κοσμούν το κτίριο Liston στην κεντρική πλατεία της Κέρκυρας.
           </p>
-          <p
-            data-lang-en="You can find our helmets in the philharmonic orchestras of Corfu, as well as in Piraeus, Mandra, Megara, Kallithea, Rhodes, Kos, and Cyprus."
-            data-lang-gr="Kράνη μας θα δείτε στις φιλαρμονικές της Κέρκυρας, αλλά και του
-        Πειραιά, Μάνδρας, Μεγάρων, Καλλιθέας, Ρόδου, Κω, καθώς και της
-        Κύπρου."
-          >
-            Kράνη μας θα δείτε στις φιλαρμονικές της Κέρκυρας, αλλά και του
-            Πειραιά, Μάνδρας, Μεγάρων, Καλλιθέας, Ρόδου, Κω, καθώς και της
-            Κύπρου.
-          </p>
+          <!-- <button type="button"><a href="">Δείτε τα φανάρια μας</a></button> -->
         </div>
       </section>
       <section class="products">
-        <script src="javascript/products.js"></script>
-      </section>
-      <section class="products">
-        <script src="javascript/products.js"></script>
-        <div
-          class="krani"
-          id="krani-section"
-          style="background-color: cornflowerblue"
-        >
-          <script>
-            for (let index in categKrani) {
-              document.write(`<div class="polaroid">
-                    <img class="krani-img" alt="${categKrani[index].alt}" src="${categKrani[index].imageURL}")>
-                    <div class="container">
-                    <p class="polaroid-codename">${categKrani[index].name}</p>
-                    <p>${categKrani[index].description}</p>
-                    </div>
-                </div>`);
-            }
-          </script>
-        </div>
+        <script src="javascript/test.js"></script>
+        <div class="fanaria" id="fanaria-section"></div>
       </section>
       <div class="call-to-action">
         <p
-          data-lang-en="All our Philharmonic Helmets are crafted by hand and available for order."
-          data-lang-gr="  Τα κράνη μας είναι χειροποίητα και διαθέσιμα μόνο
-      κατόπιν&nbsp;παραγγελίας"
+          data-lang-gr="Όλα τα φαναράκια μας είναι χειροποίητα και είναι διαθέσιμα
+        κατόπιν&nbsp;παραγγελίας"
+          data-lang-en="All of our Lanterns are handmade and available upon request."
         >
-          Τα κράνη μας είναι χειροποίητα και διαθέσιμα μόνο
+          Όλα τα φαναράκια μας είναι χειροποίητα και είναι διαθέσιμα
           κατόπιν&nbsp;παραγγελίας
         </p>
         <h4
           data-lang-gr=" Για παραγγελίες, ή για οποιαδήποτε πληροφορία, επικοινωνήστε με
-      το&nbsp;κατάστημά&nbsp;μας"
+        το&nbsp;κατάστημά&nbsp;μας"
           data-lang-en="For orders or any information, please contact our store."
         >
           Για παραγγελίες, ή για οποιαδήποτε πληροφορία, επικοινωνήστε με

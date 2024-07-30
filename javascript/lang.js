@@ -47,6 +47,10 @@ function updateLanguage(lang) {
     }
   }
 
+  // Update products gallery
+  const products = document.getElementsByClassName("polaroid");
+  renderProducts(categFotistika, lang);
+
   // Update flag visibility
   document.querySelector(".gr").style.display =
     lang === "en" ? "none" : "inline";
