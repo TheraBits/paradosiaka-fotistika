@@ -49,7 +49,10 @@ function updateLanguage(lang) {
 
   // Update products gallery
   const products = document.getElementsByClassName("polaroid");
-  renderProducts(categFotistika, lang);
+  if (products.length > 0) {
+    renderProducts(path, lang);
+    // console.log(products);
+  }
 
   // Update flag visibility
   document.querySelector(".gr").style.display =

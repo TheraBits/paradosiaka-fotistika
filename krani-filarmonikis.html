@@ -244,26 +244,7 @@
       </section>
       <section class="products">
         <script src="javascript/products.js"></script>
-      </section>
-      <section class="products">
-        <script src="javascript/products.js"></script>
-        <div
-          class="krani"
-          id="krani-section"
-          style="background-color: cornflowerblue"
-        >
-          <script>
-            for (let index in categKrani) {
-              document.write(`<div class="polaroid">
-                    <img class="krani-img" alt="${categKrani[index].alt}" src="${categKrani[index].imageURL}")>
-                    <div class="container">
-                    <p class="polaroid-codename">${categKrani[index].name}</p>
-                    <p>${categKrani[index].description}</p>
-                    </div>
-                </div>`);
-            }
-          </script>
-        </div>
+        <div class="krani" id="products-section"></div>
       </section>
       <div class="call-to-action">
         <p

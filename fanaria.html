@@ -233,19 +233,7 @@
       </section>
       <section class="products">
         <script src="javascript/products.js"></script>
-        <div class="fanaria" id="fanaria-section">
-          <script>
-            for (let idx in categFanaria) {
-              document.write(`<div class="polaroid">
-                            <img id="${categFanaria[idx].name}"class="fanaria-img" id="${categFanaria[idx].name}" alt="${categFanaria[idx].alt}" src="${categFanaria[idx].imageURL}">
-                            <div class="container">
-                            <p class="polaroid-codename">${categFanaria[idx].name}</p>
-                            <p>${categFanaria[idx].description}</p>                 
-                            </div>
-                            </div>`);
-            }
-          </script>
-        </div>
+        <div class="fanaria" id="products-section"></div>
       </section>
       <div class="call-to-action">
         <p
