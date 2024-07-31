@@ -1,3 +1,5 @@
+// Move lantern on right side of menu down on scroll in Home page
+
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(document).scrollTop() > 1290) {
